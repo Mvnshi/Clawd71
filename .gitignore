@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+logs/*.log
+work/
+# Never commit a recovered key for an UNSOLVED puzzle.
+FOUND*
+found*
+secrets/
+*.key
