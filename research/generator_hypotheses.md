@@ -438,6 +438,101 @@ relationships tested, searched completely within the specified window.
 
 ---
 
+## 7. Seed/passphrase-guessing attack (Electrum Type-1 and classic SHA256(master+n))
+
+**Hypothesis.** Hypothesis 4 (`hash_chain`) established that a real
+seed-derived hash chain or HD derivation is *statistically unfalsifiable
+from output bits alone* — it is indistinguishable from random by design.
+This is the complementary attack: rather than looking for statistical
+structure, directly guess the seed/passphrase for two historically-plausible
+deterministic-wallet schemes and check whether the derived, masked key
+matches any real solved puzzle. Scheme A: Electrum "Type-1" (pre-2.0)
+wallet — 100,000-round SHA-256 key stretching of a 16-byte seed produces a
+master secret exponent; child key `n` is `(secexp + SHA256d(f"{n}:{for_change}:"
++ master_pubkey)) mod secp256k1_order`. Scheme B: classic "Type-1"
+brainwallet-style `child_key(n) = SHA256(masterstring formatted with n)` in
+several plausible formats.
+
+**Historical evidence.** Scheme A reproduced exactly from the current
+`spesmilo/electrum` source (`electrum/keystore.py Old_KeyStore`,
+`electrum/old_mnemonic.py`, fetched 2026-08-19) and validated against a real
+published Electrum test vector before use (`tests/test_seed_attack.py`).
+Scheme B is the classic Type-1 deterministic-wallet formula documented by
+Mike Caldwell (2011) on the Bitcoin wiki, flagged as unfinished business in
+Archaeology and in hypothesis 4's own writeup above. Both raw derivations get
+the puzzle creator's own stated masking applied (keep low `n-1` bits, force
+bit `n-1` high) before comparison against `data/solved_puzzles.json`.
+
+**Implementation.** `src/seed_attack.py` (the validated module; unmodified,
+reused unchanged across every category below) plus five category-specific
+candidate-construction and test-harness scripts in
+`research/hypotheses/seed_guessing/`: `puzzle_culture` (bitcoin-puzzle- and
+creator-specific phrases), `common_passwords` (SecLists `10k-most-common.txt`),
+`brainwallet_cracked` (real, individually documented cracked brainwallet
+passphrases from published research), `crypto_culture_quotes` (genesis
+coinbase text, whitepaper, cypherpunk/crypto-anarchist lines, Satoshi's
+documented quotes, community slogans), and `trivial_and_sequential`
+(degenerate/sequential hex patterns, small integers, common words). Each
+category ran candidate phrases through classic Type-1 across all 8 formats
+in `FORMATS`, and through Scheme A via three cheap 16-byte hex-seed bridges
+(`SHA256(phrase)[:16]` hex, `MD5(phrase)` hex, raw UTF-8 bytes
+zero-padded/truncated to 16 bytes) each run through the real, unshortcut
+100,000-round stretch — not an approximation. `tests/test_seed_attack.py`'s
+three controls (real Electrum known-answer vector, Electrum positive
+control, classic Type-1 positive control) were re-confirmed passing before
+and after this work.
+
+**Parameters searched.** 164,424 classic Type-1 candidates (masterstring x
+format combinations) and 10,939 Electrum Type-1 candidates (hex-seed x
+derivation-bridge combinations, each given the real 100,000-round stretch)
+across the five categories — 175,363 total candidate-derivation attempts.
+See `research/hypotheses/seed_guessing/SUMMARY.md` for the full per-category
+breakdown, candidate lists, and cited sources (SecLists; Castellucci, DEF
+CON 23 2015; Vasek/Bonneau/Castellucci/Keith/Moore, Financial Cryptography
+2016; project archaeology and on-chain forensics files).
+
+**Prediction.** If any tested phrase is the real seed, the masked derived
+key would exactly equal the real key for at least one puzzle at a
+statistically meaningful size (`n >= 20`, chance rate under `2^-19`) —
+and, per the task's own framing, a match across two or more puzzles
+simultaneously would be overwhelming confirmation.
+
+**Test result.** Zero matches at any statistically meaningful puzzle size,
+in any category, under either scheme.
+`test_candidate_against_dataset` returned non-empty results only for the
+mathematically expected chance noise at small `n` (puzzle `n<=1` is
+structurally degenerate — `apply_puzzle_mask` forces `masked=1`
+unconditionally — and `n=2..~15` carry too few free bits to be
+informative); every such coincidence was checked against a pre-registered
+Bonferroni-style significance filter
+(`expected_spurious_count = candidates * product(2^-(n_i-1)) < 0.001`) and
+none cleared it. The closest approaches anywhere in the entire sweep were
+`expected_spurious_count ~= 0.0025` (classic Type-1, matching `{3,6,7,13}`
+simultaneously) and `~=0.0099` (Electrum, matching `{2,3,4,6,10}`
+simultaneously) — both comfortably below significance. Observed
+small-`n` chance-match rates tracked the theoretical `2^-(n-1)` null
+closely wherever tallied, confirming the harnesses were not silently
+suppressing a real signal. The task's own `CRITICAL SAFETY RULE`
+(halt-and-report-only on any notable match) was never triggered, in any
+category, on any candidate.
+
+**Reason rejected.** A comprehensive, disclosed 175,363-candidate sweep
+across two real deterministic-wallet schemes and five thematically
+distinct, well-reasoned candidate categories (puzzle/creator culture,
+common passwords, real cracked brainwallets, crypto culture quotes, and
+trivial/sequential patterns) produced no match at any statistically
+meaningful puzzle size. This is a finite dictionary attack, not an
+exhaustive search of the seed/passphrase space, so it rules out only the
+specific candidates tested under these two specific schemes — it does not
+and cannot prove no such seed exists. Combined with hypothesis 4's finding
+that a real seed-derived scheme is statistically unfalsifiable from output
+bits alone, this leaves the seed-guessing approach as a live but
+so-far-unsuccessful avenue rather than one that can be formally rejected
+the way hypotheses 1, 2, 3, 5, and 6 were. **Verdict: no match found among
+candidates tested; not a proof of absence.**
+
+---
+
 ## Summary table
 
 | # | Hypothesis | Key MC p-value(s) | Walk-forward | Verdict |
@@ -448,7 +543,11 @@ relationships tested, searched completely within the specified window.
 | 4 | hash_chain | ≥0.15 (all 5 stats) | midpoint baseline is best of 4 predictors | unfalsifiable from data alone; zero exploitable structure |
 | 5 | cross_puzzle_persistence | family-wise 0.180 (best of 19) | beat baseline 2/7 splits, sign-unstable | rejected |
 | 6 | timestamp_creation | 0.32 – 1.00 (all families) | scored *below* 0.5 chance baseline held-out | rejected |
+| 7 | seed_guessing (Electrum Type-1 + classic Type-1 dictionary attack) | n/a (exact-match search, not a distributional test); 175,363 candidates, 0 matches at n>=20 | n/a (dictionary attack, not a fitted predictor) | no match found among candidates tested; not a proof of absence |
 
-**Net result: zero of six hypotheses provides any exploitable reduction
-in the Puzzle #71 candidate-key search space.** See
-`research/PHASE_2_6_SUMMARY.md` for the full program-level synthesis.
+**Net result: zero of the six formally testable hypotheses provides any
+exploitable reduction in the Puzzle #71 candidate-key search space, and a
+175,363-candidate seed/passphrase dictionary attack (hypothesis 7) found no
+match either.** See `research/PHASE_2_6_SUMMARY.md` for the full
+program-level synthesis and `research/hypotheses/seed_guessing/SUMMARY.md`
+for the seed-guessing attack's full detail.

@@ -1,0 +1,534 @@
+{
+  "candidates_total": 72,
+  "candidates_by_category": {
+    "community_slogan": 19,
+    "crypto_anarchist_manifesto": 3,
+    "cypherpunk_manifesto": 5,
+    "generic_crypto_culture": 5,
+    "genesis_coinbase": 4,
+    "pgp_zimmermann": 2,
+    "pizza_day": 4,
+    "precursor_concept": 11,
+    "satoshi_identity": 4,
+    "satoshi_quote": 9,
+    "whitepaper": 6
+  },
+  "candidates_by_era": {
+    "contemporary": 67,
+    "likely_postdates_2015": 5
+  },
+  "full_candidate_list": [
+    {
+      "phrase": "The Times 03/Jan/2009 Chancellor on brink of second bailout for banks",
+      "category": "genesis_coinbase",
+      "era": "contemporary"
+    },
+    {
+      "phrase": "Chancellor on brink of second bailout for banks",
+      "category": "genesis_coinbase",
+      "era": "contemporary"
+    },
+    {
+      "phrase": "The Times 03/Jan/2009",
+      "category": "genesis_coinbase",
+      "era": "contemporary"
+    },
+    {
+      "phrase": "03/Jan/2009 Chancellor on brink of second bailout for banks",
+      "category": "genesis_coinbase",
+      "era": "contemporary"
+    },
+    {
+      "phrase": "Bitcoin: A Peer-to-Peer Electronic Cash System",
+      "category": "whitepaper",
+      "era": "contemporary"
+    },
+    {
+      "phrase": "A Peer-to-Peer Electronic Cash System",
+      "category": "whitepaper",
+      "era": "contemporary"
+    },
+    {
+      "phrase": "Bitcoin A Peer to Peer Electronic Cash System",
+      "category": "whitepaper",
+      "era": "contemporary"
+    },
+    {
+      "phrase": "A purely peer-to-peer version of electronic cash would allow online payments to be sent directly from one party to another without going through a financial institution.",
+      "category": "whitepaper",
+      "era": "contemporary"
+    },
+    {
+      "phrase": "satoshin@gmx.com",
+      "category": "whitepaper",
+      "era": "contemporary"
+    },
+    {
+      "phrase": "www.bitcoin.org",
+      "category": "whitepaper",
+      "era": "contemporary"
+    },
+    {
+      "phrase": "Satoshi Nakamoto",
+      "category": "satoshi_identity",
+      "era": "contemporary"
+    },
+    {
+      "phrase": "satoshi nakamoto",
+      "category": "satoshi_identity",
+      "era": "contemporary"
+    },
+    {
+      "phrase": "Nakamoto",
+      "category": "satoshi_identity",
+      "era": "contemporary"
+    },
+    {
+      "phrase": "I am not Dorian Nakamoto",
+      "category": "satoshi_identity",
+      "era": "likely_postdates_2015"
+    },
+    {
+      "phrase": "I've been working on a new electronic cash system that's fully peer-to-peer, with no trusted third party.",
+      "category": "satoshi_quote",
+      "era": "contemporary"
+    },
+    {
+      "phrase": "The root problem with conventional currency is all the trust that's required to make it work.",
+      "category": "satoshi_quote",
+      "era": "contemporary"
+    },
+    {
+      "phrase": "Lost coins only make everyone else's coins worth slightly more. Think of it as a donation to everyone.",
+      "category": "satoshi_quote",
+      "era": "contemporary"
+    },
+    {
+      "phrase": "If you don't believe me or don't get it, I don't have time to try to convince you, sorry.",
+      "category": "satoshi_quote",
+      "era": "contemporary"
+    },
+    {
+      "phrase": "It might make sense just to get some in case it catches on.",
+      "category": "satoshi_quote",
+      "era": "contemporary"
+    },
+    {
+      "phrase": "I've developed a new open source P2P e-cash system called Bitcoin",
+      "category": "satoshi_quote",
+      "era": "contemporary"
+    },
+    {
+      "phrase": "Announcing the first release of Bitcoin",
+      "category": "satoshi_quote",
+      "era": "contemporary"
+    },
+    {
+      "phrase": "Bitcoin v0.1 released",
+      "category": "satoshi_quote",
+      "era": "contemporary"
+    },
+    {
+      "phrase": "Running bitcoin",
+      "category": "satoshi_quote",
+      "era": "contemporary"
+    },
+    {
+      "phrase": "Privacy is necessary for an open society in the electronic age",
+      "category": "cypherpunk_manifesto",
+      "era": "contemporary"
+    },
+    {
+      "phrase": "Cypherpunks write code",
+      "category": "cypherpunk_manifesto",
+      "era": "contemporary"
+    },
+    {
+      "phrase": "cypherpunks write code",
+      "category": "cypherpunk_manifesto",
+      "era": "contemporary"
+    },
+    {
+      "phrase": "We the Cypherpunks are dedicated to building anonymous systems",
+      "category": "cypherpunk_manifesto",
+      "era": "contemporary"
+    },
+    {
+      "phrase": "Cypherpunks deplore regulations on cryptography",
+      "category": "cypherpunk_manifesto",
+      "era": "contemporary"
+    },
+    {
+      "phrase": "Arise, you have nothing to lose but your barbed wire fences",
+      "category": "crypto_anarchist_manifesto",
+      "era": "contemporary"
+    },
+    {
+      "phrase": "A specter is haunting the modern world, the specter of crypto anarchy",
+      "category": "crypto_anarchist_manifesto",
+      "era": "contemporary"
+    },
+    {
+      "phrase": "The Crypto Anarchist Manifesto",
+      "category": "crypto_anarchist_manifesto",
+      "era": "contemporary"
+    },
+    {
+      "phrase": "If privacy is outlawed, only outlaws will have privacy",
+      "category": "pgp_zimmermann",
+      "era": "contemporary"
+    },
+    {
+      "phrase": "Pretty Good Privacy",
+      "category": "pgp_zimmermann",
+      "era": "contemporary"
+    },
+    {
+      "phrase": "b-money",
+      "category": "precursor_concept",
+      "era": "contemporary"
+    },
+    {
+      "phrase": "bit gold",
+      "category": "precursor_concept",
+      "era": "contemporary"
+    },
+    {
+      "phrase": "hashcash",
+      "category": "precursor_concept",
+      "era": "contemporary"
+    },
+    {
+      "phrase": "Hashcash",
+      "category": "precursor_concept",
+      "era": "contemporary"
+    },
+    {
+      "phrase": "Wei Dai",
+      "category": "precursor_concept",
+      "era": "contemporary"
+    },
+    {
+      "phrase": "Nick Szabo",
+      "category": "precursor_concept",
+      "era": "contemporary"
+    },
+    {
+      "phrase": "Adam Back",
+      "category": "precursor_concept",
+      "era": "contemporary"
+    },
+    {
+      "phrase": "proof of work",
+      "category": "precursor_concept",
+      "era": "contemporary"
+    },
+    {
+      "phrase": "proof-of-work",
+      "category": "precursor_concept",
+      "era": "contemporary"
+    },
+    {
+      "phrase": "double-spending problem",
+      "category": "precursor_concept",
+      "era": "contemporary"
+    },
+    {
+      "phrase": "the double-spending problem",
+      "category": "precursor_concept",
+      "era": "contemporary"
+    },
+    {
+      "phrase": "HODL",
+      "category": "community_slogan",
+      "era": "contemporary"
+    },
+    {
+      "phrase": "hodl",
+      "category": "community_slogan",
+      "era": "contemporary"
+    },
+    {
+      "phrase": "I AM HODLING",
+      "category": "community_slogan",
+      "era": "contemporary"
+    },
+    {
+      "phrase": "vires in numeris",
+      "category": "community_slogan",
+      "era": "contemporary"
+    },
+    {
+      "phrase": "Vires in Numeris",
+      "category": "community_slogan",
+      "era": "contemporary"
+    },
+    {
+      "phrase": "in math we trust",
+      "category": "community_slogan",
+      "era": "contemporary"
+    },
+    {
+      "phrase": "Bitcoin: In Math We Trust",
+      "category": "community_slogan",
+      "era": "contemporary"
+    },
+    {
+      "phrase": "be your own bank",
+      "category": "community_slogan",
+      "era": "contemporary"
+    },
+    {
+      "phrase": "Be your own bank",
+      "category": "community_slogan",
+      "era": "contemporary"
+    },
+    {
+      "phrase": "digital gold",
+      "category": "community_slogan",
+      "era": "contemporary"
+    },
+    {
+      "phrase": "trustless",
+      "category": "community_slogan",
+      "era": "contemporary"
+    },
+    {
+      "phrase": "21 million",
+      "category": "community_slogan",
+      "era": "contemporary"
+    },
+    {
+      "phrase": "21000000",
+      "category": "community_slogan",
+      "era": "contemporary"
+    },
+    {
+      "phrase": "genesis block",
+      "category": "community_slogan",
+      "era": "contemporary"
+    },
+    {
+      "phrase": "the genesis block",
+      "category": "community_slogan",
+      "era": "contemporary"
+    },
+    {
+      "phrase": "to the moon",
+      "category": "community_slogan",
+      "era": "likely_postdates_2015"
+    },
+    {
+      "phrase": "not your keys not your coins",
+      "category": "community_slogan",
+      "era": "likely_postdates_2015"
+    },
+    {
+      "phrase": "not your keys, not your coins",
+      "category": "community_slogan",
+      "era": "likely_postdates_2015"
+    },
+    {
+      "phrase": "not your keys, not your bitcoin",
+      "category": "community_slogan",
+      "era": "likely_postdates_2015"
+    },
+    {
+      "phrase": "10000 bitcoins for a pizza",
+      "category": "pizza_day",
+      "era": "contemporary"
+    },
+    {
+      "phrase": "10000 BTC for two pizzas",
+      "category": "pizza_day",
+      "era": "contemporary"
+    },
+    {
+      "phrase": "Laszlo Hanyecz",
+      "category": "pizza_day",
+      "era": "contemporary"
+    },
+    {
+      "phrase": "bitcoin pizza day",
+      "category": "pizza_day",
+      "era": "contemporary"
+    },
+    {
+      "phrase": "correct horse battery staple",
+      "category": "generic_crypto_culture",
+      "era": "contemporary"
+    },
+    {
+      "phrase": "Correct Horse Battery Staple",
+      "category": "generic_crypto_culture",
+      "era": "contemporary"
+    },
+    {
+      "phrase": "Alice and Bob",
+      "category": "generic_crypto_culture",
+      "era": "contemporary"
+    },
+    {
+      "phrase": "alice and bob",
+      "category": "generic_crypto_culture",
+      "era": "contemporary"
+    },
+    {
+      "phrase": "the quick brown fox jumps over the lazy dog",
+      "category": "generic_crypto_culture",
+      "era": "contemporary"
+    }
+  ],
+  "significance_threshold_expected_spurious_count": 0.001,
+  "classic_type1": {
+    "phrases_tested": 72,
+    "formats_tested": [
+      "plain",
+      "colon",
+      "dash",
+      "space",
+      "zero_indexed",
+      "colon_zero_indexed",
+      "n_then_m",
+      "sha256d"
+    ],
+    "total_candidates": 576,
+    "significant_matches": [],
+    "chance_level_coincidences_total": 406,
+    "chance_level_coincidences_by_pattern": {
+      "(2,)": 152,
+      "(2, 3)": 67,
+      "(3,)": 59,
+      "(2, 4)": 27,
+      "(4,)": 23,
+      "(2, 5)": 11,
+      "(3, 4)": 11,
+      "(5,)": 9,
+      "(2, 4, 5)": 7,
+      "(2, 3, 4)": 6,
+      "(2, 3, 5)": 6,
+      "(6,)": 5,
+      "(3, 7)": 2,
+      "(2, 7)": 2,
+      "(2, 6)": 2,
+      "(3, 6)": 2,
+      "(10,)": 2,
+      "(5, 9)": 2,
+      "(5, 8)": 1,
+      "(5, 6)": 1,
+      "(2, 5, 6)": 1,
+      "(4, 7)": 1,
+      "(4, 5)": 1,
+      "(4, 6)": 1,
+      "(8,)": 1,
+      "(7,)": 1,
+      "(2, 3, 6)": 1,
+      "(2, 3, 4, 6)": 1,
+      "(2, 4, 6)": 1
+    },
+    "elapsed_sec": 0.07
+  },
+  "word_mnemonic_path": {
+    "phrases_tested": 72,
+    "non_empty_decodes": 0,
+    "non_empty_decode_phrases": [],
+    "significant_matches": []
+  },
+  "electrum_type1_cheap": {
+    "best_candidates_tested": [
+      "Satoshi Nakamoto",
+      "satoshi nakamoto",
+      "Nakamoto",
+      "Cypherpunks write code",
+      "cypherpunks write code",
+      "vires in numeris",
+      "Vires in Numeris",
+      "HODL",
+      "hodl",
+      "I AM HODLING",
+      "genesis block",
+      "the genesis block",
+      "correct horse battery staple",
+      "Correct Horse Battery Staple",
+      "in math we trust",
+      "Bitcoin: In Math We Trust",
+      "be your own bank",
+      "Be your own bank",
+      "double-spending problem",
+      "proof of work",
+      "proof-of-work",
+      "21 million",
+      "21000000",
+      "b-money",
+      "bit gold",
+      "hashcash",
+      "Hashcash",
+      "Running bitcoin",
+      "The Times 03/Jan/2009 Chancellor on brink of second bailout for banks",
+      "Chancellor on brink of second bailout for banks",
+      "Bitcoin: A Peer-to-Peer Electronic Cash System",
+      "A Peer-to-Peer Electronic Cash System",
+      "www.bitcoin.org",
+      "satoshin@gmx.com",
+      "digital gold",
+      "trustless",
+      "Laszlo Hanyecz",
+      "bitcoin pizza day",
+      "Alice and Bob"
+    ],
+    "derivations": [
+      "sha256_16",
+      "md5",
+      "raw_utf8_16"
+    ],
+    "total_candidates": 117,
+    "significant_matches": [],
+    "chance_level_coincidences_total": 88,
+    "chance_level_coincidences_by_pattern": {
+      "(2,)": 33,
+      "(2, 3)": 11,
+      "(3,)": 10,
+      "(2, 4)": 9,
+      "(5,)": 6,
+      "(4,)": 6,
+      "(3, 4)": 3,
+      "(2, 3, 5)": 2,
+      "(2, 5)": 1,
+      "(2, 5, 6)": 1,
+      "(3, 4, 6)": 1,
+      "(6,)": 1,
+      "(5, 6)": 1,
+      "(3, 7)": 1,
+      "(3, 4, 5)": 1,
+      "(2, 7)": 1
+    },
+    "elapsed_sec": 5.91,
+    "sample_hex_seeds_first_5": [
+      [
+        "Satoshi Nakamoto",
+        "sha256_16",
+        "a0dc65ffca799873cbea0ac274015b95"
+      ],
+      [
+        "Satoshi Nakamoto",
+        "md5",
+        "45a872a13366071d5e1e5788c8eb4888"
+      ],
+      [
+        "Satoshi Nakamoto",
+        "raw_utf8_16",
+        "5361746f736869204e616b616d6f746f"
+      ],
+      [
+        "satoshi nakamoto",
+        "sha256_16",
+        "aa2d3c4a4ae6559e9f13f093cc6e3245"
+      ],
+      [
+        "satoshi nakamoto",
+        "md5",
+        "40d7e542dde04ce0e7e5845835bcce87"
+      ]
+    ]
+  }
+}

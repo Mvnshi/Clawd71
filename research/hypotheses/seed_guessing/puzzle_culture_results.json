@@ -1,0 +1,2018 @@
+[
+ {
+  "phrase": "A few words about the puzzle. There is no pattern. It is just consecutive keys from a deterministic wallet (masked with leading 000...0001 to set difficulty). It is simply a crude measuring instrument, of the cracking strength of the community.",
+  "category": "creator quote / close variant",
+  "classic": {
+   "noise_n": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "notable_n": []
+  },
+  "electrum": {
+   "noise_n": [
+    2,
+    3,
+    7
+   ],
+   "notable_n": []
+  }
+ },
+ {
+  "phrase": "There is no pattern. It is just consecutive keys from a deterministic wallet (masked with leading 000...0001 to set difficulty).",
+  "category": "creator quote / close variant",
+  "classic": {
+   "noise_n": [
+    2,
+    3,
+    4
+   ],
+   "notable_n": []
+  },
+  "electrum": {
+   "noise_n": [
+    2
+   ],
+   "notable_n": []
+  }
+ },
+ {
+  "phrase": "There is no pattern. It is just consecutive keys from a deterministic wallet",
+  "category": "creator quote / close variant",
+  "classic": {
+   "noise_n": [
+    2,
+    3,
+    4
+   ],
+   "notable_n": []
+  },
+  "electrum": {
+   "noise_n": [
+    2,
+    3,
+    4
+   ],
+   "notable_n": []
+  }
+ },
+ {
+  "phrase": "There is no pattern",
+  "category": "creator quote / close variant",
+  "classic": {
+   "noise_n": [
+    2,
+    3,
+    4
+   ],
+   "notable_n": []
+  },
+  "electrum": {
+   "noise_n": [
+    2,
+    3,
+    5
+   ],
+   "notable_n": []
+  }
+ },
+ {
+  "phrase": "no pattern",
+  "category": "creator quote / close variant",
+  "classic": {
+   "noise_n": [
+    2,
+    4
+   ],
+   "notable_n": []
+  },
+  "electrum": {
+   "noise_n": [
+    2,
+    3
+   ],
+   "notable_n": []
+  }
+ },
+ {
+  "phrase": "It is just consecutive keys from a deterministic wallet",
+  "category": "creator quote / close variant",
+  "classic": {
+   "noise_n": [
+    2
+   ],
+   "notable_n": []
+  },
+  "electrum": {
+   "noise_n": [
+    2,
+    4
+   ],
+   "notable_n": []
+  }
+ },
+ {
+  "phrase": "consecutive keys from a deterministic wallet",
+  "category": "creator quote / close variant",
+  "classic": {
+   "noise_n": [
+    2,
+    3,
+    7
+   ],
+   "notable_n": []
+  },
+  "electrum": {
+   "noise_n": [
+    2,
+    4
+   ],
+   "notable_n": []
+  }
+ },
+ {
+  "phrase": "masked with leading 000...0001 to set difficulty",
+  "category": "creator quote / close variant",
+  "classic": {
+   "noise_n": [
+    2,
+    3,
+    4,
+    6,
+    8
+   ],
+   "notable_n": []
+  },
+  "electrum": {
+   "noise_n": [
+    2
+   ],
+   "notable_n": []
+  }
+ },
+ {
+  "phrase": "crude measuring instrument",
+  "category": "creator quote / close variant",
+  "classic": {
+   "noise_n": [
+    2,
+    3
+   ],
+   "notable_n": []
+  },
+  "electrum": {
+   "noise_n": [
+    2,
+    3
+   ],
+   "notable_n": []
+  }
+ },
+ {
+  "phrase": "crude measuring instrument of the cracking strength of the community",
+  "category": "creator quote / close variant",
+  "classic": {
+   "noise_n": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "notable_n": []
+  },
+  "electrum": {
+   "noise_n": [
+    2,
+    3,
+    7
+   ],
+   "notable_n": []
+  }
+ },
+ {
+  "phrase": "It is simply a crude measuring instrument, of the cracking strength of the community.",
+  "category": "creator quote / close variant",
+  "classic": {
+   "noise_n": [
+    2,
+    4,
+    5,
+    6
+   ],
+   "notable_n": []
+  },
+  "electrum": {
+   "noise_n": [
+    4,
+    9
+   ],
+   "notable_n": []
+  }
+ },
+ {
+  "phrase": "cracking strength of the community",
+  "category": "creator quote / close variant",
+  "classic": {
+   "noise_n": [
+    2,
+    3
+   ],
+   "notable_n": []
+  },
+  "electrum": {
+   "noise_n": [
+    2,
+    5
+   ],
+   "notable_n": []
+  }
+ },
+ {
+  "phrase": "consecutive keys",
+  "category": "creator quote / close variant",
+  "classic": {
+   "noise_n": [
+    2,
+    3,
+    5
+   ],
+   "notable_n": []
+  },
+  "electrum": {
+   "noise_n": [
+    2,
+    4
+   ],
+   "notable_n": []
+  }
+ },
+ {
+  "phrase": "deterministic wallet",
+  "category": "creator quote / close variant",
+  "classic": {
+   "noise_n": [
+    2,
+    3
+   ],
+   "notable_n": []
+  },
+  "electrum": {
+   "noise_n": [
+    2
+   ],
+   "notable_n": []
+  }
+ },
+ {
+  "phrase": "There Is No Pattern",
+  "category": "creator quote / close variant",
+  "classic": {
+   "noise_n": [
+    2,
+    3
+   ],
+   "notable_n": []
+  },
+  "electrum": {
+   "noise_n": [
+    3,
+    5
+   ],
+   "notable_n": []
+  }
+ },
+ {
+  "phrase": "a few words about the puzzle. there is no pattern. it is just consecutive keys from a deterministic wallet (masked with leading 000...0001 to set difficulty). it is simply a crude measuring instrument, of the cracking strength of the community.",
+  "category": "creator quote / close variant",
+  "classic": {
+   "noise_n": [
+    2,
+    3
+   ],
+   "notable_n": []
+  },
+  "electrum": {
+   "noise_n": [
+    2
+   ],
+   "notable_n": []
+  }
+ },
+ {
+  "phrase": "there is no pattern. it is just consecutive keys from a deterministic wallet (masked with leading 000...0001 to set difficulty).",
+  "category": "creator quote / close variant",
+  "classic": {
+   "noise_n": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "notable_n": []
+  },
+  "electrum": {
+   "noise_n": [
+    2,
+    3,
+    5
+   ],
+   "notable_n": []
+  }
+ },
+ {
+  "phrase": "a few words about the puzzle there is no pattern it is just consecutive keys from a deterministic wallet masked with leading 0000001 to set difficulty it is simply a crude measuring instrument of the cracking strength of the community",
+  "category": "creator quote / close variant",
+  "classic": {
+   "noise_n": [
+    2,
+    3,
+    4
+   ],
+   "notable_n": []
+  },
+  "electrum": {
+   "noise_n": [
+    2
+   ],
+   "notable_n": []
+  }
+ },
+ {
+  "phrase": "there is no pattern it is just consecutive keys from a deterministic wallet masked with leading 0000001 to set difficulty",
+  "category": "creator quote / close variant",
+  "classic": {
+   "noise_n": [
+    2,
+    3,
+    4
+   ],
+   "notable_n": []
+  },
+  "electrum": {
+   "noise_n": [
+    2,
+    3
+   ],
+   "notable_n": []
+  }
+ },
+ {
+  "phrase": "a crude measuring instrument",
+  "category": "creator quote / close variant",
+  "classic": {
+   "noise_n": [
+    2,
+    6
+   ],
+   "notable_n": []
+  },
+  "electrum": {
+   "noise_n": [
+    2,
+    4
+   ],
+   "notable_n": []
+  }
+ },
+ {
+  "phrase": "It is simply a crude measuring instrument",
+  "category": "creator quote / close variant",
+  "classic": {
+   "noise_n": [
+    2,
+    3
+   ],
+   "notable_n": []
+  },
+  "electrum": {
+   "noise_n": [
+    2,
+    3
+   ],
+   "notable_n": []
+  }
+ },
+ {
+  "phrase": "measuring instrument",
+  "category": "creator quote / close variant",
+  "classic": {
+   "noise_n": [
+    2,
+    3
+   ],
+   "notable_n": []
+  },
+  "electrum": {
+   "noise_n": [
+    2,
+    3,
+    6
+   ],
+   "notable_n": []
+  }
+ },
+ {
+  "phrase": "bitcoin puzzle",
+  "category": "\"bitcoin puzzle\" / \"btc puzzle\" phrasing",
+  "classic": {
+   "noise_n": [
+    2,
+    5
+   ],
+   "notable_n": []
+  },
+  "electrum": {
+   "noise_n": [
+    2,
+    3
+   ],
+   "notable_n": []
+  }
+ },
+ {
+  "phrase": "Bitcoin Puzzle",
+  "category": "\"bitcoin puzzle\" / \"btc puzzle\" phrasing",
+  "classic": {
+   "noise_n": [
+    2,
+    3,
+    4
+   ],
+   "notable_n": []
+  },
+  "electrum": {
+   "noise_n": [
+    2,
+    3,
+    5,
+    9
+   ],
+   "notable_n": []
+  }
+ },
+ {
+  "phrase": "BITCOIN PUZZLE",
+  "category": "\"bitcoin puzzle\" / \"btc puzzle\" phrasing",
+  "classic": {
+   "noise_n": [
+    2,
+    4,
+    5
+   ],
+   "notable_n": []
+  },
+  "electrum": {
+   "noise_n": [
+    2,
+    3,
+    5
+   ],
+   "notable_n": []
+  }
+ },
+ {
+  "phrase": "bitcoin puzzle transaction",
+  "category": "\"bitcoin puzzle\" / \"btc puzzle\" phrasing",
+  "classic": {
+   "noise_n": [
+    2,
+    3,
+    4,
+    6
+   ],
+   "notable_n": []
+  },
+  "electrum": {
+   "noise_n": [
+    2,
+    3
+   ],
+   "notable_n": []
+  }
+ },
+ {
+  "phrase": "Bitcoin Puzzle Transaction",
+  "category": "\"bitcoin puzzle\" / \"btc puzzle\" phrasing",
+  "classic": {
+   "noise_n": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "notable_n": []
+  },
+  "electrum": {
+   "noise_n": [
+    2,
+    6
+   ],
+   "notable_n": []
+  }
+ },
+ {
+  "phrase": "btc puzzle",
+  "category": "\"bitcoin puzzle\" / \"btc puzzle\" phrasing",
+  "classic": {
+   "noise_n": [
+    2,
+    3,
+    4
+   ],
+   "notable_n": []
+  },
+  "electrum": {
+   "noise_n": [
+    4
+   ],
+   "notable_n": []
+  }
+ },
+ {
+  "phrase": "BTC Puzzle",
+  "category": "\"bitcoin puzzle\" / \"btc puzzle\" phrasing",
+  "classic": {
+   "noise_n": [
+    2,
+    3,
+    4
+   ],
+   "notable_n": []
+  },
+  "electrum": {
+   "noise_n": [
+    2
+   ],
+   "notable_n": []
+  }
+ },
+ {
+  "phrase": "BTC puzzle",
+  "category": "\"bitcoin puzzle\" / \"btc puzzle\" phrasing",
+  "classic": {
+   "noise_n": [
+    2,
+    3,
+    4,
+    6,
+    7
+   ],
+   "notable_n": []
+  },
+  "electrum": {
+   "noise_n": [
+    2,
+    3,
+    4,
+    6
+   ],
+   "notable_n": []
+  }
+ },
+ {
+  "phrase": "bitcoinpuzzle",
+  "category": "\"bitcoin puzzle\" / \"btc puzzle\" phrasing",
+  "classic": {
+   "noise_n": [
+    2,
+    3,
+    5
+   ],
+   "notable_n": []
+  },
+  "electrum": {
+   "noise_n": [
+    2,
+    3,
+    4
+   ],
+   "notable_n": []
+  }
+ },
+ {
+  "phrase": "btcpuzzle",
+  "category": "\"bitcoin puzzle\" / \"btc puzzle\" phrasing",
+  "classic": {
+   "noise_n": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "notable_n": []
+  },
+  "electrum": {
+   "noise_n": [
+    2,
+    4
+   ],
+   "notable_n": []
+  }
+ },
+ {
+  "phrase": "bitcoin-puzzle",
+  "category": "\"bitcoin puzzle\" / \"btc puzzle\" phrasing",
+  "classic": {
+   "noise_n": [
+    2,
+    3
+   ],
+   "notable_n": []
+  },
+  "electrum": {
+   "noise_n": [
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "notable_n": []
+  }
+ },
+ {
+  "phrase": "bitcoin_puzzle",
+  "category": "\"bitcoin puzzle\" / \"btc puzzle\" phrasing",
+  "classic": {
+   "noise_n": [
+    2,
+    3,
+    4
+   ],
+   "notable_n": []
+  },
+  "electrum": {
+   "noise_n": [
+    2,
+    3
+   ],
+   "notable_n": []
+  }
+ },
+ {
+  "phrase": "Bitcoin puzzle transaction ~32 BTC",
+  "category": "\"bitcoin puzzle\" / \"btc puzzle\" phrasing",
+  "classic": {
+   "noise_n": [
+    2,
+    3,
+    4,
+    8
+   ],
+   "notable_n": []
+  },
+  "electrum": {
+   "noise_n": [
+    2,
+    5
+   ],
+   "notable_n": []
+  }
+ },
+ {
+  "phrase": "32 BTC puzzle",
+  "category": "\"bitcoin puzzle\" / \"btc puzzle\" phrasing",
+  "classic": {
+   "noise_n": [
+    2,
+    3,
+    5
+   ],
+   "notable_n": []
+  },
+  "electrum": {
+   "noise_n": [
+    4,
+    8
+   ],
+   "notable_n": []
+  }
+ },
+ {
+  "phrase": "bitcoin puzzle transaction ~32 BTC prize to who solves it",
+  "category": "\"bitcoin puzzle\" / \"btc puzzle\" phrasing",
+  "classic": {
+   "noise_n": [
+    2,
+    3,
+    4
+   ],
+   "notable_n": []
+  },
+  "electrum": {
+   "noise_n": [
+    2,
+    3
+   ],
+   "notable_n": []
+  }
+ },
+ {
+  "phrase": "1BgGZ9tcN4rm9KBzDn7KprQz87SZ26SAMH",
+  "category": "puzzle #1 / #71 address",
+  "classic": {
+   "noise_n": [
+    2,
+    3,
+    5
+   ],
+   "notable_n": []
+  },
+  "electrum": {
+   "noise_n": [
+    2,
+    3
+   ],
+   "notable_n": []
+  }
+ },
+ {
+  "phrase": "1PWo3JeB9jrGwfHDNpdGK54CRas7fsVzXU",
+  "category": "puzzle #1 / #71 address",
+  "classic": {
+   "noise_n": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "notable_n": []
+  },
+  "electrum": {
+   "noise_n": [
+    3,
+    4
+   ],
+   "notable_n": []
+  }
+ },
+ {
+  "phrase": "saatoshi_rising",
+  "category": "saatoshi_rising username variant",
+  "classic": {
+   "noise_n": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "notable_n": []
+  },
+  "electrum": {
+   "noise_n": [
+    2,
+    3
+   ],
+   "notable_n": []
+  }
+ },
+ {
+  "phrase": "saatoshi rising",
+  "category": "saatoshi_rising username variant",
+  "classic": {
+   "noise_n": [
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "notable_n": []
+  },
+  "electrum": {
+   "noise_n": [
+    2,
+    3,
+    4
+   ],
+   "notable_n": []
+  }
+ },
+ {
+  "phrase": "saatoshirising",
+  "category": "saatoshi_rising username variant",
+  "classic": {
+   "noise_n": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "notable_n": []
+  },
+  "electrum": {
+   "noise_n": [
+    2,
+    6
+   ],
+   "notable_n": []
+  }
+ },
+ {
+  "phrase": "SaatoshiRising",
+  "category": "saatoshi_rising username variant",
+  "classic": {
+   "noise_n": [
+    2,
+    3,
+    4,
+    6
+   ],
+   "notable_n": []
+  },
+  "electrum": {
+   "noise_n": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "notable_n": []
+  }
+ },
+ {
+  "phrase": "saatoshi-rising",
+  "category": "saatoshi_rising username variant",
+  "classic": {
+   "noise_n": [
+    2,
+    3
+   ],
+   "notable_n": []
+  },
+  "electrum": {
+   "noise_n": [
+    2,
+    3,
+    4
+   ],
+   "notable_n": []
+  }
+ },
+ {
+  "phrase": "Saatoshi_Rising",
+  "category": "saatoshi_rising username variant",
+  "classic": {
+   "noise_n": [
+    2,
+    3,
+    6
+   ],
+   "notable_n": []
+  },
+  "electrum": {
+   "noise_n": [
+    2,
+    3
+   ],
+   "notable_n": []
+  }
+ },
+ {
+  "phrase": "Saatoshi_rising",
+  "category": "saatoshi_rising username variant",
+  "classic": {
+   "noise_n": [
+    2,
+    4,
+    5,
+    6
+   ],
+   "notable_n": []
+  },
+  "electrum": {
+   "noise_n": [
+    2,
+    3
+   ],
+   "notable_n": []
+  }
+ },
+ {
+  "phrase": "saatoshi_Rising",
+  "category": "saatoshi_rising username variant",
+  "classic": {
+   "noise_n": [
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "notable_n": []
+  },
+  "electrum": {
+   "noise_n": [
+    2
+   ],
+   "notable_n": []
+  }
+ },
+ {
+  "phrase": "saatoshi",
+  "category": "saatoshi_rising username variant",
+  "classic": {
+   "noise_n": [
+    2,
+    3,
+    4
+   ],
+   "notable_n": []
+  },
+  "electrum": {
+   "noise_n": [
+    2,
+    3
+   ],
+   "notable_n": []
+  }
+ },
+ {
+  "phrase": "Saatoshi",
+  "category": "saatoshi_rising username variant",
+  "classic": {
+   "noise_n": [
+    2,
+    3,
+    4,
+    6
+   ],
+   "notable_n": []
+  },
+  "electrum": {
+   "noise_n": [
+    2,
+    3,
+    5
+   ],
+   "notable_n": []
+  }
+ },
+ {
+  "phrase": "saatoshi_rising, Bitcointalk",
+  "category": "saatoshi_rising username variant",
+  "classic": {
+   "noise_n": [
+    2,
+    3
+   ],
+   "notable_n": []
+  },
+  "electrum": {
+   "noise_n": [
+    2,
+    4
+   ],
+   "notable_n": []
+  }
+ },
+ {
+  "phrase": "saatoshi_rising bitcoin puzzle",
+  "category": "saatoshi_rising username variant",
+  "classic": {
+   "noise_n": [
+    2,
+    3,
+    5
+   ],
+   "notable_n": []
+  },
+  "electrum": {
+   "noise_n": [
+    2,
+    3,
+    5
+   ],
+   "notable_n": []
+  }
+ },
+ {
+  "phrase": "bitcoin puzzle saatoshi_rising",
+  "category": "saatoshi_rising username variant",
+  "classic": {
+   "noise_n": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "notable_n": []
+  },
+  "electrum": {
+   "noise_n": [
+    2,
+    4
+   ],
+   "notable_n": []
+  }
+ },
+ {
+  "phrase": "u=991321",
+  "category": "saatoshi_rising username variant",
+  "classic": {
+   "noise_n": [
+    2,
+    3,
+    7
+   ],
+   "notable_n": []
+  },
+  "electrum": {
+   "noise_n": [
+    3
+   ],
+   "notable_n": []
+  }
+ },
+ {
+  "phrase": "991321",
+  "category": "saatoshi_rising username variant",
+  "classic": {
+   "noise_n": [
+    2,
+    3,
+    4
+   ],
+   "notable_n": []
+  },
+  "electrum": {
+   "noise_n": [
+    4,
+    7
+   ],
+   "notable_n": []
+  }
+ },
+ {
+  "phrase": "puzzle 71",
+  "category": "puzzle-number phrase",
+  "classic": {
+   "noise_n": [
+    2,
+    3,
+    7
+   ],
+   "notable_n": []
+  },
+  "electrum": {
+   "noise_n": [
+    2,
+    3,
+    4,
+    6
+   ],
+   "notable_n": []
+  }
+ },
+ {
+  "phrase": "puzzle71",
+  "category": "puzzle-number phrase",
+  "classic": {
+   "noise_n": [
+    2,
+    4,
+    5
+   ],
+   "notable_n": []
+  },
+  "electrum": {
+   "noise_n": [
+    2,
+    4,
+    7
+   ],
+   "notable_n": []
+  }
+ },
+ {
+  "phrase": "puzzle-71",
+  "category": "puzzle-number phrase",
+  "classic": {
+   "noise_n": [
+    2,
+    3,
+    4
+   ],
+   "notable_n": []
+  },
+  "electrum": {
+   "noise_n": [
+    2,
+    3,
+    4,
+    7
+   ],
+   "notable_n": []
+  }
+ },
+ {
+  "phrase": "puzzle_71",
+  "category": "puzzle-number phrase",
+  "classic": {
+   "noise_n": [
+    2,
+    3,
+    4,
+    5,
+    7
+   ],
+   "notable_n": []
+  },
+  "electrum": {
+   "noise_n": [
+    2,
+    3,
+    7
+   ],
+   "notable_n": []
+  }
+ },
+ {
+  "phrase": "Puzzle 71",
+  "category": "puzzle-number phrase",
+  "classic": {
+   "noise_n": [
+    2,
+    3
+   ],
+   "notable_n": []
+  },
+  "electrum": {
+   "noise_n": [
+    2,
+    9
+   ],
+   "notable_n": []
+  }
+ },
+ {
+  "phrase": "Puzzle71",
+  "category": "puzzle-number phrase",
+  "classic": {
+   "noise_n": [
+    2,
+    3,
+    4,
+    6
+   ],
+   "notable_n": []
+  },
+  "electrum": {
+   "noise_n": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "notable_n": []
+  }
+ },
+ {
+  "phrase": "71 bitcoin puzzle",
+  "category": "puzzle-number phrase",
+  "classic": {
+   "noise_n": [
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "notable_n": []
+  },
+  "electrum": {
+   "noise_n": [],
+   "notable_n": []
+  }
+ },
+ {
+  "phrase": "bitcoin puzzle 71",
+  "category": "puzzle-number phrase",
+  "classic": {
+   "noise_n": [
+    2,
+    3,
+    5
+   ],
+   "notable_n": []
+  },
+  "electrum": {
+   "noise_n": [
+    2,
+    3,
+    5
+   ],
+   "notable_n": []
+  }
+ },
+ {
+  "phrase": "bitcoin puzzle #71",
+  "category": "puzzle-number phrase",
+  "classic": {
+   "noise_n": [
+    2,
+    3,
+    4,
+    6
+   ],
+   "notable_n": []
+  },
+  "electrum": {
+   "noise_n": [
+    2,
+    3
+   ],
+   "notable_n": []
+  }
+ },
+ {
+  "phrase": "#71",
+  "category": "puzzle-number phrase",
+  "classic": {
+   "noise_n": [
+    2,
+    3,
+    4,
+    6
+   ],
+   "notable_n": []
+  },
+  "electrum": {
+   "noise_n": [
+    4
+   ],
+   "notable_n": []
+  }
+ },
+ {
+  "phrase": "Puzzle #71",
+  "category": "puzzle-number phrase",
+  "classic": {
+   "noise_n": [
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "notable_n": []
+  },
+  "electrum": {
+   "noise_n": [
+    2,
+    3,
+    6,
+    8
+   ],
+   "notable_n": []
+  }
+ },
+ {
+  "phrase": "71",
+  "category": "puzzle-number phrase",
+  "classic": {
+   "noise_n": [
+    2,
+    3,
+    4
+   ],
+   "notable_n": []
+  },
+  "electrum": {
+   "noise_n": [
+    2,
+    3
+   ],
+   "notable_n": []
+  }
+ },
+ {
+  "phrase": "puzzle 1",
+  "category": "puzzle-number phrase",
+  "classic": {
+   "noise_n": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "notable_n": []
+  },
+  "electrum": {
+   "noise_n": [],
+   "notable_n": []
+  }
+ },
+ {
+  "phrase": "bitcoin puzzle 1",
+  "category": "puzzle-number phrase",
+  "classic": {
+   "noise_n": [
+    2,
+    3,
+    4
+   ],
+   "notable_n": []
+  },
+  "electrum": {
+   "noise_n": [
+    2,
+    3
+   ],
+   "notable_n": []
+  }
+ },
+ {
+  "phrase": "puzzle1",
+  "category": "puzzle-number phrase",
+  "classic": {
+   "noise_n": [
+    2,
+    3,
+    4,
+    9
+   ],
+   "notable_n": []
+  },
+  "electrum": {
+   "noise_n": [
+    2
+   ],
+   "notable_n": []
+  }
+ },
+ {
+  "phrase": "Bitcoin Puzzle 71",
+  "category": "puzzle-number phrase",
+  "classic": {
+   "noise_n": [
+    2,
+    3,
+    4
+   ],
+   "notable_n": []
+  },
+  "electrum": {
+   "noise_n": [
+    2,
+    6
+   ],
+   "notable_n": []
+  }
+ },
+ {
+  "phrase": "BITCOIN PUZZLE 71",
+  "category": "puzzle-number phrase",
+  "classic": {
+   "noise_n": [
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "notable_n": []
+  },
+  "electrum": {
+   "noise_n": [
+    2,
+    3
+   ],
+   "notable_n": []
+  }
+ },
+ {
+  "phrase": "puzzle #71 private key",
+  "category": "puzzle-number phrase",
+  "classic": {
+   "noise_n": [
+    2,
+    3,
+    7
+   ],
+   "notable_n": []
+  },
+  "electrum": {
+   "noise_n": [
+    2,
+    4
+   ],
+   "notable_n": []
+  }
+ },
+ {
+  "phrase": "1PWo3JeB9jrGwfHDNpdGK54CRas7fsVzXU puzzle 71",
+  "category": "puzzle-number phrase",
+  "classic": {
+   "noise_n": [
+    2,
+    4,
+    5
+   ],
+   "notable_n": []
+  },
+  "electrum": {
+   "noise_n": [
+    2,
+    3,
+    4
+   ],
+   "notable_n": []
+  }
+ },
+ {
+  "phrase": "2015-01-15",
+  "category": "creation date (2015-01-15) format",
+  "classic": {
+   "noise_n": [
+    2,
+    3
+   ],
+   "notable_n": []
+  },
+  "electrum": {
+   "noise_n": [
+    2,
+    4,
+    6
+   ],
+   "notable_n": []
+  }
+ },
+ {
+  "phrase": "01-15-2015",
+  "category": "creation date (2015-01-15) format",
+  "classic": {
+   "noise_n": [
+    2,
+    3,
+    5
+   ],
+   "notable_n": []
+  },
+  "electrum": {
+   "noise_n": [
+    2,
+    5
+   ],
+   "notable_n": []
+  }
+ },
+ {
+  "phrase": "15-01-2015",
+  "category": "creation date (2015-01-15) format",
+  "classic": {
+   "noise_n": [
+    2,
+    3,
+    4
+   ],
+   "notable_n": []
+  },
+  "electrum": {
+   "noise_n": [
+    2,
+    3
+   ],
+   "notable_n": []
+  }
+ },
+ {
+  "phrase": "01/15/2015",
+  "category": "creation date (2015-01-15) format",
+  "classic": {
+   "noise_n": [
+    2,
+    3,
+    4
+   ],
+   "notable_n": []
+  },
+  "electrum": {
+   "noise_n": [
+    2,
+    3,
+    4
+   ],
+   "notable_n": []
+  }
+ },
+ {
+  "phrase": "15/01/2015",
+  "category": "creation date (2015-01-15) format",
+  "classic": {
+   "noise_n": [
+    2,
+    3,
+    4
+   ],
+   "notable_n": []
+  },
+  "electrum": {
+   "noise_n": [
+    2
+   ],
+   "notable_n": []
+  }
+ },
+ {
+  "phrase": "20150115",
+  "category": "creation date (2015-01-15) format",
+  "classic": {
+   "noise_n": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "notable_n": []
+  },
+  "electrum": {
+   "noise_n": [
+    2,
+    3
+   ],
+   "notable_n": []
+  }
+ },
+ {
+  "phrase": "15012015",
+  "category": "creation date (2015-01-15) format",
+  "classic": {
+   "noise_n": [
+    2,
+    3,
+    4
+   ],
+   "notable_n": []
+  },
+  "electrum": {
+   "noise_n": [
+    2,
+    4
+   ],
+   "notable_n": []
+  }
+ },
+ {
+  "phrase": "01152015",
+  "category": "creation date (2015-01-15) format",
+  "classic": {
+   "noise_n": [
+    2,
+    3,
+    6
+   ],
+   "notable_n": []
+  },
+  "electrum": {
+   "noise_n": [
+    2,
+    4
+   ],
+   "notable_n": []
+  }
+ },
+ {
+  "phrase": "January 15, 2015",
+  "category": "creation date (2015-01-15) format",
+  "classic": {
+   "noise_n": [
+    2,
+    3,
+    4
+   ],
+   "notable_n": []
+  },
+  "electrum": {
+   "noise_n": [
+    2
+   ],
+   "notable_n": []
+  }
+ },
+ {
+  "phrase": "January 15 2015",
+  "category": "creation date (2015-01-15) format",
+  "classic": {
+   "noise_n": [
+    2,
+    3,
+    5
+   ],
+   "notable_n": []
+  },
+  "electrum": {
+   "noise_n": [
+    2,
+    4
+   ],
+   "notable_n": []
+  }
+ },
+ {
+  "phrase": "15 January 2015",
+  "category": "creation date (2015-01-15) format",
+  "classic": {
+   "noise_n": [
+    2,
+    3
+   ],
+   "notable_n": []
+  },
+  "electrum": {
+   "noise_n": [
+    2
+   ],
+   "notable_n": []
+  }
+ },
+ {
+  "phrase": "Jan 15 2015",
+  "category": "creation date (2015-01-15) format",
+  "classic": {
+   "noise_n": [
+    2,
+    3
+   ],
+   "notable_n": []
+  },
+  "electrum": {
+   "noise_n": [
+    2
+   ],
+   "notable_n": []
+  }
+ },
+ {
+  "phrase": "Jan 15, 2015",
+  "category": "creation date (2015-01-15) format",
+  "classic": {
+   "noise_n": [
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "notable_n": []
+  },
+  "electrum": {
+   "noise_n": [
+    2,
+    3
+   ],
+   "notable_n": []
+  }
+ },
+ {
+  "phrase": "2015/01/15",
+  "category": "creation date (2015-01-15) format",
+  "classic": {
+   "noise_n": [
+    2,
+    4
+   ],
+   "notable_n": []
+  },
+  "electrum": {
+   "noise_n": [
+    2,
+    4
+   ],
+   "notable_n": []
+  }
+ },
+ {
+  "phrase": "15.01.2015",
+  "category": "creation date (2015-01-15) format",
+  "classic": {
+   "noise_n": [
+    2,
+    3,
+    6
+   ],
+   "notable_n": []
+  },
+  "electrum": {
+   "noise_n": [
+    2,
+    3,
+    8
+   ],
+   "notable_n": []
+  }
+ },
+ {
+  "phrase": "01.15.2015",
+  "category": "creation date (2015-01-15) format",
+  "classic": {
+   "noise_n": [
+    2,
+    4,
+    5
+   ],
+   "notable_n": []
+  },
+  "electrum": {
+   "noise_n": [
+    2
+   ],
+   "notable_n": []
+  }
+ },
+ {
+  "phrase": "2015 01 15",
+  "category": "creation date (2015-01-15) format",
+  "classic": {
+   "noise_n": [
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "notable_n": []
+  },
+  "electrum": {
+   "noise_n": [
+    2,
+    4,
+    5
+   ],
+   "notable_n": []
+  }
+ },
+ {
+  "phrase": "08389f34c98c606322740c0be6a7125d9860bb8d5cb182c02f98461e5fa6cd15",
+  "category": "genesis tx / on-chain identifier",
+  "classic": {
+   "noise_n": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "notable_n": []
+  },
+  "electrum": {
+   "noise_n": [
+    2,
+    3
+   ],
+   "notable_n": []
+  }
+ },
+ {
+  "phrase": "08389f34c98c6063",
+  "category": "genesis tx / on-chain identifier",
+  "classic": {
+   "noise_n": [
+    2,
+    3
+   ],
+   "notable_n": []
+  },
+  "electrum": {
+   "noise_n": [
+    2,
+    3
+   ],
+   "notable_n": []
+  }
+ },
+ {
+  "phrase": "08389f34...cd15",
+  "category": "genesis tx / on-chain identifier",
+  "classic": {
+   "noise_n": [
+    2,
+    3,
+    4
+   ],
+   "notable_n": []
+  },
+  "electrum": {
+   "noise_n": [
+    2,
+    3
+   ],
+   "notable_n": []
+  }
+ },
+ {
+  "phrase": "08389f34cd15",
+  "category": "genesis tx / on-chain identifier",
+  "classic": {
+   "noise_n": [
+    2,
+    4
+   ],
+   "notable_n": []
+  },
+  "electrum": {
+   "noise_n": [
+    2
+   ],
+   "notable_n": []
+  }
+ },
+ {
+  "phrase": "339085",
+  "category": "genesis tx / on-chain identifier",
+  "classic": {
+   "noise_n": [
+    2,
+    3,
+    4,
+    7
+   ],
+   "notable_n": []
+  },
+  "electrum": {
+   "noise_n": [
+    2
+   ],
+   "notable_n": []
+  }
+ },
+ {
+  "phrase": "1421345234",
+  "category": "genesis tx / on-chain identifier",
+  "classic": {
+   "noise_n": [
+    2,
+    3,
+    4,
+    9
+   ],
+   "notable_n": []
+  },
+  "electrum": {
+   "noise_n": [
+    2,
+    3,
+    4
+   ],
+   "notable_n": []
+  }
+ },
+ {
+  "phrase": "topic 1306983",
+  "category": "genesis tx / on-chain identifier",
+  "classic": {
+   "noise_n": [
+    2,
+    3
+   ],
+   "notable_n": []
+  },
+  "electrum": {
+   "noise_n": [
+    2,
+    5,
+    6
+   ],
+   "notable_n": []
+  }
+ },
+ {
+  "phrase": "1306983",
+  "category": "genesis tx / on-chain identifier",
+  "classic": {
+   "noise_n": [
+    2,
+    4,
+    5
+   ],
+   "notable_n": []
+  },
+  "electrum": {
+   "noise_n": [
+    2,
+    4,
+    5
+   ],
+   "notable_n": []
+  }
+ },
+ {
+  "phrase": "Large Bitcoin Collider",
+  "category": "tangential creator-post reference",
+  "classic": {
+   "noise_n": [
+    2,
+    3
+   ],
+   "notable_n": []
+  },
+  "electrum": {
+   "noise_n": [
+    2,
+    3
+   ],
+   "notable_n": []
+  }
+ },
+ {
+  "phrase": "LBC",
+  "category": "tangential creator-post reference",
+  "classic": {
+   "noise_n": [
+    2,
+    3,
+    6
+   ],
+   "notable_n": []
+  },
+  "electrum": {
+   "noise_n": [
+    2,
+    3,
+    4,
+    9
+   ],
+   "notable_n": []
+  }
+ },
+ {
+  "phrase": "satoshi",
+  "category": "tangential creator-post reference",
+  "classic": {
+   "noise_n": [
+    2,
+    3,
+    5
+   ],
+   "notable_n": []
+  },
+  "electrum": {
+   "noise_n": [
+    2
+   ],
+   "notable_n": []
+  }
+ },
+ {
+  "phrase": "Satoshi Nakamoto",
+  "category": "tangential creator-post reference",
+  "classic": {
+   "noise_n": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "notable_n": []
+  },
+  "electrum": {
+   "noise_n": [
+    2,
+    3,
+    5
+   ],
+   "notable_n": []
+  }
+ },
+ {
+  "phrase": "Bulista",
+  "category": "tangential creator-post reference",
+  "classic": {
+   "noise_n": [
+    2,
+    3,
+    4
+   ],
+   "notable_n": []
+  },
+  "electrum": {
+   "noise_n": [
+    2,
+    3
+   ],
+   "notable_n": []
+  }
+ },
+ {
+  "phrase": "amaclin",
+  "category": "tangential creator-post reference",
+  "classic": {
+   "noise_n": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "notable_n": []
+  },
+  "electrum": {
+   "noise_n": [
+    2,
+    3
+   ],
+   "notable_n": []
+  }
+ }
+]
