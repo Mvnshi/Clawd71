@@ -1,3 +1,7 @@
 __pycache__/
 *.pyc
 .venv/
+
+# Phase 8 search runtime state -- checkpoints/logs churn constantly and are
+# not source; FOUND_SECRET.txt must never reach git under any circumstance.
+data/search_state/
