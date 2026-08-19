@@ -22,8 +22,9 @@ RESULTS = ROOT / "results"
 TARGET_N = 71
 SPACE = 1 << (TARGET_N - 1)  # 2^70 candidate keys
 
-# Measured on this machine (4 vCPU Xeon, AVX-512, no GPU) by src/engine.c
-LOCAL_RATE = 2.18e6
+# Measured on this machine (4 vCPU Xeon, AVX-512, no GPU) by src/engine.c,
+# on an otherwise idle box: 1.16 / 2.31 / 4.51 Mkeys/s at 1 / 2 / 4 threads.
+LOCAL_RATE = 4.51e6
 
 # Published throughputs for GPU HASH160 scanning (order-of-magnitude anchors).
 GPU_RATES = {

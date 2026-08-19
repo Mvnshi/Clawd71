@@ -90,7 +90,7 @@ Three independent lines of attack, all negative — details in
   expected by chance.
 - **Walk-forward validation**, 6 folds, 59 out-of-sample predictions — **no
   model beats uniform**. The best-looking model (per-bit bias, MSB-aligned,
-  0.429) is matched or beaten by pure noise ~35% of the time, and its
+  0.429) is matched or beaten by pure noise 37.5% of the time (200-trial permutation null), and its
   LSB-aligned mirror lands symmetrically *worse* than baseline at 0.579.
 
 **Measured search-space reduction: 1.0×. The effective entropy of #71 is 70
@@ -103,7 +103,7 @@ Expected work: 2^69 keys (median), 2^69.93 at the 95th percentile.
 
 | Configuration | Rate | Expected time |
 |---|---|---|
-| **This machine** (4 vCPU Xeon, no GPU) — *measured* | 2.18 Mkeys/s | **8.6 million years** |
+| **This machine** (4 vCPU Xeon, no GPU) — *measured* | 4.51 Mkeys/s | **4.1 million years** |
 | 1× RTX 4090 class | ~1.5 Gkeys/s | ~12 500 years |
 | 8× RTX 4090 rig | ~1.2×10¹⁰/s | ~1 600 years |
 | ~1000-GPU pool | ~1.5×10¹²/s | ~12.5 years |
@@ -122,8 +122,8 @@ At that recent-era range the community's expected time on #71 is **95 days to
 false precision. #71 has been open for **476 days**, which sits unremarkably
 inside that interval.
 
-To bring #71 within one year on this machine would require an **8.6-million-fold**
-search-space reduction — narrowing 2^70 to about 2^46. The measured achievable
+To bring #71 within one year on this machine would require a **4.2-million-fold**
+search-space reduction — narrowing 2^70 to about 2^47. The measured achievable
 reduction is 1×.
 
 ## 6. What was built
@@ -133,6 +133,9 @@ reduction is 1×.
 | `src/crypto.py` — independent secp256k1 + address pipeline | 1464 assertions pass, 0 fail |
 | `src/engine.c` — batched-inversion HASH160 scanner | recovers known keys across thread counts and batch boundaries |
 | `src/coordinator.py` — distributed work allocation | non-overlapping leases, expiry reclaim, short-unit rejection, 0600 hit handling |
+
+Measured throughput on an idle box: 1.16 / 2.31 / 4.51 Mkeys/s at 1 / 2 / 4
+threads — near-linear scaling.
 
 Engine design: incremental EC addition (never a fresh scalar multiplication per
 candidate), 1024 additions per shared modular inversion, SHA256 and RIPEMD160
@@ -148,9 +151,14 @@ exact failure mode that would let a distributed search skip the key.
 
 No tested hypothesis beats randomness. The puzzle is, as far as this program can
 measure, exactly what its creator is quoted as saying: a crude measuring
-instrument with no pattern. Solving #71 from this environment is not achievable
-by 11 orders of magnitude; the realistic paths are contributing to a
-GPU pool at ~10¹³ keys/s, or nothing.
+instrument with no pattern.
+
+This machine runs at 4.51 Mkeys/s against a community operating near 10¹³
+keys/s — about **seven orders of magnitude** behind — and needs 4.1 million
+years in expectation. Scanning here is not a slow path to the answer; it is
+not a path to the answer. The only rational uses of this environment are the
+research and verification tooling built here, and contributing worker capacity
+to a GPU pool.
 
 Recovering the key would require either hardware not present here or a
 structural break that three independent lines of evidence say does not exist.

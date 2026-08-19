@@ -153,8 +153,9 @@ The MSB-aligned bit-bias model looks like a 14% reduction. Two things kill it:
    signature of noise, not of structure.
 2. **The explicit null says so.** Replacing the real keys with uniform random
    keys and re-running the identical pipeline 100+ times: the best-of-seven
-   models averages **0.442** on random data, and reaches 0.4294 or better
-   **≈35% of the time**. The observed "best model" is what noise produces
+   models averages **0.4401** on random data (sd 0.0327, 200 trials), and reaches
+   0.4294 or better **37.5% of the time**. Taken alone, the MSB model's own
+   Monte Carlo p is 0.110 — still not significant before any correction. The observed "best model" is what noise produces
    routinely.
 
 **No model achieves out-of-sample search-space reduction. Measured reduction:

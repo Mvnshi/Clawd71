@@ -3,8 +3,8 @@
   "pubkey_known": false,
   "expected_keys": 5.902958103587057e+20,
   "local": {
-    "rate": 2180000.0,
-    "expected_seconds": 270777894659956.72
+    "rate": 4510000.0,
+    "expected_seconds": 130885988993061.12
   },
   "gpu": {
     "1x RTX 4090 (keyhunt/VanitySearch class)": {
@@ -179,5 +179,5 @@
     "low": 290873878866.9942,
     "high": 72184763288878.27
   },
-  "frontier_days": 475.7974550567126
+  "frontier_days": 475.8155344428122
 }
