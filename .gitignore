@@ -7,3 +7,5 @@ FOUND*
 found*
 secrets/
 *.key
+work/
+engine

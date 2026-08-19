@@ -1,0 +1,757 @@
+{
+  "metric": "expected fraction of interval searched before hitting true key",
+  "baseline": 0.5,
+  "folds": [
+    {
+      "fold": "train<=40 -> predict 41-50",
+      "model": "uniform (baseline)",
+      "mean": 0.5,
+      "fractions": [
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "fold": "train<=40 -> predict 41-50",
+      "model": "KDE of normalized position",
+      "mean": 0.4119805,
+      "fractions": [
+        0.43531,
+        0.446945,
+        0.17748,
+        0.394455,
+        0.72071,
+        0.250075,
+        0.222295,
+        0.39182,
+        0.260835,
+        0.81988
+      ]
+    },
+    {
+      "fold": "train<=40 -> predict 41-50",
+      "model": "linear trend in normalized position",
+      "mean": 0.45054150000000004,
+      "fractions": [
+        0.46286,
+        0.486615,
+        0.24329,
+        0.370165,
+        0.86262,
+        0.221755,
+        0.254445,
+        0.436035,
+        0.253285,
+        0.914345
+      ]
+    },
+    {
+      "fold": "train<=40 -> predict 41-50",
+      "model": "lag-1 autoregression on position",
+      "mean": 0.504761,
+      "fractions": [
+        0.54761,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "fold": "train<=40 -> predict 41-50",
+      "model": "per-bit-position bias (MSB-aligned)",
+      "mean": 0.39855199999999996,
+      "fractions": [
+        0.227445,
+        0.64022,
+        0.437275,
+        0.096615,
+        0.42889,
+        0.00784,
+        0.53167,
+        0.58531,
+        0.499005,
+        0.53125
+      ]
+    },
+    {
+      "fold": "train<=40 -> predict 41-50",
+      "model": "per-bit-position bias (LSB-aligned)",
+      "mean": 0.6263187499999999,
+      "fractions": [
+        0.78163,
+        0.80774,
+        0.4595925,
+        0.8432075,
+        0.200815,
+        0.891445,
+        0.806745,
+        0.705265,
+        0.4224475,
+        0.3443
+      ]
+    },
+    {
+      "fold": "train<=40 -> predict 41-50",
+      "model": "Hamming-weight prior",
+      "mean": 0.41201775000000007,
+      "fractions": [
+        0.28443,
+        0.2804025,
+        0.648085,
+        0.168665,
+        0.55756,
+        0.63206,
+        0.2683825,
+        0.965255,
+        0.2637525,
+        0.051585
+      ]
+    },
+    {
+      "fold": "train<=50 -> predict 51-60",
+      "model": "uniform (baseline)",
+      "mean": 0.5,
+      "fractions": [
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "fold": "train<=50 -> predict 51-60",
+      "model": "KDE of normalized position",
+      "mean": 0.5902035,
+      "fractions": [
+        0.694345,
+        0.79006,
+        0.176365,
+        0.73994,
+        0.120035,
+        0.54068,
+        0.882065,
+        0.30984,
+        0.679675,
+        0.96903
+      ]
+    },
+    {
+      "fold": "train<=50 -> predict 51-60",
+      "model": "linear trend in normalized position",
+      "mean": 0.5909234999999999,
+      "fractions": [
+        0.70923,
+        0.7978,
+        0.059375,
+        0.726135,
+        0.39486,
+        0.48422,
+        0.89842,
+        0.16185,
+        0.708315,
+        0.96903
+      ]
+    },
+    {
+      "fold": "train<=50 -> predict 51-60",
+      "model": "lag-1 autoregression on position",
+      "mean": 0.5328225,
+      "fractions": [
+        0.828225,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "fold": "train<=50 -> predict 51-60",
+      "model": "per-bit-position bias (MSB-aligned)",
+      "mean": 0.39813075,
+      "fractions": [
+        0.138595,
+        0.36547,
+        0.018585,
+        0.882795,
+        0.7564325,
+        0.42547,
+        0.005905,
+        0.580645,
+        0.794795,
+        0.012615
+      ]
+    },
+    {
+      "fold": "train<=50 -> predict 51-60",
+      "model": "per-bit-position bias (LSB-aligned)",
+      "mean": 0.5021037500000001,
+      "fractions": [
+        0.317035,
+        0.339205,
+        0.9388775,
+        0.542025,
+        0.06721,
+        0.090075,
+        0.639305,
+        0.990155,
+        0.14718,
+        0.94997
+      ]
+    },
+    {
+      "fold": "train<=50 -> predict 51-60",
+      "model": "Hamming-weight prior",
+      "mean": 0.65552425,
+      "fractions": [
+        0.874785,
+        0.7884175,
+        0.3507575,
+        0.8634375,
+        0.7222625,
+        0.91402,
+        0.2475525,
+        0.5829225,
+        0.7090525,
+        0.502035
+      ]
+    },
+    {
+      "fold": "train<=60 -> predict 61-70",
+      "model": "uniform (baseline)",
+      "mean": 0.5,
+      "fractions": [
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "fold": "train<=60 -> predict 61-70",
+      "model": "KDE of normalized position",
+      "mean": 0.47301950000000004,
+      "fractions": [
+        0.578145,
+        0.103365,
+        0.877255,
+        0.836605,
+        0.0134,
+        0.54703,
+        0.534495,
+        0.23443,
+        0.99292,
+        0.01255
+      ]
+    },
+    {
+      "fold": "train<=60 -> predict 61-70",
+      "model": "linear trend in normalized position",
+      "mean": 0.490066,
+      "fractions": [
+        0.66859,
+        0.244565,
+        0.748955,
+        0.70753,
+        0.15578,
+        0.65031,
+        0.431425,
+        0.19022,
+        0.99292,
+        0.110365
+      ]
+    },
+    {
+      "fold": "train<=60 -> predict 61-70",
+      "model": "lag-1 autoregression on position",
+      "mean": 0.514466,
+      "fractions": [
+        0.64466,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "fold": "train<=60 -> predict 61-70",
+      "model": "per-bit-position bias (MSB-aligned)",
+      "mean": 0.5098065,
+      "fractions": [
+        0.29569,
+        0.167315,
+        0.583205,
+        0.35598,
+        0.89067,
+        0.02176,
+        0.496325,
+        0.553455,
+        0.75072,
+        0.982945
+      ]
+    },
+    {
+      "fold": "train<=60 -> predict 61-70",
+      "model": "per-bit-position bias (LSB-aligned)",
+      "mean": 0.5487789999999999,
+      "fractions": [
+        0.115835,
+        0.67616,
+        0.07174,
+        0.58032,
+        0.685745,
+        0.88174,
+        0.87362,
+        0.920775,
+        0.131875,
+        0.54998
+      ]
+    },
+    {
+      "fold": "train<=60 -> predict 61-70",
+      "model": "Hamming-weight prior",
+      "mean": 0.37567925,
+      "fractions": [
+        0.143995,
+        0.63731,
+        0.794625,
+        0.234245,
+        0.4865275,
+        0.824295,
+        0.317485,
+        0.045505,
+        0.22751,
+        0.045295
+      ]
+    },
+    {
+      "fold": "train<=45 -> predict 46-55",
+      "model": "uniform (baseline)",
+      "mean": 0.5,
+      "fractions": [
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "fold": "train<=45 -> predict 46-55",
+      "model": "KDE of normalized position",
+      "mean": 0.43883,
+      "fractions": [
+        0.27391,
+        0.1455,
+        0.38788,
+        0.283315,
+        0.802585,
+        0.67784,
+        0.76981,
+        0.222845,
+        0.759775,
+        0.06484
+      ]
+    },
+    {
+      "fold": "train<=45 -> predict 46-55",
+      "model": "linear trend in normalized position",
+      "mean": 0.42773949999999994,
+      "fractions": [
+        0.1105,
+        0.367315,
+        0.320365,
+        0.13076,
+        0.86772,
+        0.61878,
+        0.7021,
+        0.040675,
+        0.832125,
+        0.287055
+      ]
+    },
+    {
+      "fold": "train<=45 -> predict 46-55",
+      "model": "lag-1 autoregression on position",
+      "mean": 0.45831099999999997,
+      "fractions": [
+        0.08311,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "fold": "train<=45 -> predict 46-55",
+      "model": "per-bit-position bias (MSB-aligned)",
+      "mean": 0.48654975,
+      "fractions": [
+        0.00554,
+        0.19523,
+        0.7241675,
+        0.67582,
+        0.84049,
+        0.076585,
+        0.745735,
+        0.03342,
+        0.917385,
+        0.651125
+      ]
+    },
+    {
+      "fold": "train<=45 -> predict 46-55",
+      "model": "per-bit-position bias (LSB-aligned)",
+      "mean": 0.6029094999999999,
+      "fractions": [
+        0.288975,
+        0.88916,
+        0.66402,
+        0.369095,
+        0.9008575,
+        0.5558325,
+        0.57687,
+        0.76766,
+        0.89845,
+        0.118175
+      ]
+    },
+    {
+      "fold": "train<=45 -> predict 46-55",
+      "model": "Hamming-weight prior",
+      "mean": 0.5825682499999999,
+      "fractions": [
+        0.63255,
+        0.2687775,
+        0.96631,
+        0.2654925,
+        0.0516475,
+        0.873635,
+        0.7883925,
+        0.3505375,
+        0.8755125,
+        0.7528275
+      ]
+    },
+    {
+      "fold": "train<=55 -> predict 56-65",
+      "model": "uniform (baseline)",
+      "mean": 0.5,
+      "fractions": [
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "fold": "train<=55 -> predict 56-65",
+      "model": "KDE of normalized position",
+      "mean": 0.5949055000000001,
+      "fractions": [
+        0.578365,
+        0.86212,
+        0.35574,
+        0.62785,
+        0.960565,
+        0.56416,
+        0.14673,
+        0.923775,
+        0.88352,
+        0.04623
+      ]
+    },
+    {
+      "fold": "train<=55 -> predict 56-65",
+      "model": "linear trend in normalized position",
+      "mean": 0.6032095,
+      "fractions": [
+        0.573325,
+        0.80817,
+        0.253185,
+        0.6102,
+        0.90634,
+        0.559195,
+        0.35628,
+        0.865505,
+        0.823215,
+        0.27668
+      ]
+    },
+    {
+      "fold": "train<=55 -> predict 56-65",
+      "model": "lag-1 autoregression on position",
+      "mean": 0.5091315,
+      "fractions": [
+        0.591315,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "fold": "train<=55 -> predict 56-65",
+      "model": "per-bit-position bias (MSB-aligned)",
+      "mean": 0.325726,
+      "fractions": [
+        0.196455,
+        0.07438,
+        0.544425,
+        0.219245,
+        0.054635,
+        0.35539,
+        0.6593,
+        0.383755,
+        0.0336,
+        0.736075
+      ]
+    },
+    {
+      "fold": "train<=55 -> predict 56-65",
+      "model": "per-bit-position bias (LSB-aligned)",
+      "mean": 0.508191,
+      "fractions": [
+        0.489035,
+        0.516365,
+        0.952295,
+        0.02325,
+        0.784015,
+        0.187605,
+        0.917165,
+        0.089,
+        0.330975,
+        0.792205
+      ]
+    },
+    {
+      "fold": "train<=55 -> predict 56-65",
+      "model": "Hamming-weight prior",
+      "mean": 0.5253185,
+      "fractions": [
+        0.9140675,
+        0.24872,
+        0.5835575,
+        0.7108625,
+        0.501765,
+        0.1438225,
+        0.6373425,
+        0.794555,
+        0.233995,
+        0.4844975
+      ]
+    },
+    {
+      "fold": "train<=65 -> predict 66-70+",
+      "model": "uniform (baseline)",
+      "mean": 0.5,
+      "fractions": [
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "fold": "train<=65 -> predict 66-70+",
+      "model": "KDE of normalized position",
+      "mean": 0.5408633333333334,
+      "fractions": [
+        0.579035,
+        0.450395,
+        0.286995,
+        0.992595,
+        0.04605,
+        0.68133,
+        0.56959,
+        0.874305,
+        0.387475
+      ]
+    },
+    {
+      "fold": "train<=65 -> predict 66-70+",
+      "model": "linear trend in normalized position",
+      "mean": 0.5561494444444445,
+      "fractions": [
+        0.73018,
+        0.34968,
+        0.272845,
+        0.992595,
+        0.02343,
+        0.80928,
+        0.33686,
+        0.90954,
+        0.580935
+      ]
+    },
+    {
+      "fold": "train<=65 -> predict 66-70+",
+      "model": "lag-1 autoregression on position",
+      "mean": 0.5087844444444445,
+      "fractions": [
+        0.57906,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "fold": "train<=65 -> predict 66-70+",
+      "model": "per-bit-position bias (MSB-aligned)",
+      "mean": 0.4657205555555556,
+      "fractions": [
+        0.040295,
+        0.343795,
+        0.64676,
+        0.571035,
+        0.98077,
+        0.15277,
+        0.071115,
+        0.633145,
+        0.7518
+      ]
+    },
+    {
+      "fold": "train<=65 -> predict 66-70+",
+      "model": "per-bit-position bias (LSB-aligned)",
+      "mean": 0.6932283333333333,
+      "fractions": [
+        0.827635,
+        0.889615,
+        0.986145,
+        0.076735,
+        0.54522,
+        0.19852,
+        0.868455,
+        0.856425,
+        0.990305
+      ]
+    },
+    {
+      "fold": "train<=65 -> predict 66-70+",
+      "model": "Hamming-weight prior",
+      "mean": 0.33114055555555555,
+      "fractions": [
+        0.8249475,
+        0.317515,
+        0.04542,
+        0.228645,
+        0.0449225,
+        0.594835,
+        0.372625,
+        0.434215,
+        0.11714
+      ]
+    }
+  ],
+  "summary": {
+    "uniform (baseline)": {
+      "pooled_mean_search_fraction": 0.5,
+      "n_predictions": 59,
+      "p_vs_uniform": NaN,
+      "useful": false
+    },
+    "KDE of normalized position": {
+      "pooled_mean_search_fraction": 0.5077484745762713,
+      "n_predictions": 59,
+      "p_vs_uniform": 0.8410169251011557,
+      "useful": false
+    },
+    "linear trend in normalized position": {
+      "pooled_mean_search_fraction": 0.519155,
+      "n_predictions": 59,
+      "p_vs_uniform": 0.6097919642395774,
+      "useful": false
+    },
+    "lag-1 autoregression on position": {
+      "pooled_mean_search_fraction": 0.5046437288135593,
+      "n_predictions": 59,
+      "p_vs_uniform": 0.6318394023482272,
+      "useful": false
+    },
+    "per-bit-position bias (MSB-aligned)": {
+      "pooled_mean_search_fraction": 0.43015483050847453,
+      "n_predictions": 59,
+      "p_vs_uniform": 0.07885513948811361,
+      "useful": false
+    },
+    "per-bit-position bias (LSB-aligned)": {
+      "pooled_mean_search_fraction": 0.5783402542372881,
+      "n_predictions": 59,
+      "p_vs_uniform": 0.059056489755569215,
+      "useful": false
+    },
+    "Hamming-weight prior": {
+      "pooled_mean_search_fraction": 0.4829041525423729,
+      "n_predictions": 59,
+      "p_vs_uniform": 0.6492736107210211,
+      "useful": false
+    }
+  }
+}
