@@ -1,0 +1,183 @@
+{
+  "space": 1180591620717411303424,
+  "pubkey_known": false,
+  "expected_keys": 5.902958103587057e+20,
+  "local": {
+    "rate": 4510000.0,
+    "expected_seconds": 130885988993061.12
+  },
+  "gpu": {
+    "1x RTX 4090 (keyhunt/VanitySearch class)": {
+      "rate": 1500000000.0,
+      "expected_seconds": 393530540239.1371
+    },
+    "8x RTX 4090 rig": {
+      "rate": 12000000000.0,
+      "expected_seconds": 49191317529.892136
+    },
+    "1000x RTX 4090 (large pool)": {
+      "rate": 1500000000000.0,
+      "expected_seconds": 393530540.2391371
+    }
+  },
+  "community": [
+    {
+      "from": 50,
+      "to": 51,
+      "from_date": "2015-09-01",
+      "to_date": "2017-04-05",
+      "gap_days": 581.577037037037,
+      "expected_keys": 562949953421312.0,
+      "implied_rate_keys_per_s": 11203372.977189736
+    },
+    {
+      "from": 51,
+      "to": 52,
+      "from_date": "2017-04-05",
+      "to_date": "2017-04-21",
+      "gap_days": 16.33246527777778,
+      "expected_keys": 1125899906842624.0,
+      "implied_rate_keys_per_s": 797873970.656479
+    },
+    {
+      "from": 52,
+      "to": 53,
+      "from_date": "2017-04-21",
+      "to_date": "2017-09-04",
+      "gap_days": 136.09261574074074,
+      "expected_keys": 2251799813685248.0,
+      "implied_rate_keys_per_s": 191505598.60814828
+    },
+    {
+      "from": 53,
+      "to": 54,
+      "from_date": "2017-09-04",
+      "to_date": "2017-11-16",
+      "gap_days": 72.61174768518518,
+      "expected_keys": 4503599627370496.0,
+      "implied_rate_keys_per_s": 717858987.6826979
+    },
+    {
+      "from": 54,
+      "to": 55,
+      "from_date": "2017-11-16",
+      "to_date": "2018-05-29",
+      "gap_days": 193.8815972222222,
+      "expected_keys": 9007199254740992.0,
+      "implied_rate_keys_per_s": 537699260.1047552
+    },
+    {
+      "from": 55,
+      "to": 56,
+      "from_date": "2018-05-29",
+      "to_date": "2018-09-08",
+      "gap_days": 101.89672453703703,
+      "expected_keys": 1.8014398509481984e+16,
+      "implied_rate_keys_per_s": 2046189253.834644
+    },
+    {
+      "from": 56,
+      "to": 57,
+      "from_date": "2018-09-08",
+      "to_date": "2018-11-08",
+      "gap_days": 60.804282407407406,
+      "expected_keys": 3.602879701896397e+16,
+      "implied_rate_keys_per_s": 6858069020.58707
+    },
+    {
+      "from": 57,
+      "to": 58,
+      "from_date": "2018-11-08",
+      "to_date": "2018-12-03",
+      "gap_days": 25.208368055555557,
+      "expected_keys": 7.205759403792794e+16,
+      "implied_rate_keys_per_s": 33084249212.66313
+    },
+    {
+      "from": 58,
+      "to": 59,
+      "from_date": "2018-12-03",
+      "to_date": "2019-02-11",
+      "gap_days": 70.6917824074074,
+      "expected_keys": 1.4411518807585587e+17,
+      "implied_rate_keys_per_s": 23595385562.301113
+    },
+    {
+      "from": 59,
+      "to": 60,
+      "from_date": "2019-02-11",
+      "to_date": "2019-02-17",
+      "gap_days": 5.555787037037037,
+      "expected_keys": 2.8823037615171174e+17,
+      "implied_rate_keys_per_s": 600454931360.5928
+    },
+    {
+      "from": 60,
+      "to": 61,
+      "from_date": "2019-02-17",
+      "to_date": "2019-05-11",
+      "gap_days": 83.03710648148149,
+      "expected_keys": 5.764607523034235e+17,
+      "implied_rate_keys_per_s": 80349613933.67249
+    },
+    {
+      "from": 61,
+      "to": 62,
+      "from_date": "2019-05-11",
+      "to_date": "2019-09-08",
+      "gap_days": 119.91508101851852,
+      "expected_keys": 1.152921504606847e+18,
+      "implied_rate_keys_per_s": 111278738108.44412
+    },
+    {
+      "from": 63,
+      "to": 64,
+      "from_date": "2019-07-12",
+      "to_date": "2022-09-09",
+      "gap_days": 1155.4307986111112,
+      "expected_keys": 4.611686018427388e+18,
+      "implied_rate_keys_per_s": 46195752828.99771
+    },
+    {
+      "from": 64,
+      "to": 66,
+      "from_date": "2022-09-09",
+      "to_date": "2024-09-12",
+      "gap_days": 734.0087847222222,
+      "expected_keys": 1.8446744073709552e+19,
+      "implied_rate_keys_per_s": 290873878866.9942
+    },
+    {
+      "from": 66,
+      "to": 67,
+      "from_date": "2024-09-12",
+      "to_date": "2025-02-21",
+      "gap_days": 161.1120601851852,
+      "expected_keys": 3.6893488147419103e+19,
+      "implied_rate_keys_per_s": 2650378650601.2754
+    },
+    {
+      "from": 67,
+      "to": 68,
+      "from_date": "2025-02-21",
+      "to_date": "2025-04-06",
+      "gap_days": 44.88311342592593,
+      "expected_keys": 7.378697629483821e+19,
+      "implied_rate_keys_per_s": 19027555446835.34
+    },
+    {
+      "from": 68,
+      "to": 69,
+      "from_date": "2025-04-06",
+      "to_date": "2025-04-30",
+      "gap_days": 23.661944444444444,
+      "expected_keys": 1.4757395258967641e+20,
+      "implied_rate_keys_per_s": 72184763288878.27
+    }
+  ],
+  "community_range": {
+    "low": 290873878866.9942,
+    "high": 72184763288878.27
+  },
+  "frontier_days": 475.8155344428122
+}

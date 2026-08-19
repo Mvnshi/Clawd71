@@ -1,0 +1,56 @@
+{
+  "observed": {
+    "uniform (baseline)": 0.5,
+    "KDE of normalized position": 0.5076957627118645,
+    "linear trend in normalized position": 0.5191203389830509,
+    "lag-1 autoregression on position": 0.5047983050847458,
+    "per-bit-position bias (MSB-aligned)": 0.4293847457627118,
+    "per-bit-position bias (LSB-aligned)": 0.5787372881355932,
+    "Hamming-weight prior": 0.48290423728813564
+  },
+  "best_observed": 0.4293847457627118,
+  "trials": 200,
+  "per_model_null": {
+    "uniform (baseline)": {
+      "null_mean": 0.5,
+      "null_sd": 0.0,
+      "mc_p": 1.0
+    },
+    "KDE of normalized position": {
+      "null_mean": 0.4987706906779661,
+      "null_sd": 0.05026192614825562,
+      "mc_p": 0.54
+    },
+    "linear trend in normalized position": {
+      "null_mean": 0.49946043220338987,
+      "null_sd": 0.051342170455706014,
+      "mc_p": 0.65
+    },
+    "lag-1 autoregression on position": {
+      "null_mean": 0.4973598728813559,
+      "null_sd": 0.01177819965900306,
+      "mc_p": 0.75
+    },
+    "per-bit-position bias (MSB-aligned)": {
+      "null_mean": 0.4940912351694916,
+      "null_sd": 0.0507819805384763,
+      "mc_p": 0.11
+    },
+    "per-bit-position bias (LSB-aligned)": {
+      "null_mean": 0.4993812690677967,
+      "null_sd": 0.049586900649480334,
+      "mc_p": 0.945
+    },
+    "Hamming-weight prior": {
+      "null_mean": 0.5010649851694915,
+      "null_sd": 0.052812097236746375,
+      "mc_p": 0.36
+    }
+  },
+  "best_of_seven": {
+    "null_mean": 0.44006941101694913,
+    "null_sd": 0.03273006915121853,
+    "mc_p": 0.375,
+    "null_q05": 0.37843163135593216
+  }
+}

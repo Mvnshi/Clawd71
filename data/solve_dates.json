@@ -1,0 +1,274 @@
+[
+  {
+    "sweep_time": 1441138824,
+    "sweep_date": "2015-09-01",
+    "sweep_tx": "39553513f731ae20f98f3307e863f0aecee9842f22273bb2ddfc0fb6ba481c5e",
+    "swept_value": 5000000,
+    "puzzle": 50,
+    "method": "brute force"
+  },
+  {
+    "sweep_time": 1491387080,
+    "sweep_date": "2017-04-05",
+    "sweep_tx": "70ee9ab241829a6f49ebf9f109e97f6e466d938e558bade1c5fe341310bc356e",
+    "swept_value": 5100000,
+    "puzzle": 51,
+    "method": "brute force"
+  },
+  {
+    "sweep_time": 1492798205,
+    "sweep_date": "2017-04-21",
+    "sweep_tx": "b0df330141225a2253c375b7b6c36c0016a9633934295916df6b0fd31afb4a8b",
+    "swept_value": 5200000,
+    "puzzle": 52,
+    "method": "brute force"
+  },
+  {
+    "sweep_time": 1504556607,
+    "sweep_date": "2017-09-04",
+    "sweep_tx": "0e343c3640fa8cc1f7a97556255f46a08b89bd7d1b62ca94b86b37e51835b3b3",
+    "swept_value": 5300000,
+    "puzzle": 53,
+    "method": "brute force"
+  },
+  {
+    "sweep_time": 1510830262,
+    "sweep_date": "2017-11-16",
+    "sweep_tx": "02e9c6ccae985a6485e633b56a084dae2a32736e5b866c3b9622db9d3c57078f",
+    "swept_value": 5400000,
+    "puzzle": 54,
+    "method": "brute force"
+  },
+  {
+    "sweep_time": 1527581632,
+    "sweep_date": "2018-05-29",
+    "sweep_tx": "ecc8c09284a6f9e6d52cccf7f8f4aef1d0c4a33984375dea4cea70923066078d",
+    "swept_value": 5500000,
+    "puzzle": 55,
+    "method": "brute force"
+  },
+  {
+    "sweep_time": 1536385509,
+    "sweep_date": "2018-09-08",
+    "sweep_tx": "5317fdbea32034f8f983bd2324e99e5da593aaf3c4aed6425d8104dc3b8c77d2",
+    "swept_value": 50400000,
+    "puzzle": 56,
+    "method": "brute force"
+  },
+  {
+    "sweep_time": 1541638999,
+    "sweep_date": "2018-11-08",
+    "sweep_tx": "fd773819f5fb5d672d32bfe99e30af086e86c2c2b35dd7cfe337bf8960a96aa7",
+    "swept_value": 5700000,
+    "puzzle": 57,
+    "method": "brute force"
+  },
+  {
+    "sweep_time": 1543817002,
+    "sweep_date": "2018-12-03",
+    "sweep_tx": "17d31de2bd300bc1bad430ec0db77ca27466bbb97bf03df6a3ff386d60e58996",
+    "swept_value": 5800000,
+    "puzzle": 58,
+    "method": "brute force"
+  },
+  {
+    "sweep_time": 1549924772,
+    "sweep_date": "2019-02-11",
+    "sweep_tx": "66cd4fd4b240df28c5f61c4c86865f57e5f4e203dc8ea36d520e553e61d96e04",
+    "swept_value": 5900000,
+    "puzzle": 59,
+    "method": "brute force"
+  },
+  {
+    "sweep_time": 1550404792,
+    "sweep_date": "2019-02-17",
+    "sweep_tx": "6c08747ecd15904128c3f15f3bf47f6f365405da2661f17eb5119008807cee3e",
+    "swept_value": 6000000,
+    "puzzle": 60,
+    "method": "brute force"
+  },
+  {
+    "sweep_time": 1557579198,
+    "sweep_date": "2019-05-11",
+    "sweep_tx": "481d2b7ceb253520336fbbe681126ae58d14ecd552320d88203b2e806e76358d",
+    "swept_value": 6100000,
+    "puzzle": 61,
+    "method": "brute force"
+  },
+  {
+    "sweep_time": 1567939861,
+    "sweep_date": "2019-09-08",
+    "sweep_tx": "d96269bdbae871174f629f4ec136d8c2c99cb1a1db15d12903418dfc92df5465",
+    "swept_value": 6200000,
+    "puzzle": 62,
+    "method": "brute force"
+  },
+  {
+    "sweep_time": 1562934399,
+    "sweep_date": "2019-07-12",
+    "sweep_tx": "195876f004cb9cfa4ff22f4d3df94feda86c5a481fde6979889ea568ac2ca4ac",
+    "swept_value": 6300000,
+    "puzzle": 63,
+    "method": "brute force"
+  },
+  {
+    "sweep_time": 1662763620,
+    "sweep_date": "2022-09-09",
+    "sweep_tx": "9c1d797c34e3b04f9b721bac45fe3a410393bdd25d169bc62dcbca46b069fa9f",
+    "swept_value": 6400000,
+    "puzzle": 64,
+    "method": "brute force"
+  },
+  {
+    "sweep_time": 1559925542,
+    "sweep_date": "2019-06-07",
+    "sweep_tx": "43bb89f7d16fb47fee3eaeee0fa26aa2d0d6874c8907b2eca4ec2420bf4a9dc3",
+    "swept_value": 6500000,
+    "puzzle": 65,
+    "method": "kangaroo (pubkey exposed 2019)"
+  },
+  {
+    "sweep_time": 1726181979,
+    "sweep_date": "2024-09-12",
+    "sweep_tx": "57a88f47e4c047740b782a5562fca143ce85de0373cbff3a7d406e9ae7fc2f5f",
+    "swept_value": 594000000,
+    "puzzle": 66,
+    "method": "brute force"
+  },
+  {
+    "sweep_time": 1740102061,
+    "sweep_date": "2025-02-21",
+    "sweep_tx": "0be77ec8bec331da8750c8b715085c6cf6c374ca31f829a515c62b9846e32986",
+    "swept_value": 6700000,
+    "puzzle": 67,
+    "method": "brute force"
+  },
+  {
+    "sweep_time": 1743979962,
+    "sweep_date": "2025-04-06",
+    "sweep_tx": "a5635eb2205bd3024e55156ee353110415829d1c6bc947f42bfa162488b0eb08",
+    "swept_value": 6800000,
+    "puzzle": 68,
+    "method": "brute force"
+  },
+  {
+    "sweep_time": 1746024354,
+    "sweep_date": "2025-04-30",
+    "sweep_tx": "a52c5046f3097a8c2bd3b9889df2fb47b104d47a16cc679d3357feec003db753",
+    "swept_value": 6900000,
+    "puzzle": 69,
+    "method": "brute force"
+  },
+  {
+    "sweep_time": 1560100125,
+    "sweep_date": "2019-06-09",
+    "sweep_tx": "482232a3d21b7062d1aaf88a63466fd00eabcb248ae8b92aae82e4bb833afcd7",
+    "swept_value": 7000000,
+    "puzzle": 70,
+    "method": "kangaroo (pubkey exposed 2019)"
+  },
+  {
+    "sweep_time": 1560200757,
+    "sweep_date": "2019-06-10",
+    "sweep_tx": "e1a5d5ac5db02801828ec79e6c94fa724525eaa0f6f7fd303dc14a1e9d0f4c64",
+    "swept_value": 7500000,
+    "puzzle": 75,
+    "method": "kangaroo (pubkey exposed 2019)"
+  },
+  {
+    "sweep_time": 1560251333,
+    "sweep_date": "2019-06-11",
+    "sweep_tx": "bb05d206d64e20c706a7da14cd49b4f80d0c92995db193428ebda753e578ce79",
+    "swept_value": 8000000,
+    "puzzle": 80,
+    "method": "kangaroo (pubkey exposed 2019)"
+  },
+  {
+    "sweep_time": 1560730179,
+    "sweep_date": "2019-06-17",
+    "sweep_tx": "bb26e67de6f1b67de29155b6fcd51aa459382803d9b3142091b0373abccc9f81",
+    "swept_value": 8500000,
+    "puzzle": 85,
+    "method": "kangaroo (pubkey exposed 2019)"
+  },
+  {
+    "sweep_time": 1562004562,
+    "sweep_date": "2019-07-01",
+    "sweep_tx": "93037990e3739041347cb63563731c0a302d856e21c2c46b7ff491a2ff1ba9fe",
+    "swept_value": 9000000,
+    "puzzle": 90,
+    "method": "kangaroo (pubkey exposed 2019)"
+  },
+  {
+    "sweep_time": 1562396021,
+    "sweep_date": "2019-07-06",
+    "sweep_tx": "2b46d8d754b712c0c481185f07fa7b11100fe48f807069fc2e0779735d81c99e",
+    "swept_value": 9500000,
+    "puzzle": 95,
+    "method": "kangaroo (pubkey exposed 2019)"
+  },
+  {
+    "sweep_time": 1562561824,
+    "sweep_date": "2019-07-08",
+    "sweep_tx": "d4087636f7c54d382164e4cd9548a1bad6c603664268f74537b6aed8a6371704",
+    "swept_value": 10000000,
+    "puzzle": 100,
+    "method": "kangaroo (pubkey exposed 2019)"
+  },
+  {
+    "sweep_time": 1569202187,
+    "sweep_date": "2019-09-23",
+    "sweep_tx": "1f31aa69f56972c08e70da07c92903949fb0f4cd6b02462c1d0de81130113f14",
+    "swept_value": 10500000,
+    "puzzle": 105,
+    "method": "kangaroo (pubkey exposed 2019)"
+  },
+  {
+    "sweep_time": 1590869046,
+    "sweep_date": "2020-05-30",
+    "sweep_tx": "8978a26d73ed11fec60d88f5cdb5f6d762c8e4fdb1dcae924ba5b06eb7fda456",
+    "swept_value": 11000000,
+    "puzzle": 110,
+    "method": "kangaroo (pubkey exposed 2019)"
+  },
+  {
+    "sweep_time": 1592292822,
+    "sweep_date": "2020-06-16",
+    "sweep_tx": "15df42c8d957ca66700a7c6455da76c5d88ee847b47819447527f0985827b1ce",
+    "swept_value": 11500000,
+    "puzzle": 115,
+    "method": "kangaroo (pubkey exposed 2019)"
+  },
+  {
+    "sweep_time": 1677489950,
+    "sweep_date": "2023-02-27",
+    "sweep_tx": "9628d6d234b57075709a74215bfe2869b4d80b8ada11dd7be1030541ff8a0a53",
+    "swept_value": 12000000,
+    "puzzle": 120,
+    "method": "kangaroo (pubkey exposed 2019)"
+  },
+  {
+    "sweep_time": 1688897886,
+    "sweep_date": "2023-07-09",
+    "sweep_tx": "25427dc1fa67f259601750d5fbb98427a51d8b319d179557030ff3c4cb66af7e",
+    "swept_value": 12500000,
+    "puzzle": 125,
+    "method": "kangaroo (pubkey exposed 2019)"
+  },
+  {
+    "sweep_time": 1727076768,
+    "sweep_date": "2024-09-23",
+    "sweep_tx": "91ec88f5d6d6cc727e0205d3aa3709fee507df05140d187846cf22aef784621a",
+    "swept_value": 13000000,
+    "puzzle": 130,
+    "method": "kangaroo (pubkey exposed 2019)"
+  },
+  {
+    "sweep_time": 1785226442,
+    "sweep_date": "2026-07-28",
+    "sweep_tx": "817535430c600810080662dd425a2e335f771effd950d28fc443bce4a92fa812",
+    "swept_value": 13500000,
+    "puzzle": 135,
+    "method": "kangaroo (pubkey exposed 2019)"
+  }
+]

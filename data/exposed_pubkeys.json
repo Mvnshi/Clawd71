@@ -1,0 +1,162 @@
+[
+  {
+    "puzzle": 65,
+    "address": "18ZMbwUFLMHoZBbfpCjUJQTCMCbktshgpe",
+    "pubkey": "0230210c23b1a047bc9bdbb13448e67deddc108946de6de639bcc75d47c0216b1b",
+    "compressed": true,
+    "x": "0x30210c23b1a047bc9bdbb13448e67deddc108946de6de639bcc75d47c0216b1b",
+    "y": "0xe383c4a8ed4fac77c0d2ad737d8499a362f483f8fe39d1e86aaed578a9455dfc"
+  },
+  {
+    "puzzle": 70,
+    "address": "19YZECXj3SxEZMoUeJ1yiPsw8xANe7M7QR",
+    "pubkey": "0290e6900a58d33393bc1097b5aed31f2e4e7cbd3e5466af958665bc0121248483",
+    "compressed": true,
+    "x": "0x90e6900a58d33393bc1097b5aed31f2e4e7cbd3e5466af958665bc0121248483",
+    "y": "0xd7319f127105f492fd15e009b103b4a83295722f28f07c95f9a5443ef8e77ce0"
+  },
+  {
+    "puzzle": 75,
+    "address": "1J36UjUByGroXcCvmj13U6uwaVv9caEeAt",
+    "pubkey": "03726b574f193e374686d8e12bc6e4142adeb06770e0a2856f5e4ad89f66044755",
+    "compressed": true,
+    "x": "0x726b574f193e374686d8e12bc6e4142adeb06770e0a2856f5e4ad89f66044755",
+    "y": "0x9b15322e6707090a4db3f09c7e6632a26db57f03eb07b40979fc01c827e1b0a3"
+  },
+  {
+    "puzzle": 80,
+    "address": "1BCf6rHUW6m3iH2ptsvnjgLruAiPQQepLe",
+    "pubkey": "037e1238f7b1ce757df94faa9a2eb261bf0aeb9f84dbf81212104e78931c2a19dc",
+    "compressed": true,
+    "x": "0x7e1238f7b1ce757df94faa9a2eb261bf0aeb9f84dbf81212104e78931c2a19dc",
+    "y": "0x625c7118f1c29cb92d28ce0dfd0dc58144fe5572effebc7fee54c4fce3333a6b"
+  },
+  {
+    "puzzle": 85,
+    "address": "1Kh22PvXERd2xpTQk3ur6pPEqFeckCJfAr",
+    "pubkey": "0329c4574a4fd8c810b7e42a4b398882b381bcd85e40c6883712912d167c83e73a",
+    "compressed": true,
+    "x": "0x29c4574a4fd8c810b7e42a4b398882b381bcd85e40c6883712912d167c83e73a",
+    "y": "0xe02c3afd79913ab0961c95f12498f36a72ffa35c93af27cee30010fa6b51c53"
+  },
+  {
+    "puzzle": 90,
+    "address": "1L12FHH2FHjvTviyanuiFVfmzCy46RRATU",
+    "pubkey": "035c38bd9ae4b10e8a250857006f3cfd98ab15a6196d9f4dfd25bc7ecc77d788d5",
+    "compressed": true,
+    "x": "0x5c38bd9ae4b10e8a250857006f3cfd98ab15a6196d9f4dfd25bc7ecc77d788d5",
+    "y": "0xa84963ebff4abefe121a0d3c6bf9203faaef25898cda62686efbf64d1c6fb433"
+  },
+  {
+    "puzzle": 95,
+    "address": "19eVSDuizydXxhohGh8Ki9WY9KsHdSwoQC",
+    "pubkey": "02967a5905d6f3b420959a02789f96ab4c3223a2c4d2762f817b7895c5bc88a045",
+    "compressed": true,
+    "x": "0x967a5905d6f3b420959a02789f96ab4c3223a2c4d2762f817b7895c5bc88a045",
+    "y": "0x9da9709f8e830ba5cea1d0426a261f0b9b5dda057478d8e6009ad7c4a8af6916"
+  },
+  {
+    "puzzle": 100,
+    "address": "1KCgMv8fo2TPBpddVi9jqmMmcne9uSNJ5F",
+    "pubkey": "03d2063d40402f030d4cc71331468827aa41a8a09bd6fd801ba77fb64f8e67e617",
+    "compressed": true,
+    "x": "0xd2063d40402f030d4cc71331468827aa41a8a09bd6fd801ba77fb64f8e67e617",
+    "y": "0x875561c0bd6298fbf187053d33ffde9672edf2830e2cb961582431369fd53765"
+  },
+  {
+    "puzzle": 105,
+    "address": "1CMjscKB3QW7SDyQ4c3C3DEUHiHRhiZVib",
+    "pubkey": "03bcf7ce887ffca5e62c9cabbdb7ffa71dc183c52c04ff4ee5ee82e0c55c39d77b",
+    "compressed": true,
+    "x": "0xbcf7ce887ffca5e62c9cabbdb7ffa71dc183c52c04ff4ee5ee82e0c55c39d77b",
+    "y": "0x506c02f3b5c15c12deb94ba16d02bd9710eeaf3b25adf89cc5012ed9c44c31f"
+  },
+  {
+    "puzzle": 110,
+    "address": "12JzYkkN76xkwvcPT6AWKZtGX6w2LAgsJg",
+    "pubkey": "0309976ba5570966bf889196b7fdf5a0f9a1e9ab340556ec29f8bb60599616167d",
+    "compressed": true,
+    "x": "0x9976ba5570966bf889196b7fdf5a0f9a1e9ab340556ec29f8bb60599616167d",
+    "y": "0x2ef58f7eef3ebbc285602744ad51753bad939c214ff6a465c384377abdea7b9"
+  },
+  {
+    "puzzle": 115,
+    "address": "1NLbHuJebVwUZ1XqDjsAyfTRUPwDQbemfv",
+    "pubkey": "0248d313b0398d4923cdca73b8cfa6532b91b96703902fc8b32fd438a3b7cd7f55",
+    "compressed": true,
+    "x": "0x48d313b0398d4923cdca73b8cfa6532b91b96703902fc8b32fd438a3b7cd7f55",
+    "y": "0x66f0742c24f5ff80c799d691d756ad8e5aa7f6d8f986abd9eeef45514637c0d4"
+  },
+  {
+    "puzzle": 120,
+    "address": "17s2b9ksz5y7abUm92cHwG8jEPCzK3dLnT",
+    "pubkey": "02ceb6cbbcdbdf5ef7150682150f4ce2c6f4807b349827dcdbdd1f2efa885a2630",
+    "compressed": true,
+    "x": "0xceb6cbbcdbdf5ef7150682150f4ce2c6f4807b349827dcdbdd1f2efa885a2630",
+    "y": "0x2b195386bea3f5f002dc033b92cfc2c9e71b586302b09cfe535e1ff290b1b5ac"
+  },
+  {
+    "puzzle": 125,
+    "address": "1PXAyUB8ZoH3WD8n5zoAthYjN15yN5CVq5",
+    "pubkey": "0233709eb11e0d4439a729f21c2c443dedb727528229713f0065721ba8fa46f00e",
+    "compressed": true,
+    "x": "0x33709eb11e0d4439a729f21c2c443dedb727528229713f0065721ba8fa46f00e",
+    "y": "0x2a1c304a39a77775d3579d077b6ee5e4d26fd3ec36f52ad674a9b47fdd999c48"
+  },
+  {
+    "puzzle": 130,
+    "address": "1Fo65aKq8s8iquMt6weF1rku1moWVEd5Ua",
+    "pubkey": "03633cbe3ec02b9401c5effa144c5b4d22f87940259634858fc7e59b1c09937852",
+    "compressed": true,
+    "x": "0x633cbe3ec02b9401c5effa144c5b4d22f87940259634858fc7e59b1c09937852",
+    "y": "0xb078a17cc1558a9a4fa0b406f194c9a2b71d9a61424b533ceefe27408b3191e3"
+  },
+  {
+    "puzzle": 135,
+    "address": "16RGFo6hjq9ym6Pj7N5H7L1NR1rVPJyw2v",
+    "pubkey": "02145d2611c823a396ef6712ce0f712f09b9b4f3135e3e0aa3230fb9b6d08d1e16",
+    "compressed": true,
+    "x": "0x145d2611c823a396ef6712ce0f712f09b9b4f3135e3e0aa3230fb9b6d08d1e16",
+    "y": "0x667a05e9a1bdd6f70142b66558bd12ce2c0f9cbc7001b20c8a6a109c80dc5330"
+  },
+  {
+    "puzzle": 140,
+    "address": "1QKBaU6WAeycb3DbKbLBkX7vJiaS8r42Xo",
+    "pubkey": "031f6a332d3c5c4f2de2378c012f429cd109ba07d69690c6c701b6bb87860d6640",
+    "compressed": true,
+    "x": "0x1f6a332d3c5c4f2de2378c012f429cd109ba07d69690c6c701b6bb87860d6640",
+    "y": "0xf96923e4c4e959430c81a73a62a05609b2bbea22620cefc54a58182b9f2a2ae9"
+  },
+  {
+    "puzzle": 145,
+    "address": "19GpszRNUej5yYqxXoLnbZWKew3KdVLkXg",
+    "pubkey": "03afdda497369e219a2c1c369954a930e4d3740968e5e4352475bcffce3140dae5",
+    "compressed": true,
+    "x": "0xafdda497369e219a2c1c369954a930e4d3740968e5e4352475bcffce3140dae5",
+    "y": "0x5ef677a7008d2a7f5b69a81526a35dfd3c4a175c3848577f19959ceded988ce3"
+  },
+  {
+    "puzzle": 150,
+    "address": "1MUJSJYtGPVGkBCTqGspnxyHahpt5Te8jy",
+    "pubkey": "03137807790ea7dc6e97901c2bc87411f45ed74a5629315c4e4b03a0a102250c49",
+    "compressed": true,
+    "x": "0x137807790ea7dc6e97901c2bc87411f45ed74a5629315c4e4b03a0a102250c49",
+    "y": "0xf924b8bf50f09ad28dfb63fc2582dcb11881519af3b13984317326462763b0b7"
+  },
+  {
+    "puzzle": 155,
+    "address": "1AoeP37TmHdFh8uN72fu9AqgtLrUwcv2wJ",
+    "pubkey": "035cd1854cae45391ca4ec428cc7e6c7d9984424b954209a8eea197b9e364c05f6",
+    "compressed": true,
+    "x": "0x5cd1854cae45391ca4ec428cc7e6c7d9984424b954209a8eea197b9e364c05f6",
+    "y": "0xf5faaa72c795ca7bd49cbc9724639002935de3acc61172e44730872e3ecb49db"
+  },
+  {
+    "puzzle": 160,
+    "address": "1NBC8uXJy1GiJ6drkiZa1WuKn51ps7EPTv",
+    "pubkey": "02e0a8b039282faf6fe0fd769cfbc4b6b4cf8758ba68220eac420e32b91ddfa673",
+    "compressed": true,
+    "x": "0xe0a8b039282faf6fe0fd769cfbc4b6b4cf8758ba68220eac420e32b91ddfa673",
+    "y": "0xc2d9690945dd98f6e0e45d4a1f760c9e85ed5ae5ffeeda74e121ee0d836a7c86"
+  }
+]
