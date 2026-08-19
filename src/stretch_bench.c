@@ -138,7 +138,14 @@ static void run_selftest(void) {
     }
 }
 
-typedef struct { char **lines; int start, end; char **out; } job;
+typedef struct { char **lines; int start, end; } job;
+
+/* Output is flushed per-candidate (mutex-protected), not buffered until
+ * the whole batch finishes -- a run of this size (millions of candidates,
+ * ~380/sec) can take well over an hour, and this container is ephemeral;
+ * buffering everything until the end meant a kill/crash lost 100% of the
+ * batch's progress instead of just the tail. */
+static pthread_mutex_t stdout_lock = PTHREAD_MUTEX_INITIALIZER;
 
 static void *worker(void *arg) {
     job *j = (job *)arg;
@@ -147,13 +154,16 @@ static void *worker(void *arg) {
         memcpy(seed_ascii, j->lines[i], 32);
         uint8_t out[32];
         stretch_key_64(seed_ascii, out);
-        char *line = malloc(32 + 1 + 64 + 2);
+        char line[32 + 1 + 64 + 2];
         memcpy(line, j->lines[i], 32);
         line[32] = ' ';
         hex_encode(out, 32, line + 33);
         line[33 + 64] = '\n';
         line[33 + 64 + 1] = 0;
-        j->out[i] = line;
+        pthread_mutex_lock(&stdout_lock);
+        fputs(line, stdout);
+        fflush(stdout);
+        pthread_mutex_unlock(&stdout_lock);
     }
     return NULL;
 }
@@ -173,7 +183,6 @@ static void run_batch(int nthreads) {
         n++;
     }
     if (n == 0) return;
-    char **out = calloc(n, sizeof(char*));
     pthread_t th[64];
     job jobs[64];
     if (nthreads > 64) nthreads = 64;
@@ -182,12 +191,11 @@ static void run_batch(int nthreads) {
     int actual = 0;
     for (int t = 0; t < nthreads; t++) {
         int s = t * chunk, e = s + chunk; if (e > n) e = n; if (s >= n) break;
-        jobs[t] = (job){ lines, s, e, out };
+        jobs[t] = (job){ lines, s, e };
         pthread_create(&th[t], NULL, worker, &jobs[t]);
         actual++;
     }
     for (int t = 0; t < actual; t++) pthread_join(th[t], NULL);
-    for (int i = 0; i < n; i++) { fputs(out[i], stdout); }
 }
 
 int main(int argc, char **argv) {
