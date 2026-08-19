@@ -52,7 +52,15 @@ def main():
             if apply_puzzle_mask(raw, n) == actual:
                 full_hits.append(n)
         s["full_hits"] = full_hits
-        if len(full_hits) >= 2:
+        # Meaningful hits only: puzzle n<=1 matches every candidate by
+        # construction (apply_puzzle_mask hardcodes masked=1), and n=2/3/4
+        # match by pure chance 50%/25%/12.5% of the time -- a naive raw
+        # ">=2 hits" threshold over the WHOLE dataset would count those as
+        # "confirmed" (this exact bug produced 371 false "confirmed" matches
+        # in the classic-scheme attack before being caught and fixed).
+        # Require 2+ hits at n>=20 (chance rate <2e-6 per hit) instead.
+        meaningful_hits = [n for n in full_hits if n >= 20]
+        if len(meaningful_hits) >= 2:
             confirmed.append(s)
 
     result = {

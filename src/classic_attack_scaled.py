@@ -91,7 +91,16 @@ def main():
             if apply_puzzle_mask(raw, n) == actual:
                 full_hits.append(n)
         s["full_hits"] = full_hits
-        if len(full_hits) >= 2:
+        # Meaningful hits only: puzzle n<=1 matches every candidate by
+        # construction (apply_puzzle_mask hardcodes masked=1), and n=2/3/4
+        # match by pure chance 50%/25%/12.5% of the time -- a naive raw
+        # ">=2 hits" threshold caused 371 false "confirmed" matches here on
+        # the first run before this fix (0/371 actually had 2+ hits at
+        # n>=20; every one was n=1 plus the single real n=20 filter hit, or
+        # similar low-n noise). Require 2+ hits at n>=20 (chance rate <2e-6
+        # per hit) instead.
+        meaningful_hits = [n for n in full_hits if n >= 20]
+        if len(meaningful_hits) >= 2:
             confirmed.append(s)
 
     elapsed = time.time() - t0
