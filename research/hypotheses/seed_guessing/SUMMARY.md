@@ -169,16 +169,60 @@ the real dataset, and independently discovered/documented the `n<=1`
 structural-degeneracy artifact in `apply_puzzle_mask` as part of validating
 their own harnesses were not producing false positives.
 
+## Round 2: scaled up (real rockyou.txt + mutations, ~199.3M total checks)
+
+The round above (175,363 candidates) was reasonably judged too small —
+"everyone else prob tried them also and derivatives." Round 2 used the
+actual full [rockyou.txt](https://github.com/brannondorsey/naive-hashcat/releases/download/data/rockyou.txt)
+wordlist (14.3M real passwords, not committed to the repo — 140MB exceeds
+GitHub's 100MB push limit, source URL is the reproduction path) plus
+mutation-rule derivatives (`src/mutate.py`: leetspeak, capitalization,
+year/number suffixes, common prefixes) of its 150,000 most common entries.
+
+- **Classic scheme**: 197,329,864 candidate-format checks (`src/classic_attack_scaled.py`,
+  full results in `classic_scaled_results.json`) in 2504s (78,802/s).
+  **0 real matches.**
+- **Electrum scheme**: 1,999,994 candidates, each through the real
+  100,000-round stretch (`src/stretch_bench.c`, SHA-NI-accelerated —
+  see that file's commit history for a real, documented ~100x performance
+  bug hunt along the way) via 2,000,000 rockyou-derived seeds
+  (SHA256(phrase)[:16]). Full results in `electrum_scaled_results.json`.
+  **0 real matches** (4 filter survivors, matching the ~3.8 expected by
+  pure chance at this volume almost exactly; none had 2+ hits at a
+  statistically meaningful puzzle size).
+
+**A real bug was caught here, not just a clean negative.** The first
+completion of the classic-scheme run reported "371 confirmed matches,"
+which would have been a huge deal if real. It wasn't: the confirmation
+threshold (`>=2 hits anywhere in the dataset`) didn't exclude puzzle #1
+(which matches every candidate by construction — `apply_puzzle_mask`
+hardcodes `masked=1` for any `n<=1`) or account for puzzles #2/#3/#4
+matching by pure chance 50%/25%/12.5% of the time. Verified directly:
+0 of the 371 had 2+ hits at `n>=20` (chance rate <2e-6 per hit) — every
+one was just the single real `n=20` filter hit plus low-`n` noise. Fixed
+in both attack scripts (require 2+ hits at `n>=20` specifically) before
+being reported as a finding, and before the same bug could affect the
+still-running Electrum round's checker.
+
+**Combined total across both rounds: ~199.5 million candidate-derivation
+attempts. 0 real matches.**
+
 ## Bottom line
 
-No seed or passphrase tested — 175,363 candidate derivations across two
-real deterministic-wallet schemes and five thematically distinct candidate
-categories, all checked against the actual 100,000-round Electrum stretch
-where applicable, not an approximation — reproduces any solved puzzle's key
-at a statistically meaningful puzzle size. This is consistent with every
-other result in this research program (see `research/generator_hypotheses.md`
-sections 1-6 and `research/PHASE_2_6_SUMMARY.md`): nothing tested so far
-provides any exploitable reduction in the Puzzle #71 candidate-key search
-space. It does not prove no such seed exists — only that these specific,
+No seed or passphrase tested across either round — now approaching 200
+million candidate derivations across two real deterministic-wallet
+schemes, a real published wordlist at full scale, mutation rules, and
+multiple thematically distinct hand-curated categories, all checked
+against the actual 100,000-round Electrum stretch where applicable, not
+an approximation — reproduces any solved puzzle's key at a statistically
+meaningful puzzle size. This is consistent with every other result in
+this research program (see `research/generator_hypotheses.md` sections
+1-6 and `research/PHASE_2_6_SUMMARY.md`): nothing tested so far provides
+any exploitable reduction in the Puzzle #71 candidate-key search space.
+It does not prove no such seed exists — only that these specific,
 disclosed candidate lists, under these two specific schemes, do not
-contain it.
+contain it. Real, unlimited-budget attacks (e.g. a proper GPU-accelerated
+rule-based cracker against the full rockyou.txt with hashcat's complete
+rule sets) would go further, but at some point this stops being a
+seed-guessing research question and becomes exactly the brute-force
+hardware problem Phase 8 already documents honestly.
