@@ -176,12 +176,27 @@ def cmd_status(args) -> None:
     rows = dict(con.execute("SELECT status, COUNT(*) FROM units GROUP BY status").fetchall())
     done = con.execute("SELECT COALESCE(SUM(keys_tested),0) FROM units "
                        "WHERE status='complete'").fetchone()[0]
+    # keys_tested on 'complete' units is a final, audited count; on 'leased'
+    # units it is the last self-reported PROGRESS snapshot for a unit still
+    # being scanned. Both are shown so `status` doesn't read as "no progress"
+    # for the ~17 minutes (at ~4.2 Mkeys/s) it takes to finish one 2^32 unit.
+    in_progress_rows = con.execute(
+        "SELECT unit_id, keys_tested, speed_mkeys, worker FROM units WHERE status='leased'"
+    ).fetchall()
+    in_progress = sum(r[1] or 0 for r in in_progress_rows)
     span = RANGE_HIGH - RANGE_LOW + 1
     print(f"puzzle #{TARGET_PUZZLE}   total units: {total_units():,}")
     for k in ("pending", "leased", "complete"):
         print(f"  {k:<9}: {rows.get(k, 0):,}")
-    print(f"keys proven scanned : {done:,}")
-    print(f"fraction of interval: {done / span:.3e}  ({done / span * 100:.3e}%)")
+    print(f"keys proven scanned  (completed units only): {done:,}")
+    if in_progress_rows:
+        print(f"keys scanned so far  (+ in-progress units, last snapshot): {in_progress:,}")
+        for unit_id, keys_tested, speed_mkeys, worker in in_progress_rows:
+            speed_str = f"{speed_mkeys:.3f} Mkeys/s" if speed_mkeys else "speed unknown yet"
+            print(f"    unit {unit_id} (worker {worker}): {keys_tested or 0:,} keys, {speed_str}")
+    total_seen = done + in_progress
+    print(f"fraction of interval (completed only): {done / span:.3e}  ({done / span * 100:.3e}%)")
+    print(f"fraction of interval (incl. in-progress): {total_seen / span:.3e}  ({total_seen / span * 100:.3e}%)")
     hits = con.execute("SELECT * FROM hits").fetchall()
     if hits:
         print(f"\n*** {len(hits)} HIT(S) RECORDED - see work/FOUND (not committed) ***")
