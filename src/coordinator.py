@@ -123,6 +123,23 @@ def reclaim_expired(con: sqlite3.Connection) -> int:
     return cur.rowcount
 
 
+def reclaim_own_stale(con: sqlite3.Connection, worker: str) -> int:
+    """Immediately reclaim any 'leased' unit under THIS worker name, without
+    waiting out the full LEASE_SECONDS timeout. A fresh `run` invocation
+    means whatever process previously held this worker name is gone --
+    this container has been observed to die and restart mid-scan more than
+    once, and the default 6-hour lease meant an interrupted unit sat
+    stranded (not being worked, not reclaimable) for up to 6 hours before
+    anything picked it back up. Safe because worker names are unique
+    per-deployment here; do not reuse a worker name across machines that
+    might legitimately run concurrently."""
+    cur = con.execute(
+        "UPDATE units SET status='pending', worker=NULL, assigned_at=NULL, lease_expiry=NULL "
+        "WHERE status='leased' AND worker=?", (worker,))
+    con.commit()
+    return cur.rowcount
+
+
 def cmd_lease(args) -> None:
     con = connect()
     reclaimed = reclaim_expired(con)
@@ -208,6 +225,14 @@ def cmd_run(args) -> None:
         print(f"engine not built: {ENGINE}\n  cc -O3 -march=native -pthread -o engine src/engine.c")
         sys.exit(1)
     worker = args.worker
+    startup_con = connect()
+    reclaimed_own = reclaim_own_stale(startup_con, worker)
+    if reclaimed_own:
+        print(f"[{worker}] reclaimed {reclaimed_own} stale unit(s) left 'leased' by a "
+              f"previous run under this worker name (container restart, not waiting "
+              f"out their full lease) -- will resume from unit start, not mid-unit "
+              f"progress, since the engine doesn't checkpoint within a unit.", flush=True)
+
     for _ in range(args.units):
         con = connect()
         reclaim_expired(con)
