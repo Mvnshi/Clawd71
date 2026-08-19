@@ -13,6 +13,8 @@ found*
 secrets/
 *.key
 
-# compiled search engine binary -- build with:
+# compiled search engine binaries -- build with:
 #   cc -O3 -march=native -pthread -o engine src/engine.c -lm
+#   cc -O3 -march=native -msse4.1 -msha -pthread -o stretch_bench src/stretch_bench.c
 engine
+stretch_bench
