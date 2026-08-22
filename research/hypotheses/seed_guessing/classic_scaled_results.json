@@ -1,0 +1,4496 @@
+{
+  "total_candidates_tested": 197329864,
+  "elapsed_sec": 2504.1333355903625,
+  "rate_per_sec": 78801.66011746273,
+  "filter_survivors": [
+    {
+      "candidate": "houston1998",
+      "format": "colon_zero_indexed",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        4,
+        20
+      ]
+    },
+    {
+      "candidate": "dream1999",
+      "format": "space",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        3,
+        20
+      ]
+    },
+    {
+      "candidate": "Ohmygod1",
+      "format": "plain",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        3,
+        20
+      ]
+    },
+    {
+      "candidate": "Ohmygod1",
+      "format": "sha256d",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        3,
+        20
+      ]
+    },
+    {
+      "candidate": "pmirhs",
+      "format": "zero_indexed",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        3,
+        20
+      ]
+    },
+    {
+      "candidate": "l0v3lym3",
+      "format": "plain",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        20
+      ]
+    },
+    {
+      "candidate": "l0v3lym3",
+      "format": "sha256d",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        20
+      ]
+    },
+    {
+      "candidate": "1012851997",
+      "format": "colon",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        4,
+        20
+      ]
+    },
+    {
+      "candidate": "teamojorge01",
+      "format": "colon",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        3,
+        7,
+        20
+      ]
+    },
+    {
+      "candidate": "noitaudarg",
+      "format": "zero_indexed",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        20
+      ]
+    },
+    {
+      "candidate": "jalisa2026",
+      "format": "space",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        3,
+        4,
+        20
+      ]
+    },
+    {
+      "candidate": "Matthias69",
+      "format": "dash",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        20
+      ]
+    },
+    {
+      "candidate": "Benitez!!",
+      "format": "colon",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        20
+      ]
+    },
+    {
+      "candidate": "omsairam1234",
+      "format": "dash",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        3,
+        4,
+        20
+      ]
+    },
+    {
+      "candidate": "baloncesto1",
+      "format": "n_then_m",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        20
+      ]
+    },
+    {
+      "candidate": "love312016",
+      "format": "space",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        3,
+        20
+      ]
+    },
+    {
+      "candidate": "tater11991",
+      "format": "zero_indexed",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        20
+      ]
+    },
+    {
+      "candidate": "310790007",
+      "format": "space",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        20
+      ]
+    },
+    {
+      "candidate": "swallow2012",
+      "format": "zero_indexed",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        7,
+        20
+      ]
+    },
+    {
+      "candidate": "danielle3!",
+      "format": "colon",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        20
+      ]
+    },
+    {
+      "candidate": "ferteamo2007",
+      "format": "dash",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        20
+      ]
+    },
+    {
+      "candidate": "29199112",
+      "format": "space",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        3,
+        5,
+        20
+      ]
+    },
+    {
+      "candidate": "escada1998",
+      "format": "colon",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        6,
+        20
+      ]
+    },
+    {
+      "candidate": "1834611995",
+      "format": "dash",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        3,
+        20
+      ]
+    },
+    {
+      "candidate": "0503922005",
+      "format": "plain",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        20
+      ]
+    },
+    {
+      "candidate": "0503922005",
+      "format": "sha256d",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        20
+      ]
+    },
+    {
+      "candidate": "my1andonly123",
+      "format": "space",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        3,
+        20
+      ]
+    },
+    {
+      "candidate": "the_doodoo1",
+      "format": "zero_indexed",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        4,
+        20
+      ]
+    },
+    {
+      "candidate": "1002952009",
+      "format": "zero_indexed",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        20
+      ]
+    },
+    {
+      "candidate": "iassyla",
+      "format": "space",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        3,
+        4,
+        20
+      ]
+    },
+    {
+      "candidate": "luis212005",
+      "format": "colon",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        20
+      ]
+    },
+    {
+      "candidate": "iubitica2011",
+      "format": "plain",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        20
+      ]
+    },
+    {
+      "candidate": "iubitica2011",
+      "format": "sha256d",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        20
+      ]
+    },
+    {
+      "candidate": "suzuki11995",
+      "format": "colon_zero_indexed",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        3,
+        20
+      ]
+    },
+    {
+      "candidate": "Cam123!!",
+      "format": "colon",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        20
+      ]
+    },
+    {
+      "candidate": "prozac2008",
+      "format": "n_then_m",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        4,
+        20
+      ]
+    },
+    {
+      "candidate": "money8!!",
+      "format": "plain",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        20
+      ]
+    },
+    {
+      "candidate": "money8!!",
+      "format": "sha256d",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        20
+      ]
+    },
+    {
+      "candidate": "david02",
+      "format": "zero_indexed",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        20
+      ]
+    },
+    {
+      "candidate": "Andaya1234",
+      "format": "n_then_m",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        20
+      ]
+    },
+    {
+      "candidate": "angelis2016",
+      "format": "space",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        20
+      ]
+    },
+    {
+      "candidate": "randa007",
+      "format": "n_then_m",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        3,
+        20
+      ]
+    },
+    {
+      "candidate": "the071406",
+      "format": "colon_zero_indexed",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        20
+      ]
+    },
+    {
+      "candidate": "PABLO!!",
+      "format": "space",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        3,
+        20
+      ]
+    },
+    {
+      "candidate": "0704011997",
+      "format": "n_then_m",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        3,
+        20
+      ]
+    },
+    {
+      "candidate": "patitos2011",
+      "format": "colon",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        3,
+        20
+      ]
+    },
+    {
+      "candidate": "Mouse3123",
+      "format": "colon",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        20
+      ]
+    },
+    {
+      "candidate": "Brian10!",
+      "format": "space",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        20
+      ]
+    },
+    {
+      "candidate": "3132332017",
+      "format": "colon_zero_indexed",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        20
+      ]
+    },
+    {
+      "candidate": "0921862025",
+      "format": "plain",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        20
+      ]
+    },
+    {
+      "candidate": "0921862025",
+      "format": "sha256d",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        20
+      ]
+    },
+    {
+      "candidate": "clauditza2006",
+      "format": "plain",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        20
+      ]
+    },
+    {
+      "candidate": "clauditza2006",
+      "format": "sha256d",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        20
+      ]
+    },
+    {
+      "candidate": "sheckler12009",
+      "format": "colon",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        3,
+        20
+      ]
+    },
+    {
+      "candidate": "1506072024",
+      "format": "plain",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        20
+      ]
+    },
+    {
+      "candidate": "1506072024",
+      "format": "sha256d",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        20
+      ]
+    },
+    {
+      "candidate": "virgo7!",
+      "format": "colon",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        5,
+        20
+      ]
+    },
+    {
+      "candidate": "star9469",
+      "format": "colon",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        3,
+        4,
+        20
+      ]
+    },
+    {
+      "candidate": "sweety72015",
+      "format": "dash",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        20
+      ]
+    },
+    {
+      "candidate": "Oneluv169",
+      "format": "dash",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        20
+      ]
+    },
+    {
+      "candidate": "mikey212004",
+      "format": "colon",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        3,
+        20
+      ]
+    },
+    {
+      "candidate": "snake1231995",
+      "format": "zero_indexed",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        4,
+        20
+      ]
+    },
+    {
+      "candidate": "basty2005",
+      "format": "colon_zero_indexed",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        20
+      ]
+    },
+    {
+      "candidate": "jheanne2019",
+      "format": "space",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        4,
+        20
+      ]
+    },
+    {
+      "candidate": "gandaco!!",
+      "format": "dash",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        20
+      ]
+    },
+    {
+      "candidate": "bagwell2021",
+      "format": "colon",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        20
+      ]
+    },
+    {
+      "candidate": "1601951996",
+      "format": "space",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        20
+      ]
+    },
+    {
+      "candidate": "loveisme2006",
+      "format": "plain",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        3,
+        20
+      ]
+    },
+    {
+      "candidate": "loveisme2006",
+      "format": "sha256d",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        3,
+        20
+      ]
+    },
+    {
+      "candidate": "Micmac69",
+      "format": "space",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        3,
+        20
+      ]
+    },
+    {
+      "candidate": "0514822012",
+      "format": "colon_zero_indexed",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        20
+      ]
+    },
+    {
+      "candidate": "westly2025",
+      "format": "dash",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        20
+      ]
+    },
+    {
+      "candidate": "gemini171998",
+      "format": "colon",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        20
+      ]
+    },
+    {
+      "candidate": "Sex4me123",
+      "format": "plain",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        20
+      ]
+    },
+    {
+      "candidate": "Sex4me123",
+      "format": "sha256d",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        20
+      ]
+    },
+    {
+      "candidate": "Guacamole12",
+      "format": "colon_zero_indexed",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        20
+      ]
+    },
+    {
+      "candidate": "PHILIP2020",
+      "format": "zero_indexed",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        20
+      ]
+    },
+    {
+      "candidate": "GIANNA420",
+      "format": "zero_indexed",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        5,
+        20
+      ]
+    },
+    {
+      "candidate": "nadiecomoyo2024",
+      "format": "n_then_m",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        3,
+        20
+      ]
+    },
+    {
+      "candidate": "mecool2014",
+      "format": "zero_indexed",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        3,
+        20
+      ]
+    },
+    {
+      "candidate": "bitcoin_maddi1",
+      "format": "plain",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        20
+      ]
+    },
+    {
+      "candidate": "bitcoin_maddi1",
+      "format": "sha256d",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        20
+      ]
+    },
+    {
+      "candidate": "agent472012",
+      "format": "n_then_m",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        20
+      ]
+    },
+    {
+      "candidate": "btc_sydney3",
+      "format": "space",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        20
+      ]
+    },
+    {
+      "candidate": "storm21996",
+      "format": "space",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        20
+      ]
+    },
+    {
+      "candidate": "athens12014",
+      "format": "n_then_m",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        3,
+        4,
+        20
+      ]
+    },
+    {
+      "candidate": "raciel007",
+      "format": "zero_indexed",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        6,
+        20
+      ]
+    },
+    {
+      "candidate": "Ohmygod1",
+      "format": "plain",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        3,
+        20
+      ]
+    },
+    {
+      "candidate": "Ohmygod1",
+      "format": "sha256d",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        3,
+        20
+      ]
+    },
+    {
+      "candidate": "Milk1269",
+      "format": "dash",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        3,
+        20
+      ]
+    },
+    {
+      "candidate": "jagung1999",
+      "format": "space",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        20
+      ]
+    },
+    {
+      "candidate": "1denise2000",
+      "format": "zero_indexed",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        3,
+        20
+      ]
+    },
+    {
+      "candidate": "vonne1997",
+      "format": "colon_zero_indexed",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        20
+      ]
+    },
+    {
+      "candidate": "spikelee2002",
+      "format": "n_then_m",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        20
+      ]
+    },
+    {
+      "candidate": "ronnie062021",
+      "format": "n_then_m",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        20
+      ]
+    },
+    {
+      "candidate": "Animerox!",
+      "format": "colon_zero_indexed",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        3,
+        20
+      ]
+    },
+    {
+      "candidate": "ellehcoR",
+      "format": "colon",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        20
+      ]
+    },
+    {
+      "candidate": "TONY04",
+      "format": "colon_zero_indexed",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        20
+      ]
+    },
+    {
+      "candidate": "r3c0d0",
+      "format": "dash",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        20
+      ]
+    },
+    {
+      "candidate": "kiss3s2014",
+      "format": "zero_indexed",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        20
+      ]
+    },
+    {
+      "candidate": "chapelle2018",
+      "format": "plain",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        20
+      ]
+    },
+    {
+      "candidate": "chapelle2018",
+      "format": "sha256d",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        20
+      ]
+    },
+    {
+      "candidate": "0330082002",
+      "format": "colon",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        20
+      ]
+    },
+    {
+      "candidate": "sanitarium2016",
+      "format": "n_then_m",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        20
+      ]
+    },
+    {
+      "candidate": "ricardos2019",
+      "format": "space",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        20
+      ]
+    },
+    {
+      "candidate": "putana2011",
+      "format": "colon_zero_indexed",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        3,
+        20
+      ]
+    },
+    {
+      "candidate": "nardia2014",
+      "format": "zero_indexed",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        3,
+        4,
+        20
+      ]
+    },
+    {
+      "candidate": "mylife31997",
+      "format": "plain",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        20
+      ]
+    },
+    {
+      "candidate": "mylife31997",
+      "format": "sha256d",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        20
+      ]
+    },
+    {
+      "candidate": "mangos11997",
+      "format": "plain",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        20
+      ]
+    },
+    {
+      "candidate": "mangos11997",
+      "format": "sha256d",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        20
+      ]
+    },
+    {
+      "candidate": "0713041",
+      "format": "zero_indexed",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        4,
+        5,
+        20
+      ]
+    },
+    {
+      "candidate": "sufrimiento1995",
+      "format": "plain",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        20
+      ]
+    },
+    {
+      "candidate": "sufrimiento1995",
+      "format": "sha256d",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        20
+      ]
+    },
+    {
+      "candidate": "sophia102015",
+      "format": "colon_zero_indexed",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        20
+      ]
+    },
+    {
+      "candidate": "ohio1997",
+      "format": "space",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        20
+      ]
+    },
+    {
+      "candidate": "Hulkamania1234",
+      "format": "dash",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        6,
+        20
+      ]
+    },
+    {
+      "candidate": "roseland2009",
+      "format": "n_then_m",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        20
+      ]
+    },
+    {
+      "candidate": "R4lphy1",
+      "format": "colon",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        20
+      ]
+    },
+    {
+      "candidate": "ciufulici2004",
+      "format": "n_then_m",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        20
+      ]
+    },
+    {
+      "candidate": "211321132023",
+      "format": "colon_zero_indexed",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        4,
+        20
+      ]
+    },
+    {
+      "candidate": "bitcoin_marcella1",
+      "format": "dash",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        3,
+        20
+      ]
+    },
+    {
+      "candidate": "lexie2!",
+      "format": "zero_indexed",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        20
+      ]
+    },
+    {
+      "candidate": "layla3!",
+      "format": "plain",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        20
+      ]
+    },
+    {
+      "candidate": "layla3!",
+      "format": "sha256d",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        20
+      ]
+    },
+    {
+      "candidate": "Donnell1!",
+      "format": "plain",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        20
+      ]
+    },
+    {
+      "candidate": "Donnell1!",
+      "format": "sha256d",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        20
+      ]
+    },
+    {
+      "candidate": "carolina222008",
+      "format": "plain",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        20
+      ]
+    },
+    {
+      "candidate": "carolina222008",
+      "format": "sha256d",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        20
+      ]
+    },
+    {
+      "candidate": "tiger442004",
+      "format": "n_then_m",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        5,
+        20
+      ]
+    },
+    {
+      "candidate": "sunnyb1997",
+      "format": "colon",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        5,
+        20
+      ]
+    },
+    {
+      "candidate": "btc_september06",
+      "format": "dash",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        4,
+        20
+      ]
+    },
+    {
+      "candidate": "Bhebot007",
+      "format": "colon",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        20
+      ]
+    },
+    {
+      "candidate": "0801092024",
+      "format": "zero_indexed",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        3,
+        4,
+        20
+      ]
+    },
+    {
+      "candidate": "s1mple2020",
+      "format": "n_then_m",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        3,
+        20
+      ]
+    },
+    {
+      "candidate": "abcdefg12345672010",
+      "format": "dash",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        20
+      ]
+    },
+    {
+      "candidate": "112265123",
+      "format": "colon",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        4,
+        20
+      ]
+    },
+    {
+      "candidate": "socold2018",
+      "format": "plain",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        20
+      ]
+    },
+    {
+      "candidate": "socold2018",
+      "format": "sha256d",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        20
+      ]
+    },
+    {
+      "candidate": "N3wn3wn3w",
+      "format": "n_then_m",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        20
+      ]
+    },
+    {
+      "candidate": "mike961990",
+      "format": "plain",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        20
+      ]
+    },
+    {
+      "candidate": "mike961990",
+      "format": "sha256d",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        20
+      ]
+    },
+    {
+      "candidate": "Boochie1007",
+      "format": "colon",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        20
+      ]
+    },
+    {
+      "candidate": "anailil2022",
+      "format": "colon_zero_indexed",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        3,
+        20
+      ]
+    },
+    {
+      "candidate": "whybother1992",
+      "format": "zero_indexed",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        20
+      ]
+    },
+    {
+      "candidate": "vhentedhoz420",
+      "format": "colon",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        20
+      ]
+    },
+    {
+      "candidate": "natasha1369",
+      "format": "plain",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        20
+      ]
+    },
+    {
+      "candidate": "natasha1369",
+      "format": "sha256d",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        20
+      ]
+    },
+    {
+      "candidate": "kameron3123",
+      "format": "colon_zero_indexed",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        3,
+        20
+      ]
+    },
+    {
+      "candidate": "happy9312",
+      "format": "colon_zero_indexed",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        3,
+        20
+      ]
+    },
+    {
+      "candidate": "feanor",
+      "format": "space",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        20
+      ]
+    },
+    {
+      "candidate": "amote4ever",
+      "format": "space",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        3,
+        20
+      ]
+    },
+    {
+      "candidate": "699600",
+      "format": "colon",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        20
+      ]
+    },
+    {
+      "candidate": "12683",
+      "format": "plain",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        20
+      ]
+    },
+    {
+      "candidate": "12683",
+      "format": "sha256d",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        20
+      ]
+    },
+    {
+      "candidate": "oct1707",
+      "format": "dash",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        3,
+        5,
+        20
+      ]
+    },
+    {
+      "candidate": "hot456",
+      "format": "colon_zero_indexed",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        3,
+        20
+      ]
+    },
+    {
+      "candidate": "wolf43",
+      "format": "colon",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        7,
+        20
+      ]
+    },
+    {
+      "candidate": "trent20",
+      "format": "colon_zero_indexed",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        3,
+        6,
+        20
+      ]
+    },
+    {
+      "candidate": "sa2152",
+      "format": "plain",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        5,
+        20
+      ]
+    },
+    {
+      "candidate": "sa2152",
+      "format": "sha256d",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        5,
+        20
+      ]
+    },
+    {
+      "candidate": "mahgrillz1",
+      "format": "dash",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        20
+      ]
+    },
+    {
+      "candidate": "juanp100105",
+      "format": "space",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        6,
+        20
+      ]
+    },
+    {
+      "candidate": "imyutz",
+      "format": "dash",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        3,
+        5,
+        20
+      ]
+    },
+    {
+      "candidate": "yourmom333",
+      "format": "n_then_m",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        20
+      ]
+    },
+    {
+      "candidate": "spooler",
+      "format": "plain",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        20
+      ]
+    },
+    {
+      "candidate": "spooler",
+      "format": "sha256d",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        20
+      ]
+    },
+    {
+      "candidate": "snowy2k7",
+      "format": "colon",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        20
+      ]
+    },
+    {
+      "candidate": "mipichon",
+      "format": "plain",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        3,
+        20
+      ]
+    },
+    {
+      "candidate": "mipichon",
+      "format": "sha256d",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        3,
+        20
+      ]
+    },
+    {
+      "candidate": "lilcublet3",
+      "format": "plain",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        4,
+        20
+      ]
+    },
+    {
+      "candidate": "lilcublet3",
+      "format": "sha256d",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        4,
+        20
+      ]
+    },
+    {
+      "candidate": "l0v3lym3",
+      "format": "plain",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        20
+      ]
+    },
+    {
+      "candidate": "l0v3lym3",
+      "format": "sha256d",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        20
+      ]
+    },
+    {
+      "candidate": "doggii",
+      "format": "colon",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        3,
+        4,
+        20
+      ]
+    },
+    {
+      "candidate": "deea14",
+      "format": "space",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        3,
+        20
+      ]
+    },
+    {
+      "candidate": "cleezy",
+      "format": "zero_indexed",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        4,
+        20
+      ]
+    },
+    {
+      "candidate": "cetter1",
+      "format": "n_then_m",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        3,
+        5,
+        20
+      ]
+    },
+    {
+      "candidate": "baloncesto1",
+      "format": "n_then_m",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        20
+      ]
+    },
+    {
+      "candidate": "alkhatib",
+      "format": "space",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        20
+      ]
+    },
+    {
+      "candidate": "69rscamaro",
+      "format": "plain",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        4,
+        20
+      ]
+    },
+    {
+      "candidate": "69rscamaro",
+      "format": "sha256d",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        4,
+        20
+      ]
+    },
+    {
+      "candidate": "1kabuki1",
+      "format": "space",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        20
+      ]
+    },
+    {
+      "candidate": "1chester1",
+      "format": "space",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        3,
+        20
+      ]
+    },
+    {
+      "candidate": "029104476",
+      "format": "colon_zero_indexed",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        3,
+        20
+      ]
+    },
+    {
+      "candidate": "\u00f6zcan123",
+      "format": "dash",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        20
+      ]
+    },
+    {
+      "candidate": "zagato12",
+      "format": "colon_zero_indexed",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        4,
+        20
+      ]
+    },
+    {
+      "candidate": "yomero_mp3",
+      "format": "colon_zero_indexed",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        20
+      ]
+    },
+    {
+      "candidate": "x89936",
+      "format": "space",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        20
+      ]
+    },
+    {
+      "candidate": "whislndxie",
+      "format": "n_then_m",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        20
+      ]
+    },
+    {
+      "candidate": "weh8wxm",
+      "format": "dash",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        3,
+        20
+      ]
+    },
+    {
+      "candidate": "weaver15",
+      "format": "zero_indexed",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        20
+      ]
+    },
+    {
+      "candidate": "vero3069",
+      "format": "colon_zero_indexed",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        20
+      ]
+    },
+    {
+      "candidate": "undergroundbitch",
+      "format": "space",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        20
+      ]
+    },
+    {
+      "candidate": "tyger38",
+      "format": "zero_indexed",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        4,
+        20
+      ]
+    },
+    {
+      "candidate": "toribennet",
+      "format": "colon_zero_indexed",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        20
+      ]
+    },
+    {
+      "candidate": "toot3x",
+      "format": "space",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        20
+      ]
+    },
+    {
+      "candidate": "tirb03",
+      "format": "colon_zero_indexed",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        3,
+        20
+      ]
+    },
+    {
+      "candidate": "thunderrules",
+      "format": "space",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        20
+      ]
+    },
+    {
+      "candidate": "t012705",
+      "format": "plain",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        3,
+        20
+      ]
+    },
+    {
+      "candidate": "t012705",
+      "format": "sha256d",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        3,
+        20
+      ]
+    },
+    {
+      "candidate": "suske&wiske",
+      "format": "space",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        3,
+        6,
+        20
+      ]
+    },
+    {
+      "candidate": "spanky803",
+      "format": "colon_zero_indexed",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        20
+      ]
+    },
+    {
+      "candidate": "sister1986",
+      "format": "n_then_m",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        4,
+        20
+      ]
+    },
+    {
+      "candidate": "sexycgh",
+      "format": "zero_indexed",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        20
+      ]
+    },
+    {
+      "candidate": "sakuro22",
+      "format": "colon",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        20
+      ]
+    },
+    {
+      "candidate": "ruthy621",
+      "format": "plain",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        20
+      ]
+    },
+    {
+      "candidate": "ruthy621",
+      "format": "sha256d",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        20
+      ]
+    },
+    {
+      "candidate": "roxellamaw",
+      "format": "colon_zero_indexed",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        20
+      ]
+    },
+    {
+      "candidate": "rosiesunny16",
+      "format": "plain",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        20
+      ]
+    },
+    {
+      "candidate": "rosiesunny16",
+      "format": "sha256d",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        20
+      ]
+    },
+    {
+      "candidate": "rockyoulogon08",
+      "format": "n_then_m",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        20
+      ]
+    },
+    {
+      "candidate": "reylai",
+      "format": "n_then_m",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        20
+      ]
+    },
+    {
+      "candidate": "raspberryshoe968",
+      "format": "plain",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        20
+      ]
+    },
+    {
+      "candidate": "raspberryshoe968",
+      "format": "sha256d",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        20
+      ]
+    },
+    {
+      "candidate": "randa007",
+      "format": "n_then_m",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        3,
+        20
+      ]
+    },
+    {
+      "candidate": "puiutzmiqtz",
+      "format": "colon_zero_indexed",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        4,
+        6,
+        20
+      ]
+    },
+    {
+      "candidate": "prttygrl1",
+      "format": "space",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        20
+      ]
+    },
+    {
+      "candidate": "poo56poo",
+      "format": "dash",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        20
+      ]
+    },
+    {
+      "candidate": "peter54",
+      "format": "n_then_m",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        3,
+        20
+      ]
+    },
+    {
+      "candidate": "owenlopez",
+      "format": "plain",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        4,
+        20
+      ]
+    },
+    {
+      "candidate": "owenlopez",
+      "format": "sha256d",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        4,
+        20
+      ]
+    },
+    {
+      "candidate": "ovation_",
+      "format": "zero_indexed",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        20
+      ]
+    },
+    {
+      "candidate": "oomimzaa",
+      "format": "space",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        20
+      ]
+    },
+    {
+      "candidate": "ohio1997",
+      "format": "space",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        20
+      ]
+    },
+    {
+      "candidate": "nyleah",
+      "format": "plain",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        3,
+        20
+      ]
+    },
+    {
+      "candidate": "nyleah",
+      "format": "sha256d",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        3,
+        20
+      ]
+    },
+    {
+      "candidate": "ny1yay",
+      "format": "zero_indexed",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        4,
+        5,
+        20
+      ]
+    },
+    {
+      "candidate": "nv021432",
+      "format": "dash",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        3,
+        6,
+        20
+      ]
+    },
+    {
+      "candidate": "noemi9946",
+      "format": "dash",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        20
+      ]
+    },
+    {
+      "candidate": "niketoro",
+      "format": "plain",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        20
+      ]
+    },
+    {
+      "candidate": "niketoro",
+      "format": "sha256d",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        20
+      ]
+    },
+    {
+      "candidate": "nfsmostwanted3",
+      "format": "plain",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        3,
+        20
+      ]
+    },
+    {
+      "candidate": "nfsmostwanted3",
+      "format": "sha256d",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        3,
+        20
+      ]
+    },
+    {
+      "candidate": "nesha1510",
+      "format": "dash",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        20
+      ]
+    },
+    {
+      "candidate": "mz.tanniehill",
+      "format": "colon",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        4,
+        20
+      ]
+    },
+    {
+      "candidate": "mstcarlos",
+      "format": "colon",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        20
+      ]
+    },
+    {
+      "candidate": "motorolanana",
+      "format": "plain",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        20
+      ]
+    },
+    {
+      "candidate": "motorolanana",
+      "format": "sha256d",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        20
+      ]
+    },
+    {
+      "candidate": "mood991",
+      "format": "dash",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        20
+      ]
+    },
+    {
+      "candidate": "molopayaso1",
+      "format": "zero_indexed",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        20
+      ]
+    },
+    {
+      "candidate": "mizzluva",
+      "format": "n_then_m",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        20
+      ]
+    },
+    {
+      "candidate": "majorr",
+      "format": "dash",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        3,
+        20
+      ]
+    },
+    {
+      "candidate": "mai09876",
+      "format": "dash",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        20
+      ]
+    },
+    {
+      "candidate": "magg1414",
+      "format": "colon",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        20
+      ]
+    },
+    {
+      "candidate": "maeira",
+      "format": "dash",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        20
+      ]
+    },
+    {
+      "candidate": "ljjerry",
+      "format": "dash",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        4,
+        5,
+        20
+      ]
+    },
+    {
+      "candidate": "letmeinow1",
+      "format": "dash",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        20
+      ]
+    },
+    {
+      "candidate": "lespao",
+      "format": "colon_zero_indexed",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        20
+      ]
+    },
+    {
+      "candidate": "krb3370",
+      "format": "plain",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        5,
+        6,
+        20
+      ]
+    },
+    {
+      "candidate": "krb3370",
+      "format": "sha256d",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        5,
+        6,
+        20
+      ]
+    },
+    {
+      "candidate": "khaysie",
+      "format": "colon_zero_indexed",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        20
+      ]
+    },
+    {
+      "candidate": "keyunna12",
+      "format": "n_then_m",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        8,
+        20
+      ]
+    },
+    {
+      "candidate": "kendall1989",
+      "format": "zero_indexed",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        20
+      ]
+    },
+    {
+      "candidate": "junpete67",
+      "format": "colon",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        20
+      ]
+    },
+    {
+      "candidate": "joshy-1",
+      "format": "plain",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        20
+      ]
+    },
+    {
+      "candidate": "joshy-1",
+      "format": "sha256d",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        20
+      ]
+    },
+    {
+      "candidate": "johnjc76",
+      "format": "colon",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        20
+      ]
+    },
+    {
+      "candidate": "jillscute1",
+      "format": "colon",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        20
+      ]
+    },
+    {
+      "candidate": "ivanymechi",
+      "format": "n_then_m",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        20
+      ]
+    },
+    {
+      "candidate": "inlaag12",
+      "format": "space",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        20
+      ]
+    },
+    {
+      "candidate": "imakittycat",
+      "format": "colon_zero_indexed",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        20
+      ]
+    },
+    {
+      "candidate": "ilovejoce",
+      "format": "n_then_m",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        3,
+        20
+      ]
+    },
+    {
+      "candidate": "i3c3e3s3o3u3l3",
+      "format": "n_then_m",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        3,
+        20
+      ]
+    },
+    {
+      "candidate": "haruithai",
+      "format": "dash",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        20
+      ]
+    },
+    {
+      "candidate": "hanakiba",
+      "format": "colon_zero_indexed",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        20
+      ]
+    },
+    {
+      "candidate": "giro07",
+      "format": "plain",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        20
+      ]
+    },
+    {
+      "candidate": "giro07",
+      "format": "sha256d",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        20
+      ]
+    },
+    {
+      "candidate": "galiciagalicia",
+      "format": "plain",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        20
+      ]
+    },
+    {
+      "candidate": "galiciagalicia",
+      "format": "sha256d",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        20
+      ]
+    },
+    {
+      "candidate": "fygfkym",
+      "format": "colon",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        3,
+        20
+      ]
+    },
+    {
+      "candidate": "flub209fry713",
+      "format": "colon_zero_indexed",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        20
+      ]
+    },
+    {
+      "candidate": "fire417",
+      "format": "plain",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        3,
+        20
+      ]
+    },
+    {
+      "candidate": "fire417",
+      "format": "sha256d",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        3,
+        20
+      ]
+    },
+    {
+      "candidate": "douluvit?",
+      "format": "colon",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        5,
+        20
+      ]
+    },
+    {
+      "candidate": "do-c777",
+      "format": "space",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        20
+      ]
+    },
+    {
+      "candidate": "dlee27",
+      "format": "plain",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        5,
+        20
+      ]
+    },
+    {
+      "candidate": "dlee27",
+      "format": "sha256d",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        5,
+        20
+      ]
+    },
+    {
+      "candidate": "dlbc34",
+      "format": "plain",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        3,
+        20
+      ]
+    },
+    {
+      "candidate": "dlbc34",
+      "format": "sha256d",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        3,
+        20
+      ]
+    },
+    {
+      "candidate": "dicam",
+      "format": "zero_indexed",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        20
+      ]
+    },
+    {
+      "candidate": "diamondroad12",
+      "format": "n_then_m",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        5,
+        20
+      ]
+    },
+    {
+      "candidate": "desmondligores",
+      "format": "zero_indexed",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        3,
+        20
+      ]
+    },
+    {
+      "candidate": "daledavidson1",
+      "format": "n_then_m",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        4,
+        20
+      ]
+    },
+    {
+      "candidate": "crs9215",
+      "format": "plain",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        3,
+        20
+      ]
+    },
+    {
+      "candidate": "crs9215",
+      "format": "sha256d",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        3,
+        20
+      ]
+    },
+    {
+      "candidate": "cosmoywanda55",
+      "format": "space",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        20
+      ]
+    },
+    {
+      "candidate": "comanchetos",
+      "format": "colon_zero_indexed",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        3,
+        20
+      ]
+    },
+    {
+      "candidate": "chittone",
+      "format": "colon",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        20
+      ]
+    },
+    {
+      "candidate": "checkonetwodude",
+      "format": "colon_zero_indexed",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        20
+      ]
+    },
+    {
+      "candidate": "caremanuel05",
+      "format": "space",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        3,
+        20
+      ]
+    },
+    {
+      "candidate": "bsbco2004",
+      "format": "colon",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        3,
+        20
+      ]
+    },
+    {
+      "candidate": "brewy",
+      "format": "colon",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        3,
+        20
+      ]
+    },
+    {
+      "candidate": "bootin",
+      "format": "space",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        20
+      ]
+    },
+    {
+      "candidate": "bfree2",
+      "format": "dash",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        20
+      ]
+    },
+    {
+      "candidate": "bexioms",
+      "format": "colon_zero_indexed",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        5,
+        20
+      ]
+    },
+    {
+      "candidate": "babeiibratz",
+      "format": "colon",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        3,
+        4,
+        20
+      ]
+    },
+    {
+      "candidate": "b0wflex",
+      "format": "colon",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        20
+      ]
+    },
+    {
+      "candidate": "andresdelportillo",
+      "format": "colon_zero_indexed",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        20
+      ]
+    },
+    {
+      "candidate": "amigop",
+      "format": "space",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        20
+      ]
+    },
+    {
+      "candidate": "aliibt",
+      "format": "colon",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        3,
+        20
+      ]
+    },
+    {
+      "candidate": "alberthijn07",
+      "format": "dash",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        4,
+        20
+      ]
+    },
+    {
+      "candidate": "TONY04",
+      "format": "colon_zero_indexed",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        20
+      ]
+    },
+    {
+      "candidate": "REDDEVILS8",
+      "format": "zero_indexed",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        20
+      ]
+    },
+    {
+      "candidate": "Ohmygod1",
+      "format": "plain",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        3,
+        20
+      ]
+    },
+    {
+      "candidate": "Ohmygod1",
+      "format": "sha256d",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        3,
+        20
+      ]
+    },
+    {
+      "candidate": "JA50N1",
+      "format": "zero_indexed",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        3,
+        20
+      ]
+    },
+    {
+      "candidate": "DeLl200",
+      "format": "space",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        4,
+        20
+      ]
+    },
+    {
+      "candidate": "Dannymanofgod",
+      "format": "colon_zero_indexed",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        20
+      ]
+    },
+    {
+      "candidate": "Chunkie10",
+      "format": "plain",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        6,
+        20
+      ]
+    },
+    {
+      "candidate": "Chunkie10",
+      "format": "sha256d",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        6,
+        20
+      ]
+    },
+    {
+      "candidate": "Blondell",
+      "format": "dash",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        20
+      ]
+    },
+    {
+      "candidate": "Big C",
+      "format": "n_then_m",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        4,
+        20
+      ]
+    },
+    {
+      "candidate": "98649275",
+      "format": "colon",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        20
+      ]
+    },
+    {
+      "candidate": "952sang",
+      "format": "n_then_m",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        20
+      ]
+    },
+    {
+      "candidate": "863750",
+      "format": "space",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        5,
+        20
+      ]
+    },
+    {
+      "candidate": "8624711i",
+      "format": "n_then_m",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        20
+      ]
+    },
+    {
+      "candidate": "83tiorey777",
+      "format": "colon",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        20
+      ]
+    },
+    {
+      "candidate": "77801976",
+      "format": "plain",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        5,
+        20
+      ]
+    },
+    {
+      "candidate": "77801976",
+      "format": "sha256d",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        5,
+        20
+      ]
+    },
+    {
+      "candidate": "7285947",
+      "format": "plain",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        20
+      ]
+    },
+    {
+      "candidate": "7285947",
+      "format": "sha256d",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        20
+      ]
+    },
+    {
+      "candidate": "7122piky",
+      "format": "colon",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        20
+      ]
+    },
+    {
+      "candidate": "67043281",
+      "format": "plain",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        3,
+        20
+      ]
+    },
+    {
+      "candidate": "67043281",
+      "format": "sha256d",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        3,
+        20
+      ]
+    },
+    {
+      "candidate": "62614149",
+      "format": "colon_zero_indexed",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        20
+      ]
+    },
+    {
+      "candidate": "559629a",
+      "format": "plain",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        3,
+        20
+      ]
+    },
+    {
+      "candidate": "559629a",
+      "format": "sha256d",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        3,
+        20
+      ]
+    },
+    {
+      "candidate": "5017362",
+      "format": "n_then_m",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        4,
+        20
+      ]
+    },
+    {
+      "candidate": "5/2/004",
+      "format": "colon",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        3,
+        7,
+        20
+      ]
+    },
+    {
+      "candidate": "488886a",
+      "format": "zero_indexed",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        4,
+        20
+      ]
+    },
+    {
+      "candidate": "4666700",
+      "format": "n_then_m",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        3,
+        20
+      ]
+    },
+    {
+      "candidate": "40453707",
+      "format": "space",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        5,
+        20
+      ]
+    },
+    {
+      "candidate": "384335",
+      "format": "dash",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        3,
+        20
+      ]
+    },
+    {
+      "candidate": "3491laughter",
+      "format": "space",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        20
+      ]
+    },
+    {
+      "candidate": "31247356",
+      "format": "space",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        20
+      ]
+    },
+    {
+      "candidate": "304kr",
+      "format": "colon_zero_indexed",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        3,
+        20
+      ]
+    },
+    {
+      "candidate": "2987825",
+      "format": "n_then_m",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        20
+      ]
+    },
+    {
+      "candidate": "250585N",
+      "format": "space",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        20
+      ]
+    },
+    {
+      "candidate": "23max23dor23",
+      "format": "space",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        3,
+        20
+      ]
+    },
+    {
+      "candidate": "2348859",
+      "format": "plain",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        3,
+        20
+      ]
+    },
+    {
+      "candidate": "2348859",
+      "format": "sha256d",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        3,
+        20
+      ]
+    },
+    {
+      "candidate": "23458869",
+      "format": "n_then_m",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        20
+      ]
+    },
+    {
+      "candidate": "230793ferxiz",
+      "format": "n_then_m",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        5,
+        20
+      ]
+    },
+    {
+      "candidate": "2211401",
+      "format": "n_then_m",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        20
+      ]
+    },
+    {
+      "candidate": "2206723",
+      "format": "plain",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        20
+      ]
+    },
+    {
+      "candidate": "2206723",
+      "format": "sha256d",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        20
+      ]
+    },
+    {
+      "candidate": "20836vtbn",
+      "format": "n_then_m",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        3,
+        20
+      ]
+    },
+    {
+      "candidate": "20781761cylan",
+      "format": "n_then_m",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        20
+      ]
+    },
+    {
+      "candidate": "20242977",
+      "format": "plain",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        3,
+        20
+      ]
+    },
+    {
+      "candidate": "20242977",
+      "format": "sha256d",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        3,
+        20
+      ]
+    },
+    {
+      "candidate": "1988july1988",
+      "format": "n_then_m",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        5,
+        20
+      ]
+    },
+    {
+      "candidate": "17barb1e",
+      "format": "zero_indexed",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        20
+      ]
+    },
+    {
+      "candidate": "14yous",
+      "format": "dash",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        4,
+        20
+      ]
+    },
+    {
+      "candidate": "13911927",
+      "format": "plain",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        3,
+        5,
+        20
+      ]
+    },
+    {
+      "candidate": "13911927",
+      "format": "sha256d",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        3,
+        5,
+        20
+      ]
+    },
+    {
+      "candidate": "1118290261",
+      "format": "space",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        20
+      ]
+    },
+    {
+      "candidate": "11048902",
+      "format": "space",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        7,
+        20
+      ]
+    },
+    {
+      "candidate": "1-lglp",
+      "format": "n_then_m",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        20
+      ]
+    },
+    {
+      "candidate": "0864170136",
+      "format": "plain",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        3,
+        8,
+        20
+      ]
+    },
+    {
+      "candidate": "0864170136",
+      "format": "sha256d",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        3,
+        8,
+        20
+      ]
+    },
+    {
+      "candidate": "0818393039",
+      "format": "zero_indexed",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        20
+      ]
+    },
+    {
+      "candidate": "0816255050",
+      "format": "space",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        20
+      ]
+    },
+    {
+      "candidate": "079023612",
+      "format": "colon_zero_indexed",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        3,
+        4,
+        20
+      ]
+    },
+    {
+      "candidate": "0745066",
+      "format": "dash",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        20
+      ]
+    },
+    {
+      "candidate": "065500465",
+      "format": "colon",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        20
+      ]
+    },
+    {
+      "candidate": "045362172",
+      "format": "zero_indexed",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        20
+      ]
+    },
+    {
+      "candidate": "0321enelia",
+      "format": "colon_zero_indexed",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        20
+      ]
+    },
+    {
+      "candidate": "0261068",
+      "format": "colon",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        3,
+        20
+      ]
+    },
+    {
+      "candidate": "0198208014",
+      "format": "colon",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        20
+      ]
+    },
+    {
+      "candidate": "0123040811",
+      "format": "colon",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        3,
+        20
+      ]
+    }
+  ],
+  "confirmed_multi_hit": [],
+  "filter_n_used": [
+    20,
+    30,
+    40,
+    50,
+    60,
+    70,
+    80,
+    90,
+    100,
+    110,
+    120,
+    130
+  ],
+  "mutate_top_n": 150000,
+  "rockyou_source": "https://github.com/brannondorsey/naive-hashcat/releases/download/data/rockyou.txt",
+  "_correction_note": "Original >=2-raw-hit threshold was a bug: it did not exclude puzzle n=1 (apply_puzzle_mask hardcodes masked=1 for any n<=1, so EVERY candidate trivially matches n=1) or account for n=2/n=3/n=4 matching by pure chance 50%/25%/12.5% of the time. All 371 originally-reported \"confirmed\" matches were this artifact, not real signal -- verified: 0/371 had 2+ hits at n>=20. Corrected here to require 2+ hits at n>=20 (chance rate <2e-6 per hit), matching the significance discipline used throughout the rest of this research program."
+}

@@ -1,0 +1,20 @@
+__pycache__/
+*.pyc
+.venv/
+logs/*.log
+
+# Phase 8/9 search runtime state -- checkpoints/logs/DB churn constantly and
+# are not source; any recovered-key file must never reach git under any
+# circumstance.
+data/search_state/
+work/
+FOUND*
+found*
+secrets/
+*.key
+
+# compiled search engine binaries -- build with:
+#   cc -O3 -march=native -pthread -o engine src/engine.c -lm
+#   cc -O3 -march=native -msse4.1 -msha -pthread -o stretch_bench src/stretch_bench.c
+engine
+stretch_bench

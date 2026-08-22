@@ -1,0 +1,706 @@
+{
+  "n_tests": 76,
+  "tests": [
+    {
+      "name": "normalized position ~ Uniform(0,1) [KS]",
+      "statistic": 0.07147248948823706,
+      "p": 0.7997938752952837,
+      "p_holm": 1.0,
+      "p_bh": 0.9559091175673045,
+      "method": "Kolmogorov-Smirnov",
+      "detail": "n=77, mean=0.5137 (expected 0.5)"
+    },
+    {
+      "name": "normalized position ~ Uniform(0,1) [AD]",
+      "statistic": 0.2752850790744361,
+      "p": 0.6765,
+      "p_holm": 1.0,
+      "p_bh": 0.9218756383275996,
+      "method": "Anderson-Darling, Monte Carlo null",
+      "detail": "n=77"
+    },
+    {
+      "name": "monobit frequency over pooled offset bits",
+      "statistic": -0.9456755413789368,
+      "p": 0.344314101275049,
+      "p_holm": 1.0,
+      "p_bh": 0.8949251297596493,
+      "method": "normal approximation",
+      "detail": "1788/3633 ones = 0.49216"
+    },
+    {
+      "name": "runs test over pooled offset bits",
+      "statistic": -0.0716464251393269,
+      "p": 0.9428832930637026,
+      "p_holm": 1.0,
+      "p_bh": 1.0,
+      "method": "NIST SP800-22 runs",
+      "detail": "runs=1813, expected=1816.1"
+    },
+    {
+      "name": "Hamming weight of offsets ~ Binomial(n-1, 1/2)",
+      "statistic": 0.14864864864864868,
+      "p": 0.06835118692867784,
+      "p_holm": 1.0,
+      "p_bh": 0.8949251297596493,
+      "method": "KS on standardized weights",
+      "detail": "n=74, mean z=-0.123"
+    },
+    {
+      "name": "lag-1 Pearson corr of normalized position",
+      "statistic": 0.06681066837844167,
+      "p": 0.5999045716178628,
+      "p_holm": 1.0,
+      "p_bh": 0.9218756383275996,
+      "method": "Pearson",
+      "detail": "64 consecutive pairs"
+    },
+    {
+      "name": "lag-1 Spearman corr of normalized position",
+      "statistic": 0.06625457875457876,
+      "p": 0.6029505583111573,
+      "p_holm": 1.0,
+      "p_bh": 0.9218756383275996,
+      "method": "Spearman",
+      "detail": "64 consecutive pairs"
+    },
+    {
+      "name": "lag-2 Pearson corr of normalized position",
+      "statistic": -0.1292051759128456,
+      "p": 0.3128614007157348,
+      "p_holm": 1.0,
+      "p_bh": 0.8949251297596493,
+      "method": "Pearson",
+      "detail": "63 pairs"
+    },
+    {
+      "name": "normalized position vs puzzle number (trend)",
+      "statistic": 0.04461328145538671,
+      "p": 0.7000383571478107,
+      "p_holm": 1.0,
+      "p_bh": 0.9218756383275996,
+      "method": "Spearman",
+      "detail": "n=77"
+    },
+    {
+      "name": "byte-value chi-square over pooled bits",
+      "statistic": 295.95594713656396,
+      "p": 0.0397317633541656,
+      "p_holm": 1.0,
+      "p_bh": 0.8949251297596493,
+      "method": "chi-square (255 df)",
+      "detail": "454 bytes"
+    },
+    {
+      "name": "low 3-bit value distribution",
+      "statistic": 11.835443037974684,
+      "p": 0.10610193964252362,
+      "p_holm": 1.0,
+      "p_bh": 0.8949251297596493,
+      "method": "chi-square",
+      "detail": "n=79 (most extreme of k=1,2,3,4,8)"
+    },
+    {
+      "name": "top 3-bit block distribution",
+      "statistic": 7.987341772151899,
+      "p": 0.3337114186890341,
+      "p_holm": 1.0,
+      "p_bh": 0.8949251297596493,
+      "method": "chi-square",
+      "detail": "n=79 (most extreme of k=1,2,3,4)"
+    },
+    {
+      "name": "bit bias @ LSB+0",
+      "statistic": 0.4691358024691358,
+      "p": 0.6569924675863577,
+      "p_holm": 1.0,
+      "p_bh": 0.9218756383275996,
+      "method": "exact binomial",
+      "detail": "38/81"
+    },
+    {
+      "name": "bit bias @ LSB+1",
+      "statistic": 0.4625,
+      "p": 0.5764306261883931,
+      "p_holm": 1.0,
+      "p_bh": 0.9218756383275996,
+      "method": "exact binomial",
+      "detail": "37/80"
+    },
+    {
+      "name": "bit bias @ LSB+2",
+      "statistic": 0.6075949367088608,
+      "p": 0.07116340869529121,
+      "p_holm": 1.0,
+      "p_bh": 0.8949251297596493,
+      "method": "exact binomial",
+      "detail": "48/79"
+    },
+    {
+      "name": "bit bias @ LSB+3",
+      "statistic": 0.44871794871794873,
+      "p": 0.4282070357175807,
+      "p_holm": 1.0,
+      "p_bh": 0.8949251297596493,
+      "method": "exact binomial",
+      "detail": "35/78"
+    },
+    {
+      "name": "bit bias @ LSB+4",
+      "statistic": 0.4675324675324675,
+      "p": 0.6487911623106449,
+      "p_holm": 1.0,
+      "p_bh": 0.9218756383275996,
+      "method": "exact binomial",
+      "detail": "36/77"
+    },
+    {
+      "name": "bit bias @ LSB+5",
+      "statistic": 0.4342105263157895,
+      "p": 0.3018724904870079,
+      "p_holm": 1.0,
+      "p_bh": 0.8949251297596493,
+      "method": "exact binomial",
+      "detail": "33/76"
+    },
+    {
+      "name": "bit bias @ LSB+6",
+      "statistic": 0.52,
+      "p": 0.8175538505509841,
+      "p_holm": 1.0,
+      "p_bh": 0.9559091175673045,
+      "method": "exact binomial",
+      "detail": "39/75"
+    },
+    {
+      "name": "bit bias @ LSB+7",
+      "statistic": 0.44594594594594594,
+      "p": 0.4159851975073046,
+      "p_holm": 1.0,
+      "p_bh": 0.8949251297596493,
+      "method": "exact binomial",
+      "detail": "33/74"
+    },
+    {
+      "name": "bit bias @ LSB+8",
+      "statistic": 0.4520547945205479,
+      "p": 0.48278855684402133,
+      "p_holm": 1.0,
+      "p_bh": 0.8949251297596493,
+      "method": "exact binomial",
+      "detail": "33/73"
+    },
+    {
+      "name": "bit bias @ LSB+9",
+      "statistic": 0.4305555555555556,
+      "p": 0.2887842804141049,
+      "p_holm": 1.0,
+      "p_bh": 0.8949251297596493,
+      "method": "exact binomial",
+      "detail": "31/72"
+    },
+    {
+      "name": "bit bias @ LSB+10",
+      "statistic": 0.5211267605633803,
+      "p": 0.8125886494061619,
+      "p_holm": 1.0,
+      "p_bh": 0.9559091175673045,
+      "method": "exact binomial",
+      "detail": "37/71"
+    },
+    {
+      "name": "bit bias @ LSB+11",
+      "statistic": 0.5571428571428572,
+      "p": 0.40296307504607976,
+      "p_holm": 1.0,
+      "p_bh": 0.8949251297596493,
+      "method": "exact binomial",
+      "detail": "39/70"
+    },
+    {
+      "name": "bit bias @ LSB+12",
+      "statistic": 0.5072463768115942,
+      "p": 1.0,
+      "p_holm": 1.0,
+      "p_bh": 1.0,
+      "method": "exact binomial",
+      "detail": "35/69"
+    },
+    {
+      "name": "bit bias @ LSB+13",
+      "statistic": 0.5588235294117647,
+      "p": 0.39612484029702977,
+      "p_holm": 1.0,
+      "p_bh": 0.8949251297596493,
+      "method": "exact binomial",
+      "detail": "38/68"
+    },
+    {
+      "name": "bit bias @ LSB+14",
+      "statistic": 0.44776119402985076,
+      "p": 0.46381761789686937,
+      "p_holm": 1.0,
+      "p_bh": 0.8949251297596493,
+      "method": "exact binomial",
+      "detail": "30/67"
+    },
+    {
+      "name": "bit bias @ LSB+15",
+      "statistic": 0.4090909090909091,
+      "p": 0.17528579444303533,
+      "p_holm": 1.0,
+      "p_bh": 0.8949251297596493,
+      "method": "exact binomial",
+      "detail": "27/66"
+    },
+    {
+      "name": "bit bias @ LSB+16",
+      "statistic": 0.4153846153846154,
+      "p": 0.2145391940081784,
+      "p_holm": 1.0,
+      "p_bh": 0.8949251297596493,
+      "method": "exact binomial",
+      "detail": "27/65"
+    },
+    {
+      "name": "bit bias @ LSB+17",
+      "statistic": 0.5,
+      "p": 1.0,
+      "p_holm": 1.0,
+      "p_bh": 1.0,
+      "method": "exact binomial",
+      "detail": "32/64"
+    },
+    {
+      "name": "bit bias @ LSB+18",
+      "statistic": 0.5238095238095238,
+      "p": 0.8013064925040663,
+      "p_holm": 1.0,
+      "p_bh": 0.9559091175673045,
+      "method": "exact binomial",
+      "detail": "33/63"
+    },
+    {
+      "name": "bit bias @ LSB+19",
+      "statistic": 0.46774193548387094,
+      "p": 0.7035366713552733,
+      "p_holm": 1.0,
+      "p_bh": 0.9218756383275996,
+      "method": "exact binomial",
+      "detail": "29/62"
+    },
+    {
+      "name": "bit bias @ LSB+20",
+      "statistic": 0.4426229508196721,
+      "p": 0.4426260049464714,
+      "p_holm": 1.0,
+      "p_bh": 0.8949251297596493,
+      "method": "exact binomial",
+      "detail": "27/61"
+    },
+    {
+      "name": "bit bias @ LSB+21",
+      "statistic": 0.43333333333333335,
+      "p": 0.36629400670329104,
+      "p_holm": 1.0,
+      "p_bh": 0.8949251297596493,
+      "method": "exact binomial",
+      "detail": "26/60"
+    },
+    {
+      "name": "bit bias @ LSB+22",
+      "statistic": 0.559322033898305,
+      "p": 0.43499280512215344,
+      "p_holm": 1.0,
+      "p_bh": 0.8949251297596493,
+      "method": "exact binomial",
+      "detail": "33/59"
+    },
+    {
+      "name": "bit bias @ LSB+23",
+      "statistic": 0.5344827586206896,
+      "p": 0.6940040940761318,
+      "p_holm": 1.0,
+      "p_bh": 0.9218756383275996,
+      "method": "exact binomial",
+      "detail": "31/58"
+    },
+    {
+      "name": "bit bias @ LSB+24",
+      "statistic": 0.5087719298245614,
+      "p": 1.0,
+      "p_holm": 1.0,
+      "p_bh": 1.0,
+      "method": "exact binomial",
+      "detail": "29/57"
+    },
+    {
+      "name": "bit bias @ LSB+25",
+      "statistic": 0.5714285714285714,
+      "p": 0.34968195298368476,
+      "p_holm": 1.0,
+      "p_bh": 0.8949251297596493,
+      "method": "exact binomial",
+      "detail": "32/56"
+    },
+    {
+      "name": "bit bias @ LSB+26",
+      "statistic": 0.4909090909090909,
+      "p": 1.0,
+      "p_holm": 1.0,
+      "p_bh": 1.0,
+      "method": "exact binomial",
+      "detail": "27/55"
+    },
+    {
+      "name": "bit bias @ LSB+27",
+      "statistic": 0.4444444444444444,
+      "p": 0.49661743531793345,
+      "p_holm": 1.0,
+      "p_bh": 0.898641073432451,
+      "method": "exact binomial",
+      "detail": "24/54"
+    },
+    {
+      "name": "bit bias @ LSB+28",
+      "statistic": 0.5660377358490566,
+      "p": 0.4101027163746913,
+      "p_holm": 1.0,
+      "p_bh": 0.8949251297596493,
+      "method": "exact binomial",
+      "detail": "30/53"
+    },
+    {
+      "name": "bit bias @ LSB+29",
+      "statistic": 0.5384615384615384,
+      "p": 0.6778086391424605,
+      "p_holm": 1.0,
+      "p_bh": 0.9218756383275996,
+      "method": "exact binomial",
+      "detail": "28/52"
+    },
+    {
+      "name": "bit bias @ LSB+30",
+      "statistic": 0.37254901960784315,
+      "p": 0.09191454981585423,
+      "p_holm": 1.0,
+      "p_bh": 0.8949251297596493,
+      "method": "exact binomial",
+      "detail": "19/51"
+    },
+    {
+      "name": "bit bias @ LSB+31",
+      "statistic": 0.58,
+      "p": 0.3222363203575469,
+      "p_holm": 1.0,
+      "p_bh": 0.8949251297596493,
+      "method": "exact binomial",
+      "detail": "29/50"
+    },
+    {
+      "name": "bit bias @ MSB-0",
+      "statistic": 0.5061728395061729,
+      "p": 1.0,
+      "p_holm": 1.0,
+      "p_bh": 1.0,
+      "method": "exact binomial",
+      "detail": "41/81"
+    },
+    {
+      "name": "bit bias @ MSB-1",
+      "statistic": 0.525,
+      "p": 0.7375543089843226,
+      "p_holm": 1.0,
+      "p_bh": 0.9500699573357376,
+      "method": "exact binomial",
+      "detail": "42/80"
+    },
+    {
+      "name": "bit bias @ MSB-2",
+      "statistic": 0.5569620253164557,
+      "p": 0.3681876338306311,
+      "p_holm": 1.0,
+      "p_bh": 0.8949251297596493,
+      "method": "exact binomial",
+      "detail": "44/79"
+    },
+    {
+      "name": "bit bias @ MSB-3",
+      "statistic": 0.5128205128205128,
+      "p": 0.9099464518745242,
+      "p_holm": 1.0,
+      "p_bh": 1.0,
+      "method": "exact binomial",
+      "detail": "40/78"
+    },
+    {
+      "name": "bit bias @ MSB-4",
+      "statistic": 0.42857142857142855,
+      "p": 0.2543046661477,
+      "p_holm": 1.0,
+      "p_bh": 0.8949251297596493,
+      "method": "exact binomial",
+      "detail": "33/77"
+    },
+    {
+      "name": "bit bias @ MSB-5",
+      "statistic": 0.4342105263157895,
+      "p": 0.3018724904870079,
+      "p_holm": 1.0,
+      "p_bh": 0.8949251297596493,
+      "method": "exact binomial",
+      "detail": "33/76"
+    },
+    {
+      "name": "bit bias @ MSB-6",
+      "statistic": 0.5066666666666667,
+      "p": 1.0,
+      "p_holm": 1.0,
+      "p_bh": 1.0,
+      "method": "exact binomial",
+      "detail": "38/75"
+    },
+    {
+      "name": "bit bias @ MSB-7",
+      "statistic": 0.5675675675675675,
+      "p": 0.29541328065567,
+      "p_holm": 1.0,
+      "p_bh": 0.8949251297596493,
+      "method": "exact binomial",
+      "detail": "42/74"
+    },
+    {
+      "name": "bit bias @ MSB-8",
+      "statistic": 0.3150684931506849,
+      "p": 0.0021181727464006325,
+      "p_holm": 0.16098112872644807,
+      "p_bh": 0.16098112872644807,
+      "method": "exact binomial",
+      "detail": "23/73"
+    },
+    {
+      "name": "bit bias @ MSB-9",
+      "statistic": 0.4583333333333333,
+      "p": 0.555997717760971,
+      "p_holm": 1.0,
+      "p_bh": 0.9218756383275996,
+      "method": "exact binomial",
+      "detail": "33/72"
+    },
+    {
+      "name": "bit bias @ MSB-10",
+      "statistic": 0.4788732394366197,
+      "p": 0.8125886494061619,
+      "p_holm": 1.0,
+      "p_bh": 0.9559091175673045,
+      "method": "exact binomial",
+      "detail": "34/71"
+    },
+    {
+      "name": "bit bias @ MSB-11",
+      "statistic": 0.5714285714285714,
+      "p": 0.281978921793656,
+      "p_holm": 1.0,
+      "p_bh": 0.8949251297596493,
+      "method": "exact binomial",
+      "detail": "40/70"
+    },
+    {
+      "name": "bit bias @ MSB-12",
+      "statistic": 0.5507246376811594,
+      "p": 0.47036853185814453,
+      "p_holm": 1.0,
+      "p_bh": 0.8949251297596493,
+      "method": "exact binomial",
+      "detail": "38/69"
+    },
+    {
+      "name": "bit bias @ MSB-13",
+      "statistic": 0.5735294117647058,
+      "p": 0.2749903961710005,
+      "p_holm": 1.0,
+      "p_bh": 0.8949251297596493,
+      "method": "exact binomial",
+      "detail": "39/68"
+    },
+    {
+      "name": "bit bias @ MSB-14",
+      "statistic": 0.4925373134328358,
+      "p": 1.0,
+      "p_holm": 1.0,
+      "p_bh": 1.0,
+      "method": "exact binomial",
+      "detail": "33/67"
+    },
+    {
+      "name": "bit bias @ MSB-15",
+      "statistic": 0.4090909090909091,
+      "p": 0.17528579444303533,
+      "p_holm": 1.0,
+      "p_bh": 0.8949251297596493,
+      "method": "exact binomial",
+      "detail": "27/66"
+    },
+    {
+      "name": "bit bias @ MSB-16",
+      "statistic": 0.46153846153846156,
+      "p": 0.6201447650813029,
+      "p_holm": 1.0,
+      "p_bh": 0.9218756383275996,
+      "method": "exact binomial",
+      "detail": "30/65"
+    },
+    {
+      "name": "bit bias @ MSB-17",
+      "statistic": 0.5,
+      "p": 1.0,
+      "p_holm": 1.0,
+      "p_bh": 1.0,
+      "method": "exact binomial",
+      "detail": "32/64"
+    },
+    {
+      "name": "bit bias @ MSB-18",
+      "statistic": 0.5396825396825397,
+      "p": 0.6146550157654618,
+      "p_holm": 1.0,
+      "p_bh": 0.9218756383275996,
+      "method": "exact binomial",
+      "detail": "34/63"
+    },
+    {
+      "name": "bit bias @ MSB-19",
+      "statistic": 0.43548387096774194,
+      "p": 0.37415171240479483,
+      "p_holm": 1.0,
+      "p_bh": 0.8949251297596493,
+      "method": "exact binomial",
+      "detail": "27/62"
+    },
+    {
+      "name": "bit bias @ MSB-20",
+      "statistic": 0.5901639344262295,
+      "p": 0.20003136851310313,
+      "p_holm": 1.0,
+      "p_bh": 0.8949251297596493,
+      "method": "exact binomial",
+      "detail": "36/61"
+    },
+    {
+      "name": "bit bias @ MSB-21",
+      "statistic": 0.5,
+      "p": 1.0,
+      "p_holm": 1.0,
+      "p_bh": 1.0,
+      "method": "exact binomial",
+      "detail": "30/60"
+    },
+    {
+      "name": "bit bias @ MSB-22",
+      "statistic": 0.4067796610169492,
+      "p": 0.19252645776146274,
+      "p_holm": 1.0,
+      "p_bh": 0.8949251297596493,
+      "method": "exact binomial",
+      "detail": "24/59"
+    },
+    {
+      "name": "bit bias @ MSB-23",
+      "statistic": 0.39655172413793105,
+      "p": 0.14800580076020603,
+      "p_holm": 1.0,
+      "p_bh": 0.8949251297596493,
+      "method": "exact binomial",
+      "detail": "23/58"
+    },
+    {
+      "name": "bit bias @ MSB-24",
+      "statistic": 0.45614035087719296,
+      "p": 0.5966417603730826,
+      "p_holm": 1.0,
+      "p_bh": 0.9218756383275996,
+      "method": "exact binomial",
+      "detail": "26/57"
+    },
+    {
+      "name": "bit bias @ MSB-25",
+      "statistic": 0.5357142857142857,
+      "p": 0.6888797607233395,
+      "p_holm": 1.0,
+      "p_bh": 0.9218756383275996,
+      "method": "exact binomial",
+      "detail": "30/56"
+    },
+    {
+      "name": "bit bias @ MSB-26",
+      "statistic": 0.4727272727272727,
+      "p": 0.7877061896700431,
+      "p_holm": 1.0,
+      "p_bh": 0.9559091175673045,
+      "method": "exact binomial",
+      "detail": "26/55"
+    },
+    {
+      "name": "bit bias @ MSB-27",
+      "statistic": 0.46296296296296297,
+      "p": 0.6834892282353371,
+      "p_holm": 1.0,
+      "p_bh": 0.9218756383275996,
+      "method": "exact binomial",
+      "detail": "25/54"
+    },
+    {
+      "name": "bit bias @ MSB-28",
+      "statistic": 0.41509433962264153,
+      "p": 0.27167916606550335,
+      "p_holm": 1.0,
+      "p_bh": 0.8949251297596493,
+      "method": "exact binomial",
+      "detail": "22/53"
+    },
+    {
+      "name": "bit bias @ MSB-29",
+      "statistic": 0.6346153846153846,
+      "p": 0.07039422106706228,
+      "p_holm": 1.0,
+      "p_bh": 0.8949251297596493,
+      "method": "exact binomial",
+      "detail": "33/52"
+    },
+    {
+      "name": "bit bias @ MSB-30",
+      "statistic": 0.4117647058823529,
+      "p": 0.2624375357110438,
+      "p_holm": 1.0,
+      "p_bh": 0.8949251297596493,
+      "method": "exact binomial",
+      "detail": "21/51"
+    },
+    {
+      "name": "bit bias @ MSB-31",
+      "statistic": 0.56,
+      "p": 0.47988766169832786,
+      "p_holm": 1.0,
+      "p_bh": 0.8949251297596493,
+      "method": "exact binomial",
+      "detail": "28/50"
+    }
+  ],
+  "structural": [
+    {
+      "name": "nested-truncation hypothesis (single masked master)",
+      "statistic": 0.006166828951639078,
+      "detail": "19/3081 pairs consistent; hypothesis requires 100%"
+    },
+    {
+      "name": "common divisor of consecutive offset differences",
+      "statistic": 1.0,
+      "detail": "gcd=1 over 62 differences (null expects 1)"
+    }
+  ],
+  "summary": {
+    "sig_raw": 2,
+    "sig_holm": 0,
+    "sig_bh": 0
+  }
+}

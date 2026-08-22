@@ -1,0 +1,2045 @@
+{
+  "sources": {
+    "A": "Ryan Castellucci, 'Cracking Cryptocurrency Brainwallets', DEF CON 23, Aug 2015. https://rya.nc/files/cracking_cryptocurrency_brainwallets.pdf (saved: research/hypotheses/seed_guessing/defcon23_castellucci.pdf, fetched 2026-08-19, HTTP 200)",
+    "B": "Vasek, Bonneau, Castellucci, Keith, Moore, 'The Bitcoin Brain Drain: Examining the Use and Abuse of Bitcoin Brain Wallets', Financial Cryptography 2016. https://jbonneau.com/doc/VBCKM16-FC-bitcoin_brain_wallets.pdf (saved: research/hypotheses/seed_guessing/bitcoin_brain_drain_paper.pdf, fetched 2026-08-19, HTTP 200)"
+  },
+  "candidates": [
+    {
+      "phrase": "",
+      "source": "A slide 7 ('Things you should remember') -- $14K sent to empty-string passphrase, stolen in seconds"
+    },
+    {
+      "phrase": "how much wood could a woodchuck chuck if a woodchuck could chuck wood",
+      "source": "A slides 24-31 ('WTF!?'/'The Plan'/'What actually happened') -- 250 BTC (~$20K at the time), the 'woodchuck' drain also independently confirmed in Source B Table 2 rank #1-2 (unintentional + owner drain, $22,466 + $15,267)"
+    },
+    {
+      "phrase": "Down the Rabbit-Hole",
+      "source": "A slide 43 ('Some results') -- held ~85 BTC, July 2012"
+    },
+    {
+      "phrase": "The Quick Brown Fox Jumped Over The Lazy Dot",
+      "source": "A slide 43 ('Some results') -- held ~85 BTC, December 2011 (note: 'Dot' not 'Dog' as literally shown on the slide)"
+    },
+    {
+      "phrase": "gate gate paragate parasamgate bodhi svaha",
+      "source": "A slide 44 ('Some more results')"
+    },
+    {
+      "phrase": "The Persistence Of Memory",
+      "source": "A slide 44 ('Some more results')"
+    },
+    {
+      "phrase": "QTC",
+      "source": "A slide 44 ('Some more results')"
+    },
+    {
+      "phrase": "644122178",
+      "source": "A slide 44 ('Some more results')"
+    },
+    {
+      "phrase": "8964009",
+      "source": "A slide 44 ('Some more results')"
+    },
+    {
+      "phrase": "que me lleve la muerte",
+      "source": "A slide 44 ('Some more results')"
+    },
+    {
+      "phrase": "one two three four five six seven",
+      "source": "A slide 44 ('Some more results'); independently confirmed in Source B section 3 as the FIRST brain wallet observed, September 2011, pre-dating compressed-key support"
+    },
+    {
+      "phrase": "it's a secret to everybody",
+      "source": "A slide 44 ('Some more results')"
+    },
+    {
+      "phrase": "Ph'nglui mglw'nafh Cthulhu R'lyeh wgah'nagl fhtagn",
+      "source": "A slide 44 ('Some more results')"
+    },
+    {
+      "phrase": "my hovercraft is full of eels",
+      "source": "A slide 45 ('A few more results (for the lulz)')"
+    },
+    {
+      "phrase": "Interior Crocodile Alligator",
+      "source": "A slide 45 ('A few more results (for the lulz)')"
+    },
+    {
+      "phrase": "No need to worry, my accountant handles that",
+      "source": "A slide 45 ('A few more results (for the lulz)')"
+    },
+    {
+      "phrase": "tomb-of-the-unknown-soldier-identification-badge",
+      "source": "A slide 45 ('A few more results (for the lulz)')"
+    },
+    {
+      "phrase": "permit me to issue and control the money of a nation and i care not who makes its laws",
+      "source": "A slide 45 ('A few more results (for the lulz)')"
+    },
+    {
+      "phrase": "who is john galt",
+      "source": "A slide 45 ('A few more results (for the lulz)')"
+    },
+    {
+      "phrase": "Live as if you were to die tomorrow. Learn as if you were to live forever.",
+      "source": "A slide 45 ('A few more results (for the lulz)')"
+    },
+    {
+      "phrase": "bitcoin is awesome",
+      "source": "B Table 2 rank #6 -- $5,800 / 500.00 BTC, 1 drain, labelled 'bitcoin is awesome' drain"
+    },
+    {
+      "phrase": "deadsheep",
+      "source": "B Table 2 rank #9 -- $1,429 / 14.29 BTC, 1 drain, labelled 'deadsheep' drain"
+    },
+    {
+      "phrase": "thequickbrownfoxjumpedoverthelazydog",
+      "source": "B Table 2 rank #10 -- $1,322 / 97.66 BTC, 59 drains (all-lowercase, no-space variant -- distinct string from the spaced/capitalized 'Lazy Dot' entry above)"
+    },
+    {
+      "phrase": "correct horse battery staple",
+      "source": "LOWER CONFIDENCE / included for completeness only: this is Castellucci's own canonical xkcd-derived running-demo phrase (A slides 8-13), not stated by him to be an individually confirmed find. Included because Source B Table 1 documents the broader 'xkcd' word-list category (90 wallets, $29,140, and 'passwords derived from xkcd are drained repeatedly the most') as a real cracked category even though this exact string's crack status isn't separately confirmed."
+    }
+  ],
+  "significance_threshold_expected_spurious_count": 0.001,
+  "classic_type1": {
+    "phrases_tested": 24,
+    "formats_tested": [
+      "plain",
+      "colon",
+      "dash",
+      "space",
+      "zero_indexed",
+      "colon_zero_indexed",
+      "n_then_m",
+      "sha256d"
+    ],
+    "total_candidates": 192,
+    "significant_matches": [],
+    "chance_level_coincidences_total": 145,
+    "chance_level_coincidences_by_pattern": {
+      "(2,)": 59,
+      "(2, 3)": 30,
+      "(3,)": 15,
+      "(2, 4)": 9,
+      "(4,)": 5,
+      "(2, 5)": 5,
+      "(7,)": 3,
+      "(2, 3, 6)": 3,
+      "(2, 3, 4)": 2,
+      "(2, 6)": 2,
+      "(5,)": 2,
+      "(2, 3, 8)": 1,
+      "(3, 4)": 1,
+      "(3, 4, 5)": 1,
+      "(6,)": 1,
+      "(2, 4, 5)": 1,
+      "(3, 5, 7)": 1,
+      "(2, 3, 5)": 1,
+      "(5, 6)": 1,
+      "(10,)": 1,
+      "(3, 5)": 1
+    },
+    "elapsed_sec": 0.02,
+    "full_log": [
+      {
+        "phrase_index": 0,
+        "format": "plain",
+        "matches": [
+          2
+        ]
+      },
+      {
+        "phrase_index": 0,
+        "format": "colon",
+        "matches": []
+      },
+      {
+        "phrase_index": 0,
+        "format": "dash",
+        "matches": [
+          2
+        ]
+      },
+      {
+        "phrase_index": 0,
+        "format": "space",
+        "matches": [
+          2,
+          3
+        ]
+      },
+      {
+        "phrase_index": 0,
+        "format": "zero_indexed",
+        "matches": [
+          2
+        ]
+      },
+      {
+        "phrase_index": 0,
+        "format": "colon_zero_indexed",
+        "matches": []
+      },
+      {
+        "phrase_index": 0,
+        "format": "n_then_m",
+        "matches": [
+          2
+        ]
+      },
+      {
+        "phrase_index": 0,
+        "format": "sha256d",
+        "matches": [
+          2
+        ]
+      },
+      {
+        "phrase_index": 1,
+        "format": "plain",
+        "matches": [
+          2,
+          3,
+          4
+        ]
+      },
+      {
+        "phrase_index": 1,
+        "format": "colon",
+        "matches": [
+          2,
+          3
+        ]
+      },
+      {
+        "phrase_index": 1,
+        "format": "dash",
+        "matches": []
+      },
+      {
+        "phrase_index": 1,
+        "format": "space",
+        "matches": [
+          7
+        ]
+      },
+      {
+        "phrase_index": 1,
+        "format": "zero_indexed",
+        "matches": []
+      },
+      {
+        "phrase_index": 1,
+        "format": "colon_zero_indexed",
+        "matches": [
+          3
+        ]
+      },
+      {
+        "phrase_index": 1,
+        "format": "n_then_m",
+        "matches": []
+      },
+      {
+        "phrase_index": 1,
+        "format": "sha256d",
+        "matches": [
+          2,
+          3,
+          4
+        ]
+      },
+      {
+        "phrase_index": 2,
+        "format": "plain",
+        "matches": [
+          2
+        ]
+      },
+      {
+        "phrase_index": 2,
+        "format": "colon",
+        "matches": [
+          3
+        ]
+      },
+      {
+        "phrase_index": 2,
+        "format": "dash",
+        "matches": [
+          4
+        ]
+      },
+      {
+        "phrase_index": 2,
+        "format": "space",
+        "matches": []
+      },
+      {
+        "phrase_index": 2,
+        "format": "zero_indexed",
+        "matches": [
+          2,
+          3
+        ]
+      },
+      {
+        "phrase_index": 2,
+        "format": "colon_zero_indexed",
+        "matches": [
+          2
+        ]
+      },
+      {
+        "phrase_index": 2,
+        "format": "n_then_m",
+        "matches": []
+      },
+      {
+        "phrase_index": 2,
+        "format": "sha256d",
+        "matches": [
+          2
+        ]
+      },
+      {
+        "phrase_index": 3,
+        "format": "plain",
+        "matches": [
+          2,
+          4
+        ]
+      },
+      {
+        "phrase_index": 3,
+        "format": "colon",
+        "matches": []
+      },
+      {
+        "phrase_index": 3,
+        "format": "dash",
+        "matches": [
+          4
+        ]
+      },
+      {
+        "phrase_index": 3,
+        "format": "space",
+        "matches": [
+          4
+        ]
+      },
+      {
+        "phrase_index": 3,
+        "format": "zero_indexed",
+        "matches": []
+      },
+      {
+        "phrase_index": 3,
+        "format": "colon_zero_indexed",
+        "matches": [
+          2
+        ]
+      },
+      {
+        "phrase_index": 3,
+        "format": "n_then_m",
+        "matches": [
+          2,
+          4
+        ]
+      },
+      {
+        "phrase_index": 3,
+        "format": "sha256d",
+        "matches": [
+          2,
+          4
+        ]
+      },
+      {
+        "phrase_index": 4,
+        "format": "plain",
+        "matches": [
+          2
+        ]
+      },
+      {
+        "phrase_index": 4,
+        "format": "colon",
+        "matches": []
+      },
+      {
+        "phrase_index": 4,
+        "format": "dash",
+        "matches": [
+          2,
+          6
+        ]
+      },
+      {
+        "phrase_index": 4,
+        "format": "space",
+        "matches": [
+          2,
+          3
+        ]
+      },
+      {
+        "phrase_index": 4,
+        "format": "zero_indexed",
+        "matches": [
+          3
+        ]
+      },
+      {
+        "phrase_index": 4,
+        "format": "colon_zero_indexed",
+        "matches": []
+      },
+      {
+        "phrase_index": 4,
+        "format": "n_then_m",
+        "matches": []
+      },
+      {
+        "phrase_index": 4,
+        "format": "sha256d",
+        "matches": [
+          2
+        ]
+      },
+      {
+        "phrase_index": 5,
+        "format": "plain",
+        "matches": [
+          2
+        ]
+      },
+      {
+        "phrase_index": 5,
+        "format": "colon",
+        "matches": []
+      },
+      {
+        "phrase_index": 5,
+        "format": "dash",
+        "matches": [
+          2
+        ]
+      },
+      {
+        "phrase_index": 5,
+        "format": "space",
+        "matches": [
+          2,
+          5
+        ]
+      },
+      {
+        "phrase_index": 5,
+        "format": "zero_indexed",
+        "matches": [
+          3
+        ]
+      },
+      {
+        "phrase_index": 5,
+        "format": "colon_zero_indexed",
+        "matches": [
+          4
+        ]
+      },
+      {
+        "phrase_index": 5,
+        "format": "n_then_m",
+        "matches": []
+      },
+      {
+        "phrase_index": 5,
+        "format": "sha256d",
+        "matches": [
+          2
+        ]
+      },
+      {
+        "phrase_index": 6,
+        "format": "plain",
+        "matches": [
+          2,
+          3
+        ]
+      },
+      {
+        "phrase_index": 6,
+        "format": "colon",
+        "matches": [
+          2
+        ]
+      },
+      {
+        "phrase_index": 6,
+        "format": "dash",
+        "matches": []
+      },
+      {
+        "phrase_index": 6,
+        "format": "space",
+        "matches": [
+          3
+        ]
+      },
+      {
+        "phrase_index": 6,
+        "format": "zero_indexed",
+        "matches": [
+          2,
+          3
+        ]
+      },
+      {
+        "phrase_index": 6,
+        "format": "colon_zero_indexed",
+        "matches": [
+          2,
+          5
+        ]
+      },
+      {
+        "phrase_index": 6,
+        "format": "n_then_m",
+        "matches": []
+      },
+      {
+        "phrase_index": 6,
+        "format": "sha256d",
+        "matches": [
+          2,
+          3
+        ]
+      },
+      {
+        "phrase_index": 7,
+        "format": "plain",
+        "matches": []
+      },
+      {
+        "phrase_index": 7,
+        "format": "colon",
+        "matches": [
+          2
+        ]
+      },
+      {
+        "phrase_index": 7,
+        "format": "dash",
+        "matches": []
+      },
+      {
+        "phrase_index": 7,
+        "format": "space",
+        "matches": [
+          2,
+          3,
+          8
+        ]
+      },
+      {
+        "phrase_index": 7,
+        "format": "zero_indexed",
+        "matches": [
+          2,
+          4
+        ]
+      },
+      {
+        "phrase_index": 7,
+        "format": "colon_zero_indexed",
+        "matches": [
+          2
+        ]
+      },
+      {
+        "phrase_index": 7,
+        "format": "n_then_m",
+        "matches": []
+      },
+      {
+        "phrase_index": 7,
+        "format": "sha256d",
+        "matches": []
+      },
+      {
+        "phrase_index": 8,
+        "format": "plain",
+        "matches": [
+          2
+        ]
+      },
+      {
+        "phrase_index": 8,
+        "format": "colon",
+        "matches": [
+          2
+        ]
+      },
+      {
+        "phrase_index": 8,
+        "format": "dash",
+        "matches": [
+          2,
+          3
+        ]
+      },
+      {
+        "phrase_index": 8,
+        "format": "space",
+        "matches": []
+      },
+      {
+        "phrase_index": 8,
+        "format": "zero_indexed",
+        "matches": [
+          3,
+          4
+        ]
+      },
+      {
+        "phrase_index": 8,
+        "format": "colon_zero_indexed",
+        "matches": [
+          3,
+          4,
+          5
+        ]
+      },
+      {
+        "phrase_index": 8,
+        "format": "n_then_m",
+        "matches": [
+          2
+        ]
+      },
+      {
+        "phrase_index": 8,
+        "format": "sha256d",
+        "matches": [
+          2
+        ]
+      },
+      {
+        "phrase_index": 9,
+        "format": "plain",
+        "matches": [
+          2
+        ]
+      },
+      {
+        "phrase_index": 9,
+        "format": "colon",
+        "matches": [
+          2
+        ]
+      },
+      {
+        "phrase_index": 9,
+        "format": "dash",
+        "matches": [
+          2,
+          3
+        ]
+      },
+      {
+        "phrase_index": 9,
+        "format": "space",
+        "matches": [
+          2
+        ]
+      },
+      {
+        "phrase_index": 9,
+        "format": "zero_indexed",
+        "matches": [
+          2
+        ]
+      },
+      {
+        "phrase_index": 9,
+        "format": "colon_zero_indexed",
+        "matches": [
+          2,
+          3
+        ]
+      },
+      {
+        "phrase_index": 9,
+        "format": "n_then_m",
+        "matches": []
+      },
+      {
+        "phrase_index": 9,
+        "format": "sha256d",
+        "matches": [
+          2
+        ]
+      },
+      {
+        "phrase_index": 10,
+        "format": "plain",
+        "matches": [
+          2
+        ]
+      },
+      {
+        "phrase_index": 10,
+        "format": "colon",
+        "matches": [
+          2
+        ]
+      },
+      {
+        "phrase_index": 10,
+        "format": "dash",
+        "matches": [
+          2
+        ]
+      },
+      {
+        "phrase_index": 10,
+        "format": "space",
+        "matches": [
+          2,
+          3
+        ]
+      },
+      {
+        "phrase_index": 10,
+        "format": "zero_indexed",
+        "matches": [
+          2
+        ]
+      },
+      {
+        "phrase_index": 10,
+        "format": "colon_zero_indexed",
+        "matches": [
+          2,
+          3
+        ]
+      },
+      {
+        "phrase_index": 10,
+        "format": "n_then_m",
+        "matches": [
+          6
+        ]
+      },
+      {
+        "phrase_index": 10,
+        "format": "sha256d",
+        "matches": [
+          2
+        ]
+      },
+      {
+        "phrase_index": 11,
+        "format": "plain",
+        "matches": [
+          2,
+          3
+        ]
+      },
+      {
+        "phrase_index": 11,
+        "format": "colon",
+        "matches": [
+          2
+        ]
+      },
+      {
+        "phrase_index": 11,
+        "format": "dash",
+        "matches": [
+          2,
+          3
+        ]
+      },
+      {
+        "phrase_index": 11,
+        "format": "space",
+        "matches": [
+          2,
+          4,
+          5
+        ]
+      },
+      {
+        "phrase_index": 11,
+        "format": "zero_indexed",
+        "matches": [
+          3,
+          5,
+          7
+        ]
+      },
+      {
+        "phrase_index": 11,
+        "format": "colon_zero_indexed",
+        "matches": [
+          2
+        ]
+      },
+      {
+        "phrase_index": 11,
+        "format": "n_then_m",
+        "matches": [
+          2,
+          3
+        ]
+      },
+      {
+        "phrase_index": 11,
+        "format": "sha256d",
+        "matches": [
+          2,
+          3
+        ]
+      },
+      {
+        "phrase_index": 12,
+        "format": "plain",
+        "matches": [
+          2,
+          3,
+          6
+        ]
+      },
+      {
+        "phrase_index": 12,
+        "format": "colon",
+        "matches": [
+          2
+        ]
+      },
+      {
+        "phrase_index": 12,
+        "format": "dash",
+        "matches": [
+          3
+        ]
+      },
+      {
+        "phrase_index": 12,
+        "format": "space",
+        "matches": [
+          2,
+          5
+        ]
+      },
+      {
+        "phrase_index": 12,
+        "format": "zero_indexed",
+        "matches": []
+      },
+      {
+        "phrase_index": 12,
+        "format": "colon_zero_indexed",
+        "matches": []
+      },
+      {
+        "phrase_index": 12,
+        "format": "n_then_m",
+        "matches": [
+          2,
+          4
+        ]
+      },
+      {
+        "phrase_index": 12,
+        "format": "sha256d",
+        "matches": [
+          2,
+          3,
+          6
+        ]
+      },
+      {
+        "phrase_index": 13,
+        "format": "plain",
+        "matches": [
+          7
+        ]
+      },
+      {
+        "phrase_index": 13,
+        "format": "colon",
+        "matches": [
+          2,
+          3
+        ]
+      },
+      {
+        "phrase_index": 13,
+        "format": "dash",
+        "matches": []
+      },
+      {
+        "phrase_index": 13,
+        "format": "space",
+        "matches": [
+          3
+        ]
+      },
+      {
+        "phrase_index": 13,
+        "format": "zero_indexed",
+        "matches": [
+          2
+        ]
+      },
+      {
+        "phrase_index": 13,
+        "format": "colon_zero_indexed",
+        "matches": [
+          2,
+          6
+        ]
+      },
+      {
+        "phrase_index": 13,
+        "format": "n_then_m",
+        "matches": [
+          5
+        ]
+      },
+      {
+        "phrase_index": 13,
+        "format": "sha256d",
+        "matches": [
+          7
+        ]
+      },
+      {
+        "phrase_index": 14,
+        "format": "plain",
+        "matches": [
+          2,
+          3
+        ]
+      },
+      {
+        "phrase_index": 14,
+        "format": "colon",
+        "matches": [
+          2
+        ]
+      },
+      {
+        "phrase_index": 14,
+        "format": "dash",
+        "matches": [
+          2,
+          3
+        ]
+      },
+      {
+        "phrase_index": 14,
+        "format": "space",
+        "matches": []
+      },
+      {
+        "phrase_index": 14,
+        "format": "zero_indexed",
+        "matches": [
+          3
+        ]
+      },
+      {
+        "phrase_index": 14,
+        "format": "colon_zero_indexed",
+        "matches": [
+          2
+        ]
+      },
+      {
+        "phrase_index": 14,
+        "format": "n_then_m",
+        "matches": []
+      },
+      {
+        "phrase_index": 14,
+        "format": "sha256d",
+        "matches": [
+          2,
+          3
+        ]
+      },
+      {
+        "phrase_index": 15,
+        "format": "plain",
+        "matches": [
+          2
+        ]
+      },
+      {
+        "phrase_index": 15,
+        "format": "colon",
+        "matches": []
+      },
+      {
+        "phrase_index": 15,
+        "format": "dash",
+        "matches": []
+      },
+      {
+        "phrase_index": 15,
+        "format": "space",
+        "matches": []
+      },
+      {
+        "phrase_index": 15,
+        "format": "zero_indexed",
+        "matches": [
+          3
+        ]
+      },
+      {
+        "phrase_index": 15,
+        "format": "colon_zero_indexed",
+        "matches": [
+          2,
+          4
+        ]
+      },
+      {
+        "phrase_index": 15,
+        "format": "n_then_m",
+        "matches": [
+          2,
+          3,
+          5
+        ]
+      },
+      {
+        "phrase_index": 15,
+        "format": "sha256d",
+        "matches": [
+          2
+        ]
+      },
+      {
+        "phrase_index": 16,
+        "format": "plain",
+        "matches": [
+          2,
+          5
+        ]
+      },
+      {
+        "phrase_index": 16,
+        "format": "colon",
+        "matches": [
+          2
+        ]
+      },
+      {
+        "phrase_index": 16,
+        "format": "dash",
+        "matches": [
+          2,
+          4
+        ]
+      },
+      {
+        "phrase_index": 16,
+        "format": "space",
+        "matches": [
+          3
+        ]
+      },
+      {
+        "phrase_index": 16,
+        "format": "zero_indexed",
+        "matches": [
+          2,
+          3
+        ]
+      },
+      {
+        "phrase_index": 16,
+        "format": "colon_zero_indexed",
+        "matches": [
+          2
+        ]
+      },
+      {
+        "phrase_index": 16,
+        "format": "n_then_m",
+        "matches": [
+          2,
+          4
+        ]
+      },
+      {
+        "phrase_index": 16,
+        "format": "sha256d",
+        "matches": [
+          2,
+          5
+        ]
+      },
+      {
+        "phrase_index": 17,
+        "format": "plain",
+        "matches": [
+          2,
+          3
+        ]
+      },
+      {
+        "phrase_index": 17,
+        "format": "colon",
+        "matches": []
+      },
+      {
+        "phrase_index": 17,
+        "format": "dash",
+        "matches": [
+          5,
+          6
+        ]
+      },
+      {
+        "phrase_index": 17,
+        "format": "space",
+        "matches": []
+      },
+      {
+        "phrase_index": 17,
+        "format": "zero_indexed",
+        "matches": [
+          5
+        ]
+      },
+      {
+        "phrase_index": 17,
+        "format": "colon_zero_indexed",
+        "matches": []
+      },
+      {
+        "phrase_index": 17,
+        "format": "n_then_m",
+        "matches": []
+      },
+      {
+        "phrase_index": 17,
+        "format": "sha256d",
+        "matches": [
+          2,
+          3
+        ]
+      },
+      {
+        "phrase_index": 18,
+        "format": "plain",
+        "matches": []
+      },
+      {
+        "phrase_index": 18,
+        "format": "colon",
+        "matches": [
+          2
+        ]
+      },
+      {
+        "phrase_index": 18,
+        "format": "dash",
+        "matches": []
+      },
+      {
+        "phrase_index": 18,
+        "format": "space",
+        "matches": []
+      },
+      {
+        "phrase_index": 18,
+        "format": "zero_indexed",
+        "matches": []
+      },
+      {
+        "phrase_index": 18,
+        "format": "colon_zero_indexed",
+        "matches": [
+          4
+        ]
+      },
+      {
+        "phrase_index": 18,
+        "format": "n_then_m",
+        "matches": [
+          10
+        ]
+      },
+      {
+        "phrase_index": 18,
+        "format": "sha256d",
+        "matches": []
+      },
+      {
+        "phrase_index": 19,
+        "format": "plain",
+        "matches": [
+          2
+        ]
+      },
+      {
+        "phrase_index": 19,
+        "format": "colon",
+        "matches": []
+      },
+      {
+        "phrase_index": 19,
+        "format": "dash",
+        "matches": []
+      },
+      {
+        "phrase_index": 19,
+        "format": "space",
+        "matches": []
+      },
+      {
+        "phrase_index": 19,
+        "format": "zero_indexed",
+        "matches": [
+          2,
+          3
+        ]
+      },
+      {
+        "phrase_index": 19,
+        "format": "colon_zero_indexed",
+        "matches": [
+          2
+        ]
+      },
+      {
+        "phrase_index": 19,
+        "format": "n_then_m",
+        "matches": [
+          2
+        ]
+      },
+      {
+        "phrase_index": 19,
+        "format": "sha256d",
+        "matches": [
+          2
+        ]
+      },
+      {
+        "phrase_index": 20,
+        "format": "plain",
+        "matches": [
+          3
+        ]
+      },
+      {
+        "phrase_index": 20,
+        "format": "colon",
+        "matches": []
+      },
+      {
+        "phrase_index": 20,
+        "format": "dash",
+        "matches": [
+          3
+        ]
+      },
+      {
+        "phrase_index": 20,
+        "format": "space",
+        "matches": [
+          2
+        ]
+      },
+      {
+        "phrase_index": 20,
+        "format": "zero_indexed",
+        "matches": [
+          2
+        ]
+      },
+      {
+        "phrase_index": 20,
+        "format": "colon_zero_indexed",
+        "matches": [
+          2
+        ]
+      },
+      {
+        "phrase_index": 20,
+        "format": "n_then_m",
+        "matches": [
+          2
+        ]
+      },
+      {
+        "phrase_index": 20,
+        "format": "sha256d",
+        "matches": [
+          3
+        ]
+      },
+      {
+        "phrase_index": 21,
+        "format": "plain",
+        "matches": [
+          2
+        ]
+      },
+      {
+        "phrase_index": 21,
+        "format": "colon",
+        "matches": [
+          2,
+          3,
+          6
+        ]
+      },
+      {
+        "phrase_index": 21,
+        "format": "dash",
+        "matches": [
+          2,
+          4
+        ]
+      },
+      {
+        "phrase_index": 21,
+        "format": "space",
+        "matches": [
+          3,
+          5
+        ]
+      },
+      {
+        "phrase_index": 21,
+        "format": "zero_indexed",
+        "matches": [
+          2
+        ]
+      },
+      {
+        "phrase_index": 21,
+        "format": "colon_zero_indexed",
+        "matches": [
+          3
+        ]
+      },
+      {
+        "phrase_index": 21,
+        "format": "n_then_m",
+        "matches": []
+      },
+      {
+        "phrase_index": 21,
+        "format": "sha256d",
+        "matches": [
+          2
+        ]
+      },
+      {
+        "phrase_index": 22,
+        "format": "plain",
+        "matches": [
+          2
+        ]
+      },
+      {
+        "phrase_index": 22,
+        "format": "colon",
+        "matches": [
+          2
+        ]
+      },
+      {
+        "phrase_index": 22,
+        "format": "dash",
+        "matches": [
+          2,
+          3
+        ]
+      },
+      {
+        "phrase_index": 22,
+        "format": "space",
+        "matches": [
+          2
+        ]
+      },
+      {
+        "phrase_index": 22,
+        "format": "zero_indexed",
+        "matches": []
+      },
+      {
+        "phrase_index": 22,
+        "format": "colon_zero_indexed",
+        "matches": [
+          2,
+          3
+        ]
+      },
+      {
+        "phrase_index": 22,
+        "format": "n_then_m",
+        "matches": [
+          2
+        ]
+      },
+      {
+        "phrase_index": 22,
+        "format": "sha256d",
+        "matches": [
+          2
+        ]
+      },
+      {
+        "phrase_index": 23,
+        "format": "plain",
+        "matches": [
+          2,
+          3
+        ]
+      },
+      {
+        "phrase_index": 23,
+        "format": "colon",
+        "matches": [
+          2,
+          3
+        ]
+      },
+      {
+        "phrase_index": 23,
+        "format": "dash",
+        "matches": []
+      },
+      {
+        "phrase_index": 23,
+        "format": "space",
+        "matches": []
+      },
+      {
+        "phrase_index": 23,
+        "format": "zero_indexed",
+        "matches": [
+          2
+        ]
+      },
+      {
+        "phrase_index": 23,
+        "format": "colon_zero_indexed",
+        "matches": [
+          2,
+          3
+        ]
+      },
+      {
+        "phrase_index": 23,
+        "format": "n_then_m",
+        "matches": [
+          3
+        ]
+      },
+      {
+        "phrase_index": 23,
+        "format": "sha256d",
+        "matches": [
+          2,
+          3
+        ]
+      }
+    ]
+  },
+  "electrum_type1_cheap": {
+    "phrases_tested": 24,
+    "derivations": [
+      "sha256_16",
+      "md5",
+      "raw_utf8_16"
+    ],
+    "total_candidates": 72,
+    "significant_matches": [],
+    "chance_level_coincidences_total": 49,
+    "chance_level_coincidences_by_pattern": {
+      "(2,)": 23,
+      "(2, 3)": 8,
+      "(3,)": 5,
+      "(3, 4)": 4,
+      "(5,)": 3,
+      "(2, 4)": 2,
+      "(4, 7)": 1,
+      "(7,)": 1,
+      "(2, 3, 4)": 1,
+      "(4,)": 1
+    },
+    "elapsed_sec": 3.57,
+    "full_log": [
+      {
+        "phrase_index": 0,
+        "derivation": "sha256_16",
+        "hex_seed": "e3b0c44298fc1c149afbf4c8996fb924",
+        "matches": [
+          2,
+          3
+        ]
+      },
+      {
+        "phrase_index": 0,
+        "derivation": "md5",
+        "hex_seed": "d41d8cd98f00b204e9800998ecf8427e",
+        "matches": [
+          2
+        ]
+      },
+      {
+        "phrase_index": 0,
+        "derivation": "raw_utf8_16",
+        "hex_seed": "00000000000000000000000000000000",
+        "matches": []
+      },
+      {
+        "phrase_index": 1,
+        "derivation": "sha256_16",
+        "hex_seed": "b09c765fa3dc6ad138a8d0da17cd9430",
+        "matches": [
+          2,
+          3
+        ]
+      },
+      {
+        "phrase_index": 1,
+        "derivation": "md5",
+        "hex_seed": "3659323a2e31cb6ae6f191e97786d4dd",
+        "matches": [
+          2
+        ]
+      },
+      {
+        "phrase_index": 1,
+        "derivation": "raw_utf8_16",
+        "hex_seed": "686f77206d75636820776f6f6420636f",
+        "matches": [
+          2
+        ]
+      },
+      {
+        "phrase_index": 2,
+        "derivation": "sha256_16",
+        "hex_seed": "6b29781e725708ae4d94e13730a2718e",
+        "matches": [
+          3
+        ]
+      },
+      {
+        "phrase_index": 2,
+        "derivation": "md5",
+        "hex_seed": "eca3f2be139db58dd6694ae5b9e8eaee",
+        "matches": [
+          2
+        ]
+      },
+      {
+        "phrase_index": 2,
+        "derivation": "raw_utf8_16",
+        "hex_seed": "446f776e20746865205261626269742d",
+        "matches": [
+          3
+        ]
+      },
+      {
+        "phrase_index": 3,
+        "derivation": "sha256_16",
+        "hex_seed": "4ea499cdaed4012747aa8e223ec9ac2c",
+        "matches": [
+          2
+        ]
+      },
+      {
+        "phrase_index": 3,
+        "derivation": "md5",
+        "hex_seed": "e8b8b9f7d1961ff18bc4266334c6c40e",
+        "matches": [
+          3,
+          4
+        ]
+      },
+      {
+        "phrase_index": 3,
+        "derivation": "raw_utf8_16",
+        "hex_seed": "54686520517569636b2042726f776e20",
+        "matches": []
+      },
+      {
+        "phrase_index": 4,
+        "derivation": "sha256_16",
+        "hex_seed": "c3bbe04fec331bfb2acdb8d1142e95cf",
+        "matches": []
+      },
+      {
+        "phrase_index": 4,
+        "derivation": "md5",
+        "hex_seed": "2034bc3e5988246d5048682e5888e02f",
+        "matches": []
+      },
+      {
+        "phrase_index": 4,
+        "derivation": "raw_utf8_16",
+        "hex_seed": "67617465206761746520706172616761",
+        "matches": [
+          2,
+          3
+        ]
+      },
+      {
+        "phrase_index": 5,
+        "derivation": "sha256_16",
+        "hex_seed": "30313dc434af2ed146d1b6774590ef6b",
+        "matches": []
+      },
+      {
+        "phrase_index": 5,
+        "derivation": "md5",
+        "hex_seed": "7eb7a9fe4f8eec0e5f8b3cff80193acb",
+        "matches": [
+          2
+        ]
+      },
+      {
+        "phrase_index": 5,
+        "derivation": "raw_utf8_16",
+        "hex_seed": "5468652050657273697374656e636520",
+        "matches": []
+      },
+      {
+        "phrase_index": 6,
+        "derivation": "sha256_16",
+        "hex_seed": "e146134a2e0015539137dcd700dad8d0",
+        "matches": [
+          2,
+          3
+        ]
+      },
+      {
+        "phrase_index": 6,
+        "derivation": "md5",
+        "hex_seed": "48f076e18576b3e7858cfc43d2c9cbcc",
+        "matches": [
+          3,
+          4
+        ]
+      },
+      {
+        "phrase_index": 6,
+        "derivation": "raw_utf8_16",
+        "hex_seed": "51544300000000000000000000000000",
+        "matches": [
+          2
+        ]
+      },
+      {
+        "phrase_index": 7,
+        "derivation": "sha256_16",
+        "hex_seed": "06bd2626acdfa76dad820f7321a503b2",
+        "matches": []
+      },
+      {
+        "phrase_index": 7,
+        "derivation": "md5",
+        "hex_seed": "e981a159deaaa1a519e63971355a20cf",
+        "matches": [
+          4,
+          7
+        ]
+      },
+      {
+        "phrase_index": 7,
+        "derivation": "raw_utf8_16",
+        "hex_seed": "36343431323231373800000000000000",
+        "matches": [
+          2
+        ]
+      },
+      {
+        "phrase_index": 8,
+        "derivation": "sha256_16",
+        "hex_seed": "5b339459e8b49c15eef94c5f54fbb554",
+        "matches": [
+          2
+        ]
+      },
+      {
+        "phrase_index": 8,
+        "derivation": "md5",
+        "hex_seed": "14eab36594af6681b132b0283a4d4be2",
+        "matches": [
+          2
+        ]
+      },
+      {
+        "phrase_index": 8,
+        "derivation": "raw_utf8_16",
+        "hex_seed": "38393634303039000000000000000000",
+        "matches": [
+          3,
+          4
+        ]
+      },
+      {
+        "phrase_index": 9,
+        "derivation": "sha256_16",
+        "hex_seed": "a11562d9b57c0a82dc40a8ebc0a19516",
+        "matches": []
+      },
+      {
+        "phrase_index": 9,
+        "derivation": "md5",
+        "hex_seed": "60311fe209a957e2c00f4c166da73dc2",
+        "matches": []
+      },
+      {
+        "phrase_index": 9,
+        "derivation": "raw_utf8_16",
+        "hex_seed": "717565206d65206c6c657665206c6120",
+        "matches": [
+          3,
+          4
+        ]
+      },
+      {
+        "phrase_index": 10,
+        "derivation": "sha256_16",
+        "hex_seed": "10c02045e013e9dca9791bc82fc8255c",
+        "matches": [
+          2,
+          4
+        ]
+      },
+      {
+        "phrase_index": 10,
+        "derivation": "md5",
+        "hex_seed": "d6b07f42272a333924cfed40643f9209",
+        "matches": [
+          5
+        ]
+      },
+      {
+        "phrase_index": 10,
+        "derivation": "raw_utf8_16",
+        "hex_seed": "6f6e652074776f20746872656520666f",
+        "matches": []
+      },
+      {
+        "phrase_index": 11,
+        "derivation": "sha256_16",
+        "hex_seed": "1f1a27b03ccaddef305483caf8dae043",
+        "matches": [
+          2
+        ]
+      },
+      {
+        "phrase_index": 11,
+        "derivation": "md5",
+        "hex_seed": "dc24278c2dde381b8dcaa9092f2447c4",
+        "matches": []
+      },
+      {
+        "phrase_index": 11,
+        "derivation": "raw_utf8_16",
+        "hex_seed": "6974277320612073656372657420746f",
+        "matches": [
+          2
+        ]
+      },
+      {
+        "phrase_index": 12,
+        "derivation": "sha256_16",
+        "hex_seed": "3b5f4740c8fe1cecfdcb7b940434b8b8",
+        "matches": [
+          2
+        ]
+      },
+      {
+        "phrase_index": 12,
+        "derivation": "md5",
+        "hex_seed": "8cf6b15bf032450ca9e29ebfc76112ea",
+        "matches": [
+          2,
+          3
+        ]
+      },
+      {
+        "phrase_index": 12,
+        "derivation": "raw_utf8_16",
+        "hex_seed": "5068276e676c7569206d676c77276e61",
+        "matches": []
+      },
+      {
+        "phrase_index": 13,
+        "derivation": "sha256_16",
+        "hex_seed": "cfb8533d92515b5f85814ecf2f4df1e2",
+        "matches": [
+          2,
+          3
+        ]
+      },
+      {
+        "phrase_index": 13,
+        "derivation": "md5",
+        "hex_seed": "5c19ed618b82f97de0fd349d00431fb2",
+        "matches": [
+          2
+        ]
+      },
+      {
+        "phrase_index": 13,
+        "derivation": "raw_utf8_16",
+        "hex_seed": "6d7920686f7665726372616674206973",
+        "matches": []
+      },
+      {
+        "phrase_index": 14,
+        "derivation": "sha256_16",
+        "hex_seed": "701429c652427d4a3f4918129f7c18b4",
+        "matches": []
+      },
+      {
+        "phrase_index": 14,
+        "derivation": "md5",
+        "hex_seed": "1275eac6f076e0d08fe4854d8b861e7d",
+        "matches": [
+          2
+        ]
+      },
+      {
+        "phrase_index": 14,
+        "derivation": "raw_utf8_16",
+        "hex_seed": "496e746572696f722043726f636f6469",
+        "matches": []
+      },
+      {
+        "phrase_index": 15,
+        "derivation": "sha256_16",
+        "hex_seed": "0f44e73ae913d4d83605541192017d6c",
+        "matches": []
+      },
+      {
+        "phrase_index": 15,
+        "derivation": "md5",
+        "hex_seed": "e01427395cccf7a62c601e13a56d376f",
+        "matches": [
+          2
+        ]
+      },
+      {
+        "phrase_index": 15,
+        "derivation": "raw_utf8_16",
+        "hex_seed": "4e6f206e65656420746f20776f727279",
+        "matches": []
+      },
+      {
+        "phrase_index": 16,
+        "derivation": "sha256_16",
+        "hex_seed": "f6cb9a83ac44a177048baa810863b319",
+        "matches": [
+          2
+        ]
+      },
+      {
+        "phrase_index": 16,
+        "derivation": "md5",
+        "hex_seed": "8aae92330cd80bba032ddee31a64bb16",
+        "matches": [
+          5
+        ]
+      },
+      {
+        "phrase_index": 16,
+        "derivation": "raw_utf8_16",
+        "hex_seed": "746f6d622d6f662d7468652d756e6b6e",
+        "matches": []
+      },
+      {
+        "phrase_index": 17,
+        "derivation": "sha256_16",
+        "hex_seed": "420f871636f853ef50cc4dd672bedc4a",
+        "matches": [
+          2
+        ]
+      },
+      {
+        "phrase_index": 17,
+        "derivation": "md5",
+        "hex_seed": "2bfffa18f0709176c3bfef270c8e47eb",
+        "matches": []
+      },
+      {
+        "phrase_index": 17,
+        "derivation": "raw_utf8_16",
+        "hex_seed": "7065726d6974206d6520746f20697373",
+        "matches": [
+          2
+        ]
+      },
+      {
+        "phrase_index": 18,
+        "derivation": "sha256_16",
+        "hex_seed": "acdbe5c041189e4ea04bf9001882fb52",
+        "matches": [
+          2
+        ]
+      },
+      {
+        "phrase_index": 18,
+        "derivation": "md5",
+        "hex_seed": "13648d06b52e2c7344bf44bd7a96cc0a",
+        "matches": []
+      },
+      {
+        "phrase_index": 18,
+        "derivation": "raw_utf8_16",
+        "hex_seed": "77686f206973206a6f686e2067616c74",
+        "matches": [
+          2
+        ]
+      },
+      {
+        "phrase_index": 19,
+        "derivation": "sha256_16",
+        "hex_seed": "9a33f2ba42ed6031f5864a04242565c2",
+        "matches": [
+          3
+        ]
+      },
+      {
+        "phrase_index": 19,
+        "derivation": "md5",
+        "hex_seed": "0d288082555af741bcdc4e4229876a3f",
+        "matches": []
+      },
+      {
+        "phrase_index": 19,
+        "derivation": "raw_utf8_16",
+        "hex_seed": "4c69766520617320696620796f752077",
+        "matches": [
+          2,
+          3
+        ]
+      },
+      {
+        "phrase_index": 20,
+        "derivation": "sha256_16",
+        "hex_seed": "23d4a09295be678b21a5f1dceae1f634",
+        "matches": [
+          7
+        ]
+      },
+      {
+        "phrase_index": 20,
+        "derivation": "md5",
+        "hex_seed": "ab2d9a9c17bdd4e924e0822e6e610ea6",
+        "matches": [
+          2,
+          4
+        ]
+      },
+      {
+        "phrase_index": 20,
+        "derivation": "raw_utf8_16",
+        "hex_seed": "626974636f696e20697320617765736f",
+        "matches": [
+          2,
+          3,
+          4
+        ]
+      },
+      {
+        "phrase_index": 21,
+        "derivation": "sha256_16",
+        "hex_seed": "80c8da9f5eae6157e2399693dc488163",
+        "matches": [
+          2,
+          3
+        ]
+      },
+      {
+        "phrase_index": 21,
+        "derivation": "md5",
+        "hex_seed": "655d339c289f9600890184f1ecc59e9c",
+        "matches": []
+      },
+      {
+        "phrase_index": 21,
+        "derivation": "raw_utf8_16",
+        "hex_seed": "64656164736865657000000000000000",
+        "matches": [
+          4
+        ]
+      },
+      {
+        "phrase_index": 22,
+        "derivation": "sha256_16",
+        "hex_seed": "38717b5161c2e817020a0933e1836dd0",
+        "matches": [
+          3
+        ]
+      },
+      {
+        "phrase_index": 22,
+        "derivation": "md5",
+        "hex_seed": "df14e4d5469e801dbc8e1df4eebd97b3",
+        "matches": [
+          3
+        ]
+      },
+      {
+        "phrase_index": 22,
+        "derivation": "raw_utf8_16",
+        "hex_seed": "746865717569636b62726f776e666f78",
+        "matches": [
+          2
+        ]
+      },
+      {
+        "phrase_index": 23,
+        "derivation": "sha256_16",
+        "hex_seed": "c4bbcb1fbec99d65bf59d85c8cb62ee2",
+        "matches": [
+          5
+        ]
+      },
+      {
+        "phrase_index": 23,
+        "derivation": "md5",
+        "hex_seed": "9cc2ae8a1ba7a93da39b46fc1019c481",
+        "matches": []
+      },
+      {
+        "phrase_index": 23,
+        "derivation": "raw_utf8_16",
+        "hex_seed": "636f727265637420686f727365206261",
+        "matches": [
+          2
+        ]
+      }
+    ]
+  },
+  "electrum_literal_mnemonic_bonus": {
+    "phrases_checked": 24,
+    "parsed_as_valid_12word_mnemonic": 0,
+    "significant_matches": [],
+    "elapsed_sec": 0.0
+  }
+}

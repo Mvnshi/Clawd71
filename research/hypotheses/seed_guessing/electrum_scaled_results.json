@@ -1,0 +1,67 @@
+{
+  "total_secexp_checked": 1999994,
+  "filter_survivors": [
+    {
+      "seed": "bf010751d0b1eeff5be22c940477c56b",
+      "secexp_hex": "eed37670d3db91a47795a40f7bcff96e59effbbbb13f8816f734d5f6833b5d36",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        3,
+        20
+      ]
+    },
+    {
+      "seed": "764e95be564a5c7826a370de72def464",
+      "secexp_hex": "c3f2c545132c8e4f7883a37bd0618b362248ad46399a480131038011701547eb",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        2,
+        20
+      ]
+    },
+    {
+      "seed": "fd2cc3d5b20fade21d4ba0fec6f3b69a",
+      "secexp_hex": "e0dafa772c818d9a43413575b2bd3edf73a55705ca0f27f5fe0b2603299d4331",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        6,
+        20
+      ]
+    },
+    {
+      "seed": "7aedd8e0ab4fe38ff68bb40741529133",
+      "secexp_hex": "da1a45e080921da99d9db0da3f1c903bdabd6138dafad6db4edb87c8d0bfd314",
+      "filter_hits": [
+        20
+      ],
+      "full_hits": [
+        1,
+        20
+      ]
+    }
+  ],
+  "confirmed_multi_hit": [],
+  "filter_n_used": [
+    20,
+    30,
+    40,
+    50,
+    60,
+    70,
+    80,
+    90,
+    100,
+    110,
+    120,
+    130
+  ]
+}

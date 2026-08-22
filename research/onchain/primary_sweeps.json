@@ -1,0 +1,330 @@
+[
+  {
+    "n": 51,
+    "address": "1NpnQyZ7x24ud82b7WiRNvPm6N8bqGQnaS",
+    "txid": "70ee9ab241829a6f49ebf9f109e97f6e466d938e558bade1c5fe341310bc356e",
+    "time": 1491387080,
+    "swept": 5100000,
+    "fee": 28114,
+    "fee_rate": 146.427,
+    "dest": [
+      {
+        "address": "1NpnQyZ7x24ud82b7WiRNvPm6N8bqGQnaS",
+        "value_sats": 5071886
+      }
+    ],
+    "num_inputs": 1
+  },
+  {
+    "n": 52,
+    "address": "15z9c9sVpu6fwNiK7dMAFgMYSK4GqsGZim",
+    "txid": "b0df330141225a2253c375b7b6c36c0016a9633934295916df6b0fd31afb4a8b",
+    "time": 1492798205,
+    "swept": 5200000,
+    "fee": 46759,
+    "fee_rate": 244.812,
+    "dest": [
+      {
+        "address": "14n5bNRdWuVD1QgjdptBi4Ca3awdULYrds",
+        "value_sats": 5153241
+      }
+    ],
+    "num_inputs": 1
+  },
+  {
+    "n": 53,
+    "address": "15K1YKJMiJ4fpesTVUcByoz334rHmknxmT",
+    "txid": "0e343c3640fa8cc1f7a97556255f46a08b89bd7d1b62ca94b86b37e51835b3b3",
+    "time": 1504556607,
+    "swept": 53000000,
+    "fee": 67886,
+    "fee_rate": 200.846,
+    "dest": [
+      {
+        "address": "1GaZi2TSYLns8A85yAQr1Js7Rqjrn5HGZ",
+        "value_sats": 52932114
+      }
+    ],
+    "num_inputs": 2
+  },
+  {
+    "n": 54,
+    "address": "1KYUv7nSvXx4642TKeuC2SNdTk326uUpFy",
+    "txid": "02e9c6ccae985a6485e633b56a084dae2a32736e5b866c3b9622db9d3c57078f",
+    "time": 1510830262,
+    "swept": 54000000,
+    "fee": 50700,
+    "fee_rate": 150.0,
+    "dest": [
+      {
+        "address": "3MQEXCft6HsxhoKp72un1Ac3VTVPCMKtqG",
+        "value_sats": 53949300
+      }
+    ],
+    "num_inputs": 2
+  },
+  {
+    "n": 55,
+    "address": "1LzhS3k3e9Ub8i2W1V8xQFdB8n2MYCHPCa",
+    "txid": "ecc8c09284a6f9e6d52cccf7f8f4aef1d0c4a33984375dea4cea70923066078d",
+    "time": 1527581632,
+    "swept": 55011515,
+    "fee": 1862,
+    "fee_rate": 3.823,
+    "dest": [
+      {
+        "address": "1AqEgLuT4V2XL2yQ3cCzjMtu1mXtJLVvww",
+        "value_sats": 55009653
+      }
+    ],
+    "num_inputs": 3
+  },
+  {
+    "n": 56,
+    "address": "17aPYR1m6pVAacXg1PTDDU7XafvK1dxvhi",
+    "txid": "5317fdbea32034f8f983bd2324e99e5da593aaf3c4aed6425d8104dc3b8c77d2",
+    "time": 1536385509,
+    "swept": 50400000,
+    "fee": 500,
+    "fee_rate": 2.222,
+    "dest": [
+      {
+        "address": "17aPYR1m6pVAacXg1PTDDU7XafvK1dxvhi",
+        "value_sats": 5399500
+      },
+      {
+        "address": "1AqEgLuT4V2XL2yQ3cCzjMtu1mXtJLVvww",
+        "value_sats": 45000000
+      }
+    ],
+    "num_inputs": 1
+  },
+  {
+    "n": 57,
+    "address": "15c9mPGLku1HuW9LRtBf4jcHVpBUt8txKz",
+    "txid": "fd773819f5fb5d672d32bfe99e30af086e86c2c2b35dd7cfe337bf8960a96aa7",
+    "time": 1541638999,
+    "swept": 57000000,
+    "fee": 2000,
+    "fee_rate": 5.362,
+    "dest": [
+      {
+        "address": "15c9mPGLku1HuW9LRtBf4jcHVpBUt8txKz",
+        "value_sats": 10000
+      },
+      {
+        "address": "1AqEgLuT4V2XL2yQ3cCzjMtu1mXtJLVvww",
+        "value_sats": 56988000
+      }
+    ],
+    "num_inputs": 2
+  },
+  {
+    "n": 58,
+    "address": "1Dn8NF8qDyyfHMktmuoQLGyjWmZXgvosXf",
+    "txid": "17d31de2bd300bc1bad430ec0db77ca27466bbb97bf03df6a3ff386d60e58996",
+    "time": 1543817002,
+    "swept": 58000000,
+    "fee": 15946,
+    "fee_rate": 47.038,
+    "dest": [
+      {
+        "address": "1DZfjfPjgrcrK3ryymeZjV5yfY5WRChGtn",
+        "value_sats": 57984054
+      }
+    ],
+    "num_inputs": 2
+  },
+  {
+    "n": 59,
+    "address": "1HAX2n9Uruu9YDt4cqRgYcvtGvZj1rbUyt",
+    "txid": "66cd4fd4b240df28c5f61c4c86865f57e5f4e203dc8ea36d520e553e61d96e04",
+    "time": 1549924772,
+    "swept": 59000000,
+    "fee": 11830,
+    "fee_rate": 35.104,
+    "dest": [
+      {
+        "address": "3QYY4FeUow32Mtzhxkv4nxVtidVAJV4KNX",
+        "value_sats": 58988170
+      }
+    ],
+    "num_inputs": 2
+  },
+  {
+    "n": 60,
+    "address": "1Kn5h2qpgw9mWE5jKpk8PP4qvvJ1QVy8su",
+    "txid": "6c08747ecd15904128c3f15f3bf47f6f365405da2661f17eb5119008807cee3e",
+    "time": 1550404792,
+    "swept": 60000000,
+    "fee": 2366,
+    "fee_rate": 6.959,
+    "dest": [
+      {
+        "address": "14yX9jrgmtJByn5YSTdA2uZM6kFQ9z9BUu",
+        "value_sats": 59997634
+      }
+    ],
+    "num_inputs": 2
+  },
+  {
+    "n": 61,
+    "address": "1AVJKwzs9AskraJLGHAZPiaZcrpDr1U6AB",
+    "txid": "481d2b7ceb253520336fbbe681126ae58d14ecd552320d88203b2e806e76358d",
+    "time": 1557579198,
+    "swept": 61000000,
+    "fee": 20618,
+    "fee_rate": 61.0,
+    "dest": [
+      {
+        "address": "13aNcjjyQYgQZxnxz6Ar9eRqQENexDBPjh",
+        "value_sats": 60979382
+      }
+    ],
+    "num_inputs": 2
+  },
+  {
+    "n": 65,
+    "address": "18ZMbwUFLMHoZBbfpCjUJQTCMCbktshgpe",
+    "txid": "43bb89f7d16fb47fee3eaeee0fa26aa2d0d6874c8907b2eca4ec2420bf4a9dc3",
+    "time": 1559925542,
+    "swept": 65000000,
+    "fee": 10512,
+    "fee_rate": 31.286,
+    "dest": [
+      {
+        "address": "3GVSoQar7WnVMFjchpkNkh9UwkJbbdeCwM",
+        "value_sats": 64989488
+      }
+    ],
+    "num_inputs": 2
+  },
+  {
+    "n": 70,
+    "address": "19YZECXj3SxEZMoUeJ1yiPsw8xANe7M7QR",
+    "txid": "482232a3d21b7062d1aaf88a63466fd00eabcb248ae8b92aae82e4bb833afcd7",
+    "time": 1560100125,
+    "swept": 70000000,
+    "fee": 100800,
+    "fee_rate": 300.0,
+    "dest": [
+      {
+        "address": "3MpeFYTuwfrxSnUXNmTnY3XTgvhPp5k7vF",
+        "value_sats": 69899200
+      }
+    ],
+    "num_inputs": 2
+  },
+  {
+    "n": 63,
+    "address": "1NpYjtLira16LfGbGwZJ5JbDPh3ai9bjf4",
+    "txid": "195876f004cb9cfa4ff22f4d3df94feda86c5a481fde6979889ea568ac2ca4ac",
+    "time": 1562934399,
+    "swept": 63003000,
+    "fee": 39300,
+    "fee_rate": 50.449,
+    "dest": [
+      {
+        "address": "bc1qdqtkkmwtxk5ce0xvp57k46hnx8t43ngw97twmx",
+        "value_sats": 62963700
+      }
+    ],
+    "num_inputs": 5
+  },
+  {
+    "n": 62,
+    "address": "1Me6EfpwZK5kQziBwBfvLiHjaPGxCKLoJi",
+    "txid": "d96269bdbae871174f629f4ec136d8c2c99cb1a1db15d12903418dfc92df5465",
+    "time": 1567939861,
+    "swept": 62009100,
+    "fee": 70125,
+    "fee_rate": 75.893,
+    "dest": [
+      {
+        "address": "bc1q055ws5xnrnjtf767cxuklrjl8vw5sst2j4a9lm",
+        "value_sats": 61938975
+      }
+    ],
+    "num_inputs": 6
+  },
+  {
+    "n": 64,
+    "address": "16jY7qLJnxb7CHZyqBP8qca9d51gAjyXQN",
+    "txid": "9c1d797c34e3b04f9b721bac45fe3a410393bdd25d169bc62dcbca46b069fa9f",
+    "time": 1662763743,
+    "swept": 64032959,
+    "fee": 63000,
+    "fee_rate": 30.0,
+    "dest": [
+      {
+        "address": "36X5CcSs9fwD4gqSupDBfrdd8fddjz7bZy",
+        "value_sats": 63969959
+      }
+    ],
+    "num_inputs": 14
+  },
+  {
+    "n": 66,
+    "address": "13zb1hQbWVsc2S7ZTZnP2G4undNNpdh5so",
+    "txid": "57a88f47e4c047740b782a5562fca143ce85de0373cbff3a7d406e9ae7fc2f5f",
+    "time": 1726181979,
+    "swept": 594000000,
+    "fee": 76395,
+    "fee_rate": 406.356,
+    "dest": [
+      {
+        "address": "bc1qpkp47q5cucrvnyepsdnjcv2kzyav5ze0ta7n67",
+        "value_sats": 593923605
+      }
+    ],
+    "num_inputs": 1
+  },
+  {
+    "n": 67,
+    "address": "1BY8GQbnueYofwSuFAT3USAhGjPrkxDdW9",
+    "txid": "0be77ec8bec331da8750c8b715085c6cf6c374ca31f829a515c62b9846e32986",
+    "time": 1740102061,
+    "swept": 670013241,
+    "fee": 105650,
+    "fee_rate": 50.357,
+    "dest": [
+      {
+        "address": "bc1qfk357t8n045f8mwx672rx2re4pftm5gmjzdwq7",
+        "value_sats": 669907591
+      }
+    ],
+    "num_inputs": 14
+  },
+  {
+    "n": 68,
+    "address": "1MVDYgVaSN6iKKEsbzRUAYFrYJadLYZvvZ",
+    "txid": "a5635eb2205bd3024e55156ee353110415829d1c6bc947f42bfa162488b0eb08",
+    "time": 1743979962,
+    "swept": 680015167,
+    "fee": 150050,
+    "fee_rate": 50.335,
+    "dest": [
+      {
+        "address": "bc1qfwpccz2udt3efk7y2wt9l44h34cs5yevjc80lk",
+        "value_sats": 679865117
+      }
+    ],
+    "num_inputs": 20
+  },
+  {
+    "n": 69,
+    "address": "19vkiEajfhuZ8bs8Zu2jgmC6oqZbWqhxhG",
+    "txid": "a52c5046f3097a8c2bd3b9889df2fb47b104d47a16cc679d3357feec003db753",
+    "time": 1746024354,
+    "swept": 690000000,
+    "fee": 1220000,
+    "fee_rate": 2515.464,
+    "dest": [
+      {
+        "address": "15g7XHM6u921DvvPrgguxYkxDL8ruPGHXZ",
+        "value_sats": 688780000
+      }
+    ],
+    "num_inputs": 3
+  }
+]

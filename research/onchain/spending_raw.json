@@ -1,0 +1,548 @@
+[
+  {
+    "n": 51,
+    "address": "1NpnQyZ7x24ud82b7WiRNvPm6N8bqGQnaS",
+    "num_txs_seen": 3,
+    "funding_txid": "70ee9ab241829a6f49ebf9f109e97f6e466d938e558bade1c5fe341310bc356e",
+    "funding_block_time": 1491387080,
+    "funding_block_height": 460495,
+    "funding_value_sats": 5071886,
+    "spending_txid": "ca98c8549e364afa3b85d67b48b7cf67bf3125fdd027c41cb8cc1b3d1cc0daaf",
+    "spending_block_time": 1491389132,
+    "spending_block_height": 460498,
+    "spending_confirmed": true,
+    "fee_sats": 28436,
+    "tx_vsize": 192.0,
+    "tx_size": 192,
+    "value_from_this_address_sats": 5071886,
+    "num_inputs": 1,
+    "num_outputs": 1,
+    "destinations": [
+      {
+        "address": "17GNtmnMoxaHcbPjePsfcwxopa21CdxaCz",
+        "value_sats": 5043450
+      }
+    ],
+    "other_input_addresses": [],
+    "fee_rate_sat_vb": 148.104
+  },
+  {
+    "n": 52,
+    "address": "15z9c9sVpu6fwNiK7dMAFgMYSK4GqsGZim",
+    "num_txs_seen": 2,
+    "funding_txid": "08389f34c98c606322740c0be6a7125d9860bb8d5cb182c02f98461e5fa6cd15",
+    "funding_block_time": 1421345234,
+    "funding_block_height": 339085,
+    "funding_value_sats": 5200000,
+    "spending_txid": "b0df330141225a2253c375b7b6c36c0016a9633934295916df6b0fd31afb4a8b",
+    "spending_block_time": 1492798205,
+    "spending_block_height": 462896,
+    "spending_confirmed": true,
+    "fee_sats": 46759,
+    "tx_vsize": 191.0,
+    "tx_size": 191,
+    "value_from_this_address_sats": 5200000,
+    "num_inputs": 1,
+    "num_outputs": 1,
+    "destinations": [
+      {
+        "address": "14n5bNRdWuVD1QgjdptBi4Ca3awdULYrds",
+        "value_sats": 5153241
+      }
+    ],
+    "other_input_addresses": [],
+    "fee_rate_sat_vb": 244.812
+  },
+  {
+    "n": 53,
+    "address": "15K1YKJMiJ4fpesTVUcByoz334rHmknxmT",
+    "num_txs_seen": 3,
+    "funding_txid": "5d45587cfd1d5b0fb826805541da7d94c61fe432259e68ee26f4a04544384164",
+    "funding_block_time": 1499749253,
+    "funding_block_height": 475240,
+    "funding_value_sats": 47700000,
+    "spending_txid": "0e343c3640fa8cc1f7a97556255f46a08b89bd7d1b62ca94b86b37e51835b3b3",
+    "spending_block_time": 1504556607,
+    "spending_block_height": 483532,
+    "spending_confirmed": true,
+    "fee_sats": 67886,
+    "tx_vsize": 338.0,
+    "tx_size": 338,
+    "value_from_this_address_sats": 53000000,
+    "num_inputs": 2,
+    "num_outputs": 1,
+    "destinations": [
+      {
+        "address": "1GaZi2TSYLns8A85yAQr1Js7Rqjrn5HGZ",
+        "value_sats": 52932114
+      }
+    ],
+    "other_input_addresses": [],
+    "fee_rate_sat_vb": 200.846
+  },
+  {
+    "n": 54,
+    "address": "1KYUv7nSvXx4642TKeuC2SNdTk326uUpFy",
+    "num_txs_seen": 5,
+    "funding_txid": "6b0b5c3993765ec7e5e3a7aed84916b88244f25162a3dc25a8f2ef25c1e97946",
+    "funding_block_time": 1531290058,
+    "funding_block_height": 531436,
+    "funding_value_sats": 2000,
+    "spending_txid": "52225def908024bc2c2785932d32e938037d0ffbc2c9faa8587a9ad78c23fe05",
+    "spending_block_time": 1531290058,
+    "spending_block_height": 531436,
+    "spending_confirmed": true,
+    "fee_sats": 975,
+    "tx_vsize": 191.0,
+    "tx_size": 191,
+    "value_from_this_address_sats": 2000,
+    "num_inputs": 1,
+    "num_outputs": 1,
+    "destinations": [
+      {
+        "address": "1CfaunqrVpcXmpLheUVWeSP1KPsKDha1Nb",
+        "value_sats": 1025
+      }
+    ],
+    "other_input_addresses": [],
+    "fee_rate_sat_vb": 5.105
+  },
+  {
+    "n": 55,
+    "address": "1LzhS3k3e9Ub8i2W1V8xQFdB8n2MYCHPCa",
+    "num_txs_seen": 6,
+    "funding_txid": "2757cdab2acc9f11f32d45c9db9d3bdf23787304ed06a43d3c4ccf15e5def075",
+    "funding_block_time": 1527588511,
+    "funding_block_height": 524947,
+    "funding_value_sats": 5000000,
+    "spending_txid": "cffe6d4be5b96c34f519dc6c8570e78178db7b5584746efe4452f0750dc41d50",
+    "spending_block_time": 1527669815,
+    "spending_block_height": 525077,
+    "spending_confirmed": true,
+    "fee_sats": 192,
+    "tx_vsize": 192.0,
+    "tx_size": 192,
+    "value_from_this_address_sats": 5000000,
+    "num_inputs": 1,
+    "num_outputs": 1,
+    "destinations": [
+      {
+        "address": "1CVRBExohGxVVAt5CU2av42JQ6xSyNi7Jq",
+        "value_sats": 4999808
+      }
+    ],
+    "other_input_addresses": [],
+    "fee_rate_sat_vb": 1.0
+  },
+  {
+    "n": 56,
+    "address": "17aPYR1m6pVAacXg1PTDDU7XafvK1dxvhi",
+    "num_txs_seen": 14,
+    "funding_txid": "091002bb758e6120c88741f8959e2bb9ca8e11ff58422ffa0a788f46541447ec",
+    "funding_block_time": 1536392603,
+    "funding_block_height": 540467,
+    "funding_value_sats": 990784,
+    "spending_txid": "286cac14fd372d760a7d67ea462e2322c91c7bb16e4449bcb0933be760b3fc79",
+    "spending_block_time": 1536393669,
+    "spending_block_height": 540468,
+    "spending_confirmed": true,
+    "fee_sats": 950,
+    "tx_vsize": 189.0,
+    "tx_size": 189,
+    "value_from_this_address_sats": 989757,
+    "num_inputs": 1,
+    "num_outputs": 1,
+    "destinations": [
+      {
+        "address": "3Hz41T2LowsVWTMY8FwEKe4QAsu6X3BCvf",
+        "value_sats": 988807
+      }
+    ],
+    "other_input_addresses": [],
+    "fee_rate_sat_vb": 5.026
+  },
+  {
+    "n": 57,
+    "address": "15c9mPGLku1HuW9LRtBf4jcHVpBUt8txKz",
+    "num_txs_seen": 10,
+    "funding_txid": "a066c8b110569772d8defa1620280ca0218300a3839468026f0d74281c5b64ca",
+    "funding_block_time": 1541641456,
+    "funding_block_height": 549204,
+    "funding_value_sats": 2560,
+    "spending_txid": "95b77d69302fbc805f1a6e97a3f0d27159017341e5f2d40ec79785d830fe9d59",
+    "spending_block_time": 1541728551,
+    "spending_block_height": 549328,
+    "spending_confirmed": true,
+    "fee_sats": 526,
+    "tx_vsize": 192.0,
+    "tx_size": 192,
+    "value_from_this_address_sats": 1072,
+    "num_inputs": 1,
+    "num_outputs": 1,
+    "destinations": [
+      {
+        "address": "1DyJR2HrxU99bUdqKxCtTjjw29ReDjZs6k",
+        "value_sats": 546
+      }
+    ],
+    "other_input_addresses": [],
+    "fee_rate_sat_vb": 2.74
+  },
+  {
+    "n": 58,
+    "address": "1Dn8NF8qDyyfHMktmuoQLGyjWmZXgvosXf",
+    "num_txs_seen": 5,
+    "funding_txid": "a8b21ceaf9335ef177fa044ac9a879402c24beeeec1364698b108d1187fbbc0a",
+    "funding_block_time": 1739773143,
+    "funding_block_height": 884147,
+    "funding_value_sats": 10392,
+    "spending_txid": "02882bd56fd8527e4f7ee87d5996d5dbd191c1f69e9e1e5e63c89c7186aff263",
+    "spending_block_time": 1739773143,
+    "spending_block_height": 884147,
+    "spending_confirmed": true,
+    "fee_sats": 10062,
+    "tx_vsize": 200.0,
+    "tx_size": 200,
+    "value_from_this_address_sats": 10392,
+    "num_inputs": 1,
+    "num_outputs": 1,
+    "destinations": [
+      {
+        "address": "bc1pn0dzeryw9ls74qpyjrvn9fqa4m48300xr6zvyns46hzw8durnq8qf7e6ex",
+        "value_sats": 330
+      }
+    ],
+    "other_input_addresses": [],
+    "fee_rate_sat_vb": 50.31
+  },
+  {
+    "n": 59,
+    "address": "1HAX2n9Uruu9YDt4cqRgYcvtGvZj1rbUyt",
+    "num_txs_seen": 5,
+    "funding_txid": "217873d388ca7705ca7a666fd355d7a6c7381d0c7ac5c6843579ee2f10bf2f9c",
+    "funding_block_time": 1721518989,
+    "funding_block_height": 853117,
+    "funding_value_sats": 41000,
+    "spending_txid": "2cf9ceef77437953eeeb3794290b64c28818553d35f6ccde00267a38700a48dc",
+    "spending_block_time": 1721518989,
+    "spending_block_height": 853117,
+    "spending_confirmed": true,
+    "fee_sats": 37400,
+    "tx_vsize": 189.0,
+    "tx_size": 189,
+    "value_from_this_address_sats": 41000,
+    "num_inputs": 1,
+    "num_outputs": 1,
+    "destinations": [
+      {
+        "address": "bc1qwlcthy024d98htvlkhcm9gq7gazzpnqlsq938d",
+        "value_sats": 3600
+      }
+    ],
+    "other_input_addresses": [],
+    "fee_rate_sat_vb": 197.884
+  },
+  {
+    "n": 60,
+    "address": "1Kn5h2qpgw9mWE5jKpk8PP4qvvJ1QVy8su",
+    "num_txs_seen": 5,
+    "funding_txid": "1506f3cbf62644c4eba3f8f5c67d679b5c6ec186cd6429bfedb4317baf783a2f",
+    "funding_block_time": 1551790544,
+    "funding_block_height": 565767,
+    "funding_value_sats": 1500,
+    "spending_txid": "855a28b1f651960c633a51dfd09adc93ee8e11f38119bf8e4629084697c2a270",
+    "spending_block_time": 1551790544,
+    "spending_block_height": 565767,
+    "spending_confirmed": true,
+    "fee_sats": 525,
+    "tx_vsize": 192.0,
+    "tx_size": 192,
+    "value_from_this_address_sats": 1500,
+    "num_inputs": 1,
+    "num_outputs": 1,
+    "destinations": [
+      {
+        "address": "15Qv6NERfcGkHPM5eoEZ9sDQj9V6ywQ1vr",
+        "value_sats": 975
+      }
+    ],
+    "other_input_addresses": [],
+    "fee_rate_sat_vb": 2.734
+  },
+  {
+    "n": 61,
+    "address": "1AVJKwzs9AskraJLGHAZPiaZcrpDr1U6AB",
+    "num_txs_seen": 5,
+    "funding_txid": "cdae2da8fe4b18dc264e568a29e804f2b32529b8018a9d28e271ac7e9077c718",
+    "funding_block_time": 1551044914,
+    "funding_block_height": 564503,
+    "funding_value_sats": 793,
+    "spending_txid": "210f8bc540ae91d2288d2ff4f5734c716c251b3c0713cfba90dea2e7c94dce2c",
+    "spending_block_time": 1557685927,
+    "spending_block_height": 575722,
+    "spending_confirmed": true,
+    "fee_sats": 976,
+    "tx_vsize": 487.0,
+    "tx_size": 487,
+    "value_from_this_address_sats": 793,
+    "num_inputs": 3,
+    "num_outputs": 1,
+    "destinations": [
+      {
+        "address": "1Mn2WJrAPzNDb7Czigax9rceTSigHEiWh5",
+        "value_sats": 14791
+      }
+    ],
+    "other_input_addresses": [
+      "1GQj7kSSNDdkFtvaH1Ke1EYJqyrT99LpmC"
+    ],
+    "fee_rate_sat_vb": 2.004
+  },
+  {
+    "n": 62,
+    "address": "1Me6EfpwZK5kQziBwBfvLiHjaPGxCKLoJi",
+    "num_txs_seen": 7,
+    "funding_txid": "9623ca8da4f10db5ca90a0673674571a3150e568cb82c2e2ad6ca55af77a67f9",
+    "funding_block_time": 1561065644,
+    "funding_block_height": 581641,
+    "funding_value_sats": 1000,
+    "spending_txid": "d96269bdbae871174f629f4ec136d8c2c99cb1a1db15d12903418dfc92df5465",
+    "spending_block_time": 1567939861,
+    "spending_block_height": 593828,
+    "spending_confirmed": true,
+    "fee_sats": 70125,
+    "tx_vsize": 924.0,
+    "tx_size": 924,
+    "value_from_this_address_sats": 62009100,
+    "num_inputs": 6,
+    "num_outputs": 1,
+    "destinations": [
+      {
+        "address": "bc1q055ws5xnrnjtf767cxuklrjl8vw5sst2j4a9lm",
+        "value_sats": 61938975
+      }
+    ],
+    "other_input_addresses": [],
+    "fee_rate_sat_vb": 75.893
+  },
+  {
+    "n": 63,
+    "address": "1NpYjtLira16LfGbGwZJ5JbDPh3ai9bjf4",
+    "num_txs_seen": 10,
+    "funding_txid": "daa2584b3cb27a513588efa26fe6efe79d61126cc1e26c8c98b530019deabf37",
+    "funding_block_time": 1777478708,
+    "funding_block_height": 947168,
+    "funding_value_sats": 222914,
+    "spending_txid": "05bbdfd6137521f4d1f4c857d92fc60c54309f4ef35ecad9b3b67d018cccff15",
+    "spending_block_time": 1777478708,
+    "spending_block_height": 947168,
+    "spending_confirmed": true,
+    "fee_sats": 222620,
+    "tx_vsize": 189.0,
+    "tx_size": 189,
+    "value_from_this_address_sats": 222914,
+    "num_inputs": 1,
+    "num_outputs": 1,
+    "destinations": [
+      {
+        "address": "bc1q7eunp5lee3nak7q5unyrzwr0yt5ymwdyj6wktq",
+        "value_sats": 294
+      }
+    ],
+    "other_input_addresses": [],
+    "fee_rate_sat_vb": 1177.884
+  },
+  {
+    "n": 64,
+    "address": "16jY7qLJnxb7CHZyqBP8qca9d51gAjyXQN",
+    "num_txs_seen": 17,
+    "funding_txid": "e7ae5a9875b90b22a11e567be03e374510cc8f57a123164b5801814b9251cec2",
+    "funding_block_time": 1695874655,
+    "funding_block_height": 809671,
+    "funding_value_sats": 7500,
+    "spending_txid": "50616c0a96f2e12eb352aadc971fadb2cf72766f9c0721b1a55b916450dcad34",
+    "spending_block_time": 1695874655,
+    "spending_block_height": 809671,
+    "spending_confirmed": true,
+    "fee_sats": 6300,
+    "tx_vsize": 191.0,
+    "tx_size": 191,
+    "value_from_this_address_sats": 7500,
+    "num_inputs": 1,
+    "num_outputs": 1,
+    "destinations": [
+      {
+        "address": "1G3MiaKdccQmiTr4gYSKmrCVDaLQ5nvBRp",
+        "value_sats": 1200
+      }
+    ],
+    "other_input_addresses": [],
+    "fee_rate_sat_vb": 32.984
+  },
+  {
+    "n": 65,
+    "address": "18ZMbwUFLMHoZBbfpCjUJQTCMCbktshgpe",
+    "num_txs_seen": 11,
+    "funding_txid": "2af5498efb28cafc7b02cc2f0bec8985390b4c311ce2d30aa6287974b44f87bf",
+    "funding_block_time": 1730913150,
+    "funding_block_height": 869154,
+    "funding_value_sats": 2866,
+    "spending_txid": "c1829f5f2c0cdd8c54ce47ff698b4f9078bb74cc4cc4b2c77b9b404b70073de2",
+    "spending_block_time": 1730913150,
+    "spending_block_height": 869154,
+    "spending_confirmed": true,
+    "fee_sats": 2453,
+    "tx_vsize": 188.0,
+    "tx_size": 188,
+    "value_from_this_address_sats": 2866,
+    "num_inputs": 1,
+    "num_outputs": 1,
+    "destinations": [
+      {
+        "address": "bc1qwlcthy024d98htvlkhcm9gq7gazzpnqlsq938d",
+        "value_sats": 413
+      }
+    ],
+    "other_input_addresses": [],
+    "fee_rate_sat_vb": 13.048
+  },
+  {
+    "n": 66,
+    "address": "13zb1hQbWVsc2S7ZTZnP2G4undNNpdh5so",
+    "num_txs_seen": 25,
+    "funding_txid": "84259a5d4a1973d1138683688223e155db0d14c6de3253002c7ba37781cff63b",
+    "funding_block_time": 1739938792,
+    "funding_block_height": 884414,
+    "funding_value_sats": 576,
+    "spending_txid": "79fb2fb7bc3efa74765c88e1ae175e59675b4024dd6de0d57508fa774b7ef9ed",
+    "spending_block_time": 1739938792,
+    "spending_block_height": 884414,
+    "spending_confirmed": true,
+    "fee_sats": 276,
+    "tx_vsize": 188.0,
+    "tx_size": 188,
+    "value_from_this_address_sats": 576,
+    "num_inputs": 1,
+    "num_outputs": 1,
+    "destinations": [
+      {
+        "address": "bc1q8742wwqvxhfaxpahe23a9ggr3lflutq9fds4fr",
+        "value_sats": 300
+      }
+    ],
+    "other_input_addresses": [],
+    "fee_rate_sat_vb": 1.468
+  },
+  {
+    "n": 67,
+    "address": "1BY8GQbnueYofwSuFAT3USAhGjPrkxDdW9",
+    "num_txs_seen": 13,
+    "funding_txid": "222f724a59f4bb8e3d6ed81bf07a13a65bed21b2d33843d2654e221bdba8f7ce",
+    "funding_block_time": 1739283607,
+    "funding_block_height": 883315,
+    "funding_value_sats": 1000,
+    "spending_txid": "0be77ec8bec331da8750c8b715085c6cf6c374ca31f829a515c62b9846e32986",
+    "spending_block_time": 1740102061,
+    "spending_block_height": 884659,
+    "spending_confirmed": true,
+    "fee_sats": 105650,
+    "tx_vsize": 2098.0,
+    "tx_size": 2098,
+    "value_from_this_address_sats": 670013241,
+    "num_inputs": 14,
+    "num_outputs": 1,
+    "destinations": [
+      {
+        "address": "bc1qfk357t8n045f8mwx672rx2re4pftm5gmjzdwq7",
+        "value_sats": 669907591
+      }
+    ],
+    "other_input_addresses": [],
+    "fee_rate_sat_vb": 50.357
+  },
+  {
+    "n": 68,
+    "address": "1MVDYgVaSN6iKKEsbzRUAYFrYJadLYZvvZ",
+    "num_txs_seen": 25,
+    "funding_txid": "a359a6e35ebb0b23fcfc2cd9da12cdf40ee429749a4d5a9ad13e10c220d33848",
+    "funding_block_time": 1783294066,
+    "funding_block_height": 956843,
+    "funding_value_sats": 1000,
+    "spending_txid": "3d300ec8c4c63ad78b81db6834dd22250dee73bf6e1abe52aae817208cf85a05",
+    "spending_block_time": 1783294066,
+    "spending_block_height": 956843,
+    "spending_confirmed": true,
+    "fee_sats": 1000,
+    "tx_vsize": 256.5,
+    "tx_size": 339,
+    "value_from_this_address_sats": 1000,
+    "num_inputs": 2,
+    "num_outputs": 1,
+    "destinations": [
+      {
+        "address": "bc1qy02tf0eqasr290evc9ck62qs6ffnzegkd75wqm",
+        "value_sats": 294
+      }
+    ],
+    "other_input_addresses": [
+      "bc1qm5j66gdelzte8lq0znnw7ed75gd5mccc63pp49"
+    ],
+    "fee_rate_sat_vb": 3.899
+  },
+  {
+    "n": 69,
+    "address": "19vkiEajfhuZ8bs8Zu2jgmC6oqZbWqhxhG",
+    "num_txs_seen": 25,
+    "funding_txid": "368de907e015753c57e65efe154eb607672e7b46ca3a99ad542edb306f91aa8f",
+    "funding_block_time": 1774198779,
+    "funding_block_height": 941732,
+    "funding_value_sats": 10000,
+    "spending_txid": "0ecd7912b6cc7ab99bfedcef64a4eeb81ebdf4332b6b95a6ee60b66ee507243b",
+    "spending_block_time": 1774198779,
+    "spending_block_height": 941732,
+    "spending_confirmed": true,
+    "fee_sats": 9833,
+    "tx_vsize": 258.25,
+    "tx_size": 310,
+    "value_from_this_address_sats": 10000,
+    "num_inputs": 2,
+    "num_outputs": 1,
+    "destinations": [
+      {
+        "address": "bc1pws6pvj75rcsc2eglpp9k570prnjh40nfpyahlyumk8y8smjayvasyhns5c",
+        "value_sats": 707
+      }
+    ],
+    "other_input_addresses": [
+      "bc1pws6pvj75rcsc2eglpp9k570prnjh40nfpyahlyumk8y8smjayvasyhns5c"
+    ],
+    "fee_rate_sat_vb": 38.076
+  },
+  {
+    "n": 70,
+    "address": "19YZECXj3SxEZMoUeJ1yiPsw8xANe7M7QR",
+    "num_txs_seen": 7,
+    "funding_txid": "a71ad87eff276d5fefa98d5edf90a503ce6708faee9e03b64239cd60e99e8cf7",
+    "funding_block_time": 1624540932,
+    "funding_block_height": 688683,
+    "funding_value_sats": 70362,
+    "spending_txid": "7b77a599c534fba5049bc63f26edf36825cfdceb4758ea5f4f649665ecc11e9e",
+    "spending_block_time": 1624540932,
+    "spending_block_height": 688683,
+    "spending_confirmed": true,
+    "fee_sats": 45844,
+    "tx_vsize": 189.0,
+    "tx_size": 189,
+    "value_from_this_address_sats": 70362,
+    "num_inputs": 1,
+    "num_outputs": 1,
+    "destinations": [
+      {
+        "address": "bc1qmv399qyqaezllqjwn08umla5w8rdmf2fku609w",
+        "value_sats": 24518
+      }
+    ],
+    "other_input_addresses": [],
+    "fee_rate_sat_vb": 242.561
+  }
+]
